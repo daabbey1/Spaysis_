@@ -57,7 +57,7 @@
                             EXPERTISE </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link nav-link-txt text-light " href="#"> CONTACT </a>
+                        <a class="nav-link nav-link-txt text-light " href="/contact"> CONTACT </a>
                     </li>
                 </ul>
 
@@ -79,6 +79,9 @@
     @yield('infrastructure');
     @yield('architecture');
     @yield('industrial');
+    @yield('land');
+    @yield('barrier');
+    @yield('range');
 
 
     <!-- ------------------| Footer |---------------------- -->

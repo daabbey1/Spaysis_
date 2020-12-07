@@ -40,7 +40,7 @@
                                     <span class="hover-link"> <a href="{{ url('/') }}"> About Spaysis </a> </span>
                                     <span class="hover-link" id="team"> <a href="#"> Team </a> </span>
                                     <span class="hover-link" id="publication"> <a href="#"> Publications </a> </span>
-                                    <span class="hover-link" id="career"> <a href="#"> Career </a> </span>
+                                    <span class="hover-link" id="career"> <a href="{{ url('/career') }}"> Career </a> </span>
                                     <span class="hover-link" id="policy"> <a href="#"> Policy & Notice </a> </span>
                                 </div>
                             </div>
@@ -53,23 +53,23 @@
                         <a class="nav-link nav-link-txt  text-light" href="{{ url('/expertise') }}"> EXPERTISE </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link nav-link-txt text-light " href="#"> CONTACT </a>
+                        <a class="nav-link nav-link-txt text-light " href="/contact"> CONTACT </a>
                     </li>
                 </ul>
 
-                <div class="row sub-sech no-gutters bg-danger"></div>
-                <form class="form-inline search-box my-lg-0  bg-warnin">
-                    <input class="form-control mr-sm- search-input col-xs-10 col-sm-10 col-md-11 col-lg-11"
-                        type="search" placeholder="Search" aria-label="Search">
-                    <div class="col-xs-2 col-sm-2 col-md-1 col-lg-1">
-                        <!-- <button class="btn my-sm-0 search-btn" type="submit">
-                                      <i class="fa fa-search" aria-hidden="true"></i>
-                                  </button> -->
-                    </div>
-                </form>
+                <div class="row sub-sech no-gutters">
+                    <form class="form-inline search-box my-lg-0  bg-warnin">
+                        <input class="form-control mr-sm- search-input col-xs-10 col-sm-10 col-md-11 col-lg-11"
+                            type="search" placeholder="Search" aria-label="Search">
+                        <div class="col-xs-2 col-sm-2 col-md-1 col-lg-1">
+                            <!-- <button class="btn my-sm-0 search-btn" type="submit">
+                                        <i class="fa fa-search" aria-hidden="true"></i>
+                                    </button> -->
+                        </div>
+                    </form>
+                </div>
             </div>
-    </div>
-    </nav>
+         </nav>
     </div>
 
 
@@ -81,7 +81,10 @@
                     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
                     <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                    <!-- <li data-target="#carouselExampleIndicators" data-slide-to="3"></li> -->
+                    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li> 
+                    <li data-target="#carouselExampleIndicators" data-slide-to="4"></li> 
+                    <li data-target="#carouselExampleIndicators" data-slide-to="5"></li> 
+                    {{-- <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>  --}}
                 </ol>
                 <div class="carousel-inner" role="listbox" style="margin-left: 0%;">
 
@@ -101,6 +104,7 @@
                             <p class="slide-txt"> Patasi - Kumasi.</p>
                         </div>
                     </div>
+
                     <!-- Slide Two - Set the background image for this slide in the line below -->
                     <div class="carousel-item">
                         <img src="images/trinity_towers_accra.jpg" style="width:100%; height: 93.5vh !important">
@@ -111,23 +115,48 @@
                             </div>
                         </div>
                     </div>
+
                     <!-- Slide Three - Set the background image for this slide in the line below -->
-                    <!-- <div class="carousel-item">
-                      <img src="images/AERIAL VIEW TOWARDS THE ENTRANCE.png" style="width:100%; height: 93.5vh !important">
-                      <div class="carousel-caption d-none d-md-block">
-                        <h2 class="display-4" style="color: black"></h2>
-                        <p class="lead"></p>
-                      </div>
+                     <div class="carousel-item">
+                      <img src="images/slide3.jpg" style="width:100%; height: 93.5vh !important">
+                        <div class="carousel-caption d-none d-md-block" style="text-shadow: 2px 2px black;">
+                            <div class="trinity">
+                                <h2 class="display-5 "> MIBSIP </h2>
+                                <p class="slide-txt"> Bulamba - Uganda  </p>
+                            </div>
+                        </div>
                     </div>
-                  </div> -->
+
+                    <!-- Slide Four - Set the background image for this slide in the line below -->
+                     <div class="carousel-item">
+                      <img src="images/slide1.jpg" style="width:100%; height: 93.5vh !important">
+                        <div class="carousel-caption d-none d-md-block" style="text-shadow: 2px 2px black;">
+                            <div class="trinity">
+                                <h2 class="display-5 "> COVID-19 EFFECT </h2>
+                                <p class="slide-txt"> SPAYSIS Workplace </p>
+                            </div>
+                        </div>
+                     </div>
+
+                    <!-- Slide Five - Set the background image for this slide in the line below -->
+                    <div class="carousel-item">
+                        <img src="images/SPACES.jpg" style="width:100%; height: 93.5vh !important">
+                        <div class="carousel-caption d-none d-md-block" style="text-shadow: 2px 2px black;">
+                            <div class="trinity">
+                                <h2 class="display-5 "> </h2>
+                                <p class="slide-txt"> </p>
+                            </div>
+                        </div>
+                    </div>
+                  {{-- </div> --}}
                     <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                        <!-- <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Previous</span> -->
+                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span> 
                     </a>
                     <a class="carousel-control-next" href="#carouselExampleIndicators" role="button"
                         style="margin-right: 0% !important" data-slide="next">
-                        <!-- <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Next</span> -->
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span> 
                     </a>
                 </div>
         </header>

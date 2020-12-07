@@ -193,6 +193,31 @@ html, body {
     }
 
 
+    /* **************| Land | ******************* */
+    .land-section{
+        margin-top: 5vh;
+        height: 84.5vh;
+        margin-left: 50px;
+        margin-right: 50px;  
+    }
+
+    /* **************| Barrier | ******************* */
+    .barrier-section{
+        margin-top: 5vh;
+        height: 84.5vh;
+        margin-left: 50px;
+        margin-right: 50px;  
+    }
+
+    /* **************| Range | ******************* */
+    .range-section{
+        margin-top: 5vh;
+        height: 84.5vh;
+        margin-left: 50px;
+        margin-right: 50px;  
+    }
+
+
     /* **********************| Project Links |******************* */
     .p-link{
         display: block;

@@ -1,6 +1,3 @@
-<!DOCTYPE html>
-<html>
-
 <head>
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/font.css" rel="stylesheet" type="text/css">
@@ -8,14 +5,14 @@
     <meta charset="ISO-8859-1">
 
     <script src="js/about.js"></script>
-    <link rel="stylesheet" href="css/expert_style.css">
+    <link rel="stylesheet" href=" css/contact_style.css">
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title> SPAYSIS </title>
 </head>
 
 <body>
-    <!-- Header -->
+    {{-- Header Section --}}
     <div class="head-section">
 
         <nav class="navbar navbar-expand-lg navbar-dark sub-head">
@@ -34,8 +31,8 @@
                                 class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link nav-link-txt  text-light " href="#" id="navbarDropdown" role="button"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <a class="nav-link nav-link-txt  text-light" href="#" id="navbarDropdown"
+                            role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             ABOUT
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -44,31 +41,31 @@
                                     <span class="hover-link"> <a href="{{ url('/about') }}"> About Spaysis </a> </span>
                                     <span class="hover-link" id="team"> <a href="#"> Team </a> </span>
                                     <span class="hover-link" id="publication"> <a href="#"> Publications </a> </span>
-                                    <span class="hover-link" id="career"> <a href="#"> Career </a> </span>
+                                    <span class="hover-link" id="career"> <a href="{{ url('/career') }}"> Career </a> </span>
                                     <span class="hover-link" id="policy"> <a href="#"> Policy & Notice </a> </span>
                                 </div>
                             </div>
                         </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link nav-link-txt  text-light" href="expertise.html"> PROJECTS </a>
+                        <a class="nav-link nav-link-txt  text-light" href="#"> PROJECTS </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link nav-link-txt  text-light nav-active" href="{{ url('/expertise') }}"> EXPERTISE </a>
+                        <a class="nav-link nav-link-txt  text-light" href="{{ url('/expertise') }}"> EXPERTISE </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link nav-link-txt text-light " href="/contact"> CONTACT </a>
+                        <a class="nav-link nav-link-txt text-light nav-active" href="{{ url('/contact') }}"> CONTACT </a>
                     </li>
                 </ul>
 
                 <div class="row sub-sech no-gutters">
-                    <form class="form-inline search-box my-lg-0">
+                    <form class="form-inline search-box my-lg-0  bg-warnin">
                         <input class="form-control search-input col-xs-10 col-sm-10 col-md-11 col-lg-11" type="search"
                             placeholder="Search" aria-label="Search">
                         <div class="col-xs-2 col-sm-2 col-md-1 col-lg-1">
                             <!-- <button class="btn my-sm-0 search-btn" type="submit">
-                                        <i class="fa fa-search" aria-hidden="true"></i>
-                                    </button> -->
+                                    <i class="fa fa-search" aria-hidden="true"></i>
+                                </button> -->
                         </div>
                     </form>
                 </div>
@@ -76,74 +73,58 @@
         </nav>
     </div>
 
-    <!-- ---------------------| Business Areas |--------------------- -->
-    <div class="business-section">
-        <div class="business mx-5">
-            <span class="business-txt "> Business Areas </span>
+    <!-- Contact Us -->
+    <div class="contact">
+        <div class="row">
+            <div class="col-3">
+                <div class="ghana">
+                    <span class="office"> Ghana Office </span> <br>
+                    Plot E. 5, Comm. 5, <br>
+                    Opp Hermann Gmeiner International College (SOS), <br>
+                    Tema Accra, Ghana <br>
+                    Digital address: GT-086-9509, Tema<br>
+                    Tel: (+233) 50 210 5309 <br>
+                    <a href="mailto:info@spaysisghana.com"> Email: info@spaysisghana.com / ghana@spaysis.com</a> <br>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="germany">
+                    <span class="office"> Germany Office </span> <br>
+                    Erntedankweg 26 <br>
+                    70619 Stuttgart <br>
+                    Germany <br>
+                    Mobile: (0049) 1525 33 89 980 <br>
+                    Tel: (0049)71163343293 <br>
+                    <a href="mailto:germany@spaysis.com"> Email: germany@spaysis.com </a><br>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="uk">
+                    <span class="office"> UK Office </span> <br>
+                    5 Thurcroft Close <br>
+                    Glen Parva Leicester <br>
+                    LE2 9NE. <br>
+                    <a href="mailto:uk@spaysis.com"> Email: uk@spaysis.com </a> <br>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="kumasi">
+                    <span class="office"> Kumasi Office </span> <br>
+                    No. 10 F. k. Akwaboah Street <br>
+                    Bomso, Kumasi <br>
+                    Digital address: AK-316-9013, Kumasi<br>
+                    Tel: (+233) 50 210 5309 <br>
+                    <a href="mailto:amarful@yahoo.com"> Email: amarful@yahoo.com </a> <br>
+                </div>
+            </div>
+       
         </div>
+    </div>
 
-        <div class="images mx-5">
-
-            <!-- First Row -->
-            <div class="row">
-
-                <div class="card col-xs-12 col-xl-4">
-                <a href="{{ url('/infrastructure') }}" class="card_link">
-                        <img class="card-img-top" src="images/deeper life2.jpg" alt="Card image cap">
-                        <span class="card-text">
-                            Infrastructure Planning & Engineering
-                        </span>
-                    </a>
-                </div>
-
-                <div class="card col-xs-12 col-xl-4">
-                    <a href="{{ url('/architecture') }}" class="card_link">
-                        <img class="card-img-top" src="images/architecture.png" alt="Card image cap">
-                        <span class="card-text">
-                            Architecture, Urban & Rural Planning
-                        </span>
-                    </a>
-                </div>
-
-                <div class="card col-xs-12 col-xl-4">
-                <a href="{{ url('/industrial') }}" class="card_link">
-                        <img class="card-img-top" src="images/AERIAL VIEW TOWARDS CHAPEL.jpg" alt="Card image cap">
-                        <span class="card-text">
-                            Industrial Model Building & Animations
-                        </span>
-                    </a>
-                </div>
-            </div>
-
-            <!-- Second Row -->
-            <div class="row mt-4">
-                <div class="card col-xs-12 col-xl-4">
-                    <a href="{{ url('/land') }}" class="card_link">
-                        <img class="card-img-top" src="images/Land.png" alt="Card image cap">
-                        <p class="card-text">
-                            Land, Property & Facilities management
-                        </p>
-                    </a>
-                </div>
-
-                <div class="card col-xs-12 col-xl-4">
-                    <a href="barrier" class="card_link">
-                        <img class="card-img-top" src="images/barrier.jpg" alt="Card image cap">
-                        <p class="card-text">
-                            Barrier-free Design & Planning
-                        </p>
-                    </a>
-                </div>
-
-                <div class="card col-xs-12 col-xl-4">
-                    <a href="range" class="card_link">
-                        <img class="card-img-top" src="images/range1.jpg" alt="Card image cap">
-                        <p class="card-text">
-                            Range of other Consulting Services
-                        </p>
-                    </a>
-                </div>
-            </div>
+    {{-- Image section --}}
+    <div class="image">
+        <div class="img-section">
+            <img src="images/complete_.jpg" height="50%" width="100%" alt="" srcset="">
         </div>
     </div>
 
@@ -162,6 +143,7 @@
             </div>
         </div>
     </div>
+
     <!-- <script src="js/about.js"></script> -->
     <script src="js/Bootstrapjquery.js"></script>
     <script defer src="js/all.js"></script>

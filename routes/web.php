@@ -32,3 +32,23 @@ Route::get('/architecture', function () {
 Route::get('/industrial', function () {
     return view('industrial');
 });
+
+Route::get('/land', function () {
+    return view('land');
+});
+Route::get('/barrier', function () {
+    return view('barrier');
+});
+Route::get('/range', function () {
+    return view('range');
+});
+
+Route::get('/contact', function () {
+    return view('contact');
+});
+
+Route::get('/career', function () {
+    return view('career');
+});
+
+

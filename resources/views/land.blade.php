@@ -1,7 +1,7 @@
 @extends('layouts.Area_layout')
 
-@section('industrial')
-<div class="industrial-section">
+@section('land')
+<div class="land-section">
     <div class="business mx-5">
         <span class="business-txt "> Land, Property & Facility Management </span>
     </div>
@@ -20,45 +20,73 @@
             <!-- Second Column -->
             <div class="col-6">
                 <div class="right-profile">
-                    <!-- Energy -->
+                    <!-- Core Services -->
                     <div class="energy">
-                        <span class="profile-txt"> Model Building & Animation Workshop </span>
+                        <span class="profile-txt"> Core Services </span>
                         <div class="profile-body">
-                            Programming | Space schematics and flow diagrams | Existing facilities surveys |
-                            Economic feasibility studies |
-                            Marketing studies | Project financing | Site analysis and selection | Site development
-                            planning | Detailed site
-                            utilization studies| On-site utility studies Off-site utility studies| Environmental
-                            studies and reports| Energy studies
-                            and reports| Zoning processing assistance | Geotechnical engineering | Site surveying.
+                            Property Management | Site Management | Property Consultancy/ Advisory | Property Development and investment | Property
+                            Marketing | Brokerage | Debt Recovery.
                         </div>
                     </div>
 
-                    <!-- Energy -->
+                    <!-- Property Management -->
                     <div class="transport">
-                        <span class="profile-txt"> DESIGN SERVICES </span>
+                        <span class="profile-txt"> PROPER MANAGEMENT </span>
                         <div class="profile-body">
-                            Architectural design | Structural design | Mechanical design | Electrical design | Civil
-                            design | Interior design |
-                            Landscape design Graphic design | Special design | Material research and specifications|
-                            Special furnishings design.
+                            SPAYSIS Ltd provides developers, landlords, and investors a full range of property management services through a
+                            professional property services team and property managers. Our objective is to handle the day―to day needs of your
+                            property, minimize vacancies and maximize your bottom line. Accordingly, a good management will also ensure that your
+                            asset is maintained and costs and revenues are budgeted and accounted for. Our property management services include:
+                            Property Marketing and Leasing | Tenant Screening | Preparing and Documenting Lease Agreement | Lease Coordination and
+                            Management | Around Clock Property Maintenance Services | Rent Collection and Financial Reporting | Cleaning and
+                            Security Services.
                         </div>
                     </div>
 
-                    <!-- Consulting -->
+                    <!-- PROPERTY CONSULTANCY/ ADVISORY -->
                     <div class="consulting">
-                        <span class="profile-txt"> CONTRACT ADMINISTRATION SERVICES FACILITY OPERATION SERVICES
+                        <span class="profile-txt"> PROPERTY CONSULTANCY/ ADVISORY
                         </span>
                         <div class="profile-body">
-                            General administration Submittal services| Site visitation |On-site project
-                            representation | Payment certification |
-                            Administration of testing and inspection | Supplemental documentation | Administration
-                            of changes in the work |
-                            Interpretations and decisions Project close-out | Construction management; Maintenance
-                            and operational programming |
-                            Start-up assistance | Record drawings. Warranty review | Facility operations and
-                            performance meeting |Post- contract
-                            evaluation | Tenant-related services | Project promotion.
+                            SPAYSIS Ltd Advisory unit provides independent and objective advisory and consultancy services to property owners,
+                            developers, builders, lenders, and investors on all property related aspects, covering a wide range of issues concerning
+                            site locations, demographics, high and best use, master planning and conceptualization. Our advisory services also
+                            include the following: Investment Appraisals | Market Intelligence Reports | Market Analysis | Projects Comprehensive
+                            Analysis | Project Development and Management.
+                        </div>
+                    </div>
+
+                    <!-- PROPERTY DEVELOPMENT AND INVESTMENT -->
+                    <div class="consulting">
+                        <span class="profile-txt"> PROPERTY DEVELOPMENT AND INVESTMENT
+                        </span>
+                        <div class="profile-body">
+                            SPAYSIS Ltd engages in selected property developments and acquisitions in different property segments. In addition, we
+                            invest in acquiring distressed properties, renovate them and manage them profitably.
+                        </div>
+                    </div>
+                    </div>
+
+                    <!-- PROPERTY MARKETING -->
+                    <div class="consulting">
+                        <span class="profile-txt"> PROPERTY MARKETING
+                        </span>
+                        <div class="profile-body">
+                            Our online property portal provides one of the largest property databases in Uganda, with an extensive range of
+                            commercial and residential property listings, attracting a large number of knowledges of the local market supported by
+                            aggressive and Innovative Marketing Solutions including the following: E–Marketing | Social Media Networks | SMS Marketing | Periodical Newsletters | Brochures,
+                            Exhibitions, and Signage’s | Property Virtual Tours and Walkthrough.
+                        </div>
+                    </div>
+
+                    <!-- PROPERTY MAINTENANCE -->
+                    <div class="consulting">
+                        <span class="profile-txt"> PROPERTY MAINTENANCE
+                        </span>
+                        <div class="profile-body">
+                            We provide full property maintenance and cleaning services through our cleaning and maintenance division Home Care
+                            Services include: Cleaning Services | Electrical | Plumbing and Drainage | Carpentry and Painting | General Maintenance
+                            | Removals and Storage.
                         </div>
                     </div>
                 </div>
