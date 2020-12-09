@@ -1578,7 +1578,8 @@ html, body {
 
 /* xl */
 @media(min-width: 1200px) {
-    .sub-head{
+    
+.sub-head{
         background-color: #000022;
         color: white;
         padding-top: 5px;

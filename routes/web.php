@@ -51,4 +51,8 @@ Route::get('/career', function () {
     return view('career');
 });
 
+Route::get('/profile', function () {
+    return view('profile');
+});
+
 
