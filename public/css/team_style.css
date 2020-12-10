@@ -117,13 +117,18 @@ html, body {
 
     /* ************************| Body |******************** */
     .team-row-1{
-        height: 70vh;
+        /* height: 70vh; */
     }
     .profile-body{
         margin-left: 50px;
         margin-right: 50px;
         margin-top: 50px;
     }
+    .team-box{
+        display: block;
+        text-align: center;
+    }
+    /* height:32rem; */
     .head-team{
         color: #031c4e;
         font-family: Arial, Helvetica, sans-serif;
@@ -136,10 +141,22 @@ html, body {
         border-bottom: 1px solid orange;
     }
 
+    .team-para1, .team-para2{
+        margin-top: 15px;
+        /* background-color: brown; */
+        text-align: justify;
+    }
+
     .about-intro{
+        /* display: justify; */
+    }
+    .sub-team{
         border: 1px solid gray;
-        height: 62vh;
-        padding: 20px;
+        /* height: 62vh; */
+        padding: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .card{
@@ -152,6 +169,11 @@ html, body {
         color: #031c4e ;
         text-align: center;
         text-decoration: none;
+    }
+
+    .card-text:hover{
+        /* color: white;
+        background-color: chartreuse; */
     }
     
     .card_link:hover{
