@@ -4,7 +4,7 @@
 @section('business_content')
 <div class="body-section">
     {{-- ************| Infrastructure |************************* --}}
-    <div class="infrastructure-section">
+    <div class="infrastructure-section" style="background-color: #E7EBF0" >
         <div class="business mx-5">
             <span class="business-txt "> Infrastructure Planning & Engineering </span>
         </div>
@@ -22,7 +22,7 @@
 
                 <!-- Second Column -->
                 <div class="col-6">
-                    <div class="right-profile">
+                    <div class="right-profile bg-light">
                         <!-- Energy -->
                         <div class="energy">
                             <span class="profile-txt"> ENERGY </span>
@@ -63,7 +63,7 @@
     <div class="break" style="height: 1vh; background-color:#001744"></div>
 
     {{-- ************| Architecture |************************* --}}
-    <div class="architecture-section">
+    <div class="architecture-section" style="background-color: white">
         <div class="business mx-5">
             <span class="business-txt "> Architecture, Urban & Rural Planning </span>
         </div>
@@ -81,7 +81,7 @@
 
                 <!-- Second Column -->
                 <div class="col-6">
-                    <div class="right-profile">
+                    <div class="right-profile bg-light">
                         <!-- Energy -->
                         <div class="energy">
                             <span class="profile-txt"> PLANNING AND EVALUATION SERVICES </span>
@@ -135,7 +135,7 @@
     </div>
 
     {{-- ************| Industrial |************************* --}}
-    <div class="industrial-section bg-light">
+    <div class="industrial-section bg-light" style="background-color: #E7EBF0">
         <div class="business mx-5">
             <span class="business-txt "> Industrial Model Building & Animations </span>
         </div>
@@ -153,7 +153,7 @@
 
                 <!-- Second Column -->
                 <div class="col-6">
-                    <div class="right-profile">
+                    <div class="right-profile bg-light">
                         <!-- Industrial Model -->
                         <div class="energy">
                             <span class="profile-txt"> Industrial Model Building & Animation </span>
@@ -215,7 +215,7 @@
     </div>
 
     {{-- ************| Land |************************* --}}
-    <div class="land-section">
+    <div class="land-section" style="background-color: white">
         <div class="business mx-5">
             <span class="business-txt "> Land, Property & Facility Management </span>
         </div>
@@ -233,7 +233,7 @@
 
                 <!-- Second Column -->
                 <div class="col-6">
-                    <div class="right-profile">
+                    <div class="right-profile bg-light">
                         <!-- Core Services -->
                         <div class="energy">
                             <span class="profile-txt"> Core Services </span>
@@ -340,7 +340,7 @@
     </div>
 
     {{-- ******************| Barrier |************************* --}}
-    <div class="barrier-section">
+    <div class="barrier-section" style="background-color: #E7EBF0">
         <div class="business mx-5">
             <span class="business-txt "> Barrier-free Design & Planning </span>
         </div>
@@ -358,7 +358,7 @@
 
                 <!-- Second Column -->
                 <div class="col-6">
-                    <div class="right-profile">
+                    <div class="right-profile bg-light">
                         <!-- Energy -->
                         <div class="energy">
                             <span class="profile-txt"> PLANNING AND EVALUATION SERVICES </span>
@@ -411,7 +411,7 @@
     </div>
 
     {{-- *******************| Range |************************* --}}
-    <div class="range-section">
+    <div class="range-section" style="background-color: white">
         <div class="business mx-5">
             <span class="business-txt "> Range Of Other Consulting Service </span>
         </div>
@@ -429,7 +429,7 @@
 
                 <!-- Second Column -->
                 <div class="col-6">
-                    <div class="right-profile">
+                    <div class="right-profile bg-light">
                         <!-- Core Services -->
                         <div class="energy">
                             <span class="profile-txt"> ANALYSIS AND CONCEPTUAL DESIGN </span>
