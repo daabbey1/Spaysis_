@@ -56,13 +56,6 @@
                     </div>
                 </div>
             </div>
-
-            {{-- Profile Link --}}
-            <div class="p-link">
-                <a href="#">
-                    View Projects In Infrastructure Planning & Engineering
-                </a>
-            </div>
         </div>
     </div>
 
@@ -132,13 +125,6 @@
                         </div>
                     </div>
                 </div>
-            </div>
-
-            {{-- Profile Link --}}
-            <div class="p-link">
-                <a href="#">
-                    View Projects In Architecture, Urban & Rural Planning
-                </a>
             </div>
         </div>
     </div>
@@ -218,13 +204,6 @@
                         </div>
                     </div>
                 </div>
-            </div>
-
-            {{-- Profile Link --}}
-            <div class="p-link">
-                <a href="#">
-                    View Projects In Industrial Model Building & Animations
-                </a>
             </div>
         </div>
 
@@ -353,13 +332,6 @@
                 </div>
             </div>
         </div>
-
-        {{-- Profile Link --}}
-        <div class="p-link">
-            <a href="#">
-                View Projects In Industrial Model Building & Animations
-            </a>
-        </div>
     </div>
 
     {{-- Seperator --}}
@@ -430,13 +402,6 @@
                         </div>
                     </div>
                 </div>
-            </div>
-
-            {{-- Profile Link --}}
-            <div class="p-link">
-                <a href="#">
-                    View Projects In Barrier-free Design & Planning
-                </a>
             </div>
         </div>
     </div>
@@ -530,13 +495,6 @@
                     </div>
                 </div>
             </div>
-        </div>
-
-        {{-- Profile Link --}}
-        <div class="p-link">
-            <a href="#">
-                View Projects In Range Of Other Consulting Service
-            </a>
         </div>
     </div>
 
