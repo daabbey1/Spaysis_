@@ -58,6 +58,9 @@
                                 EXPERTISE </a>
                         </li>
                         <li class="nav-item">
+                            <a class="nav-link nav-link-txt text-light " href="{{ url('/profile') }}"> TEAM </a>
+                        </li>
+                        <li class="nav-item">
                             <a class="nav-link nav-link-txt text-light " href="/contact"> CONTACT </a>
                         </li>
                     </ul>

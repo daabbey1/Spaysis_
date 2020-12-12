@@ -165,6 +165,10 @@ html, body {
         height:32rem;
     }
 
+    .card-img-top{
+        margin-top: 10px;
+    }
+
     .card_link{
         color: #031c4e ;
         text-align: center;
@@ -194,6 +198,7 @@ html, body {
         font-size: 18px;
         /* text-align: center; */
         font-weight: 600;
+        /* background-color: orange; */
     }
 
     .card-text a{

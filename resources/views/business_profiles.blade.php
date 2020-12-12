@@ -22,7 +22,7 @@
 
                 <!-- Second Column -->
                 <div class="col-6">
-                    <div class="right-profile bg-light">
+                    <div class="right-profile" style="background-color: white">
                         <!-- Energy -->
                         <div class="energy">
                             <span class="profile-txt"> ENERGY </span>
@@ -492,6 +492,19 @@
                                 Project Management | Lender’s Engineering | Due Diligence.
                             </div>
                         </div>
+                    </div>
+                </div>
+
+                {{-- Profile Link --}}
+                <div class="p-link">
+                    <div class="row">
+                        <div class="col-12">
+                            <a href="{{ url('/expertise') }}">
+                                <i class="fas fa-angle-double-left"></i>
+                                Go back
+                            </a>
+                        </div>
+                        
                     </div>
                 </div>
             </div>
