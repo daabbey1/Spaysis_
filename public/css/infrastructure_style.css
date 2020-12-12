@@ -154,7 +154,7 @@ body::-webkit-scrollbar {
         padding-right: 50px;
     }
     .body-section{
-        margin-top: 7.8vh;
+        margin-top:4vh;
         /* height: 88vh; */
     }
 
@@ -221,7 +221,15 @@ body::-webkit-scrollbar {
         /* border-radius: 0px; */
     }
 
-    .profile-txt{
+    .profile-text{
+        background-color: cornflowerblue !important;
+        font-size: 20px;
+        font-weight: 600;
+        color: black;
+    }
+
+    .energies{
+        /* background-color: cornflowerblue !important; */
         font-size: 20px;
         font-weight: 600;
         color: black;
@@ -243,11 +251,11 @@ body::-webkit-scrollbar {
     }
 
     .architecture-link{
-        display: block;
+        /* display: block;
         margin-top: 5vh;
         font-size: 20px;
         text-align: center;
-        font-style: italic;
+        font-style: italic; */
     }
 
     /* ***************| Industrial |**************** */
@@ -292,6 +300,7 @@ body::-webkit-scrollbar {
     .p-link{
         display: block;
         margin-top: 5vh;
+        /* padding-top: 100px; */
         font-size: 20px;
         text-align: center;
         font-style: italic;

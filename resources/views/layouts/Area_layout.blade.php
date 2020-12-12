@@ -83,6 +83,8 @@
         @yield('land')
         @yield('barrier')
         @yield('range')
+
+        @yield('business_content')
         
         
         <!-- ------------------| Footer |---------------------- -->

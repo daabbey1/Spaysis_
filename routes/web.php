@@ -55,4 +55,8 @@ Route::get('/profile', function () {
     return view('profile');
 });
 
+Route::get('/business_profiles', function () {
+    return view('business_profiles');
+});
+
 
