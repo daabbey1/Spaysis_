@@ -56,7 +56,7 @@
                             </div>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link nav-link-txt  text-light" href="expertise.html"> PROJECTS </a>
+                            <a class="nav-link nav-link-txt  text-light" href="{{ url('/projects/general_profile') }}"> PROJECTS </a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link nav-link-txt  text-light nav-active" href="{{ url('/expertise') }}">
@@ -66,7 +66,7 @@
                             <a class="nav-link nav-link-txt text-light " href="{{ url('/profile') }}"> TEAM </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link nav-link-txt text-light " href="/contact"> CONTACT </a>
+                            <a class="nav-link nav-link-txt text-light " href="{{ url('/contact') }}"> CONTACT </a>
                         </li>
                     </ul>
 

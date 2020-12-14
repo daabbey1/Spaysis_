@@ -43,7 +43,7 @@
                                 <div class="hover-tabs">
                                     <span class="hover-link"> <a href="{{ url('/about') }}"> About Spaysis </a> </span>
                                     <span class="hover-link" id="publication"> <a href="#"> Publications </a> </span>
-                                    <span class="hover-link" id="career"> <a href="#"> Career </a> </span>
+                                    <span class="hover-link" id="career"> <a href="{{ url('/career') }}"> Career </a> </span>
                                     <span class="hover-link" id="policy"> <a href="#"> Policy & Notice </a> </span>
                                 </div>
                             </div>
@@ -60,7 +60,7 @@
                         <a class="nav-link nav-link-txt text-light nav-active" href="{{ url('/profile') }}"> TEAM </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link nav-link-txt text-light " href="{{ url('/profile') }}"> CONTACT </a>
+                        <a class="nav-link nav-link-txt text-light " href="{{ url('/contact') }}"> CONTACT </a>
                     </li>
                 </ul>
 
@@ -126,8 +126,8 @@
                                 {{-- </div> --}}
                                 {{-- <div class="col-6"> --}}
                                     <div class="card col-6">
-                                        <a href="{{ url('/infrastructure') }}" class="card_link">
-                                            <img class="card-img-top" src="images/dp/Joe.png" alt="Card image cap">
+                                        <a href="{{ url('#') }}" class="card_link">
+                                            <img class="card-img-top" src="images/dp/Joe1.jpg" alt="Card image cap">
                                             <span class="card-text">
                                                 Arc Joe Danquah <br>
                                                 Snr Project Architect / Barrier-free Expert
@@ -145,7 +145,7 @@
             {{-- Second Row --}}
             <div class="row">
                 <div class="card col-3">
-                    <a href="{{ url('/infrastructure') }}" class="card_link">
+                    <a href="{{ url('#') }}" class="card_link">
                         <img class="card-img-top" src="images/dp/Adaku.png" alt="Card image cap">
                         <span class="card-text">
                             Dr. -Ing. Ebenezer Adaku <br>
@@ -154,7 +154,7 @@
                     </a>
                 </div>
                 <div class="card col-3">
-                    <a href="{{ url('/infrastructure') }}" class="card_link">
+                    <a href="{{ url('#') }}" class="card_link">
                         <img class="card-img-top" src="images/dp/Duah.jpg" alt="Card image cap">
                         <span class="card-text">
                             Dr Daniel Duah <br>
@@ -163,7 +163,7 @@
                     </a>
                 </div>
                 <div class="card col-3">
-                    <a href="{{ url('/infrastructure') }}" class="card_link">
+                    <a href="{{ url('#') }}" class="card_link">
                         <img class="card-img-top" src="images/dp/Doh.png" alt="Card image cap">
                         <span class="card-text">
                             Patrick Doh <br>
@@ -172,7 +172,7 @@
                     </a>
                 </div>
                 <div class="card col-3">
-                    <a href="{{ url('/infrastructure') }}" class="card_link">
+                    <a href="{{ url('#') }}" class="card_link">
                         <img class="card-img-top" src="images/dp/James.jpg" alt="Card image cap">
                         <span class="card-text">
                             Arc James Appah Dankyi <br>
@@ -185,7 +185,7 @@
             {{-- Third Row --}}
             <div class="row">
                 <div class="card col-3">
-                    <a href="{{ url('/infrastructure') }}" class="card_link">
+                    <a href="{{ url('#') }}" class="card_link">
                         <img class="card-img-top" src="images/dp/Wahab.png" alt="Card image cap">
                         <span class="card-text">
                             Ishmael Wahab <br>
@@ -194,7 +194,7 @@
                     </a>
                 </div>
                 <div class="card col-3">
-                    <a href="{{ url('/infrastructure') }}" class="card_link">
+                    <a href="{{ url('#') }}" class="card_link">
                         <img class="card-img-top" src="images/dp/Pauline.png" alt="Card image cap">
                         <span class="card-text">
                             Pauline Ashiagbor <br>
@@ -203,7 +203,7 @@
                     </a>
                 </div>
                 <div class="card col-3">
-                    <a href="{{ url('/infrastructure') }}" class="card_link">
+                    <a href="{{ url('#') }}" class="card_link">
                         <img class="card-img-top" src="images/dp/Kwame.png" alt="Card image cap">
                         <span class="card-text">
                             Kwame Nkrumah <br>
@@ -212,7 +212,7 @@
                     </a>
                 </div>
                 <div class="card col-3">
-                    <a href="{{ url('/infrastructure') }}" class="card_link">
+                    <a href="{{ url('#') }}" class="card_link">
                         <img class="card-img-top" src="images/dp/Maurice.JPG" alt="Card image cap">
                         <span class="card-text">
                             Dipl.-Ing. Maurice Migadde  <br>
@@ -225,7 +225,7 @@
             {{-- Fouth --}}
             <div class="row">
                 <div class="card col-3">
-                    <a href="{{ url('/infrastructure') }}" class="card_link">
+                    <a href="{{ url('#') }}" class="card_link">
                         <img class="card-img-top" src="images/dp/ishmael.png" alt="Card image cap">
                         <span class="card-text">
                             Ishmael Bekoe <br>
@@ -234,7 +234,7 @@
                     </a>
                 </div>
                 <div class="card col-3">
-                    <a href="{{ url('/infrastructure') }}" class="card_link">
+                    <a href="{{ url('#') }}" class="card_link">
                         <img class="card-img-top" src="images/dp/Prince.png" alt="Card image cap">
                         <span class="card-text">
                             Mary Amoah <br>
@@ -243,7 +243,7 @@
                     </a>
                 </div>
                 <div class="card col-3">
-                    <a href="{{ url('/infrastructure') }}" class="card_link">
+                    <a href="{{ url('#') }}" class="card_link">
                         <img class="card-img-top" src="images/dp/monica.jpg" alt="Card image cap">
                         <span class="card-text">
                             Monica Dapaah <br>
@@ -252,7 +252,7 @@
                     </a>
                 </div>
                 <div class="card col-3">
-                    <a href="{{ url('/infrastructure') }}" class="card_link">
+                    <a href="{{ url('#') }}" class="card_link">
                         <img class="card-img-top" src="images/dp/Prince.png" alt="Card image cap">
                         <span class="card-text">
                             Prince Ofosuhene Marful <br>

@@ -72,8 +72,8 @@ Route::get('/individual_team', function () {
 Route::get('/projects/general_profile', function () {
     return view('projects/general_profile');
 });
-Route::get('/projects/individual_project', function () {
-    return view('projects/individual_project');
+Route::get('/projects/ashrich', function () {
+    return view('projects/ashrich');
 });
 
 

@@ -8,7 +8,7 @@
     <div class="row no-gutter">
         {{-- <div class="col-3 col-box bg-inf"> --}}
                 <div class="col-3 card" style="width: 100%;">
-                    <a href="{{ url('/projects/individual_project') }}">
+                    <a href="{{ url('/projects/ashrich') }}">
                     <img class="card-img-top" src="../images/Projects/ashrich.jpg" alt="Card image cap">
                     <span class="card-text"> ASHRICH </span>
                     </a>

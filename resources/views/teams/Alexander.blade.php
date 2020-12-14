@@ -3,13 +3,13 @@
 @section('Alex')
 <div class="body-section">
     {{-- ********************| Individual Profile |************************* --}}
-    <div class="individual-box bg-warnin">
+    <div class="individual-box bg-warnin container">
         <div class="">
             {{-- <span class="individual-txt"> Dr. -Ing. Alexander Boakye Marful </span> --}}
         </div>
     
         <!-- Individual Profile -->
-        <div class="individual-box">
+        {{-- <div class="individual-box"> --}}
             <div class="row row-height">
     
                 <!-- First Column -->
@@ -82,7 +82,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        {{-- </div> --}}
     </div>
 </div>
 @endsection
