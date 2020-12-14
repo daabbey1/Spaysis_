@@ -50,7 +50,7 @@
                         </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link nav-link-txt  text-light" href="expertise.html"> PROJECTS </a>
+                        <a class="nav-link nav-link-txt  text-light" href="{{ url('/projects/general_profile') }}"> PROJECTS </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link nav-link-txt  text-light " href="{{ url('/expertise') }}">
@@ -115,12 +115,11 @@
                             <div class="row">
                                 {{-- <div class="col-6"> --}}
                                     <div class="card col-6" >
-                                        <a href="{{ url('/infrastructure') }}" class="card_link">
+                                        <a href="{{ url('/teams/Alexander') }}" class="card_link">
                                             <img class="card-img-top" src="images/dp/Marful.png" alt="Card image cap">
                                             <span class="card-text">
                                                 Dr. -Ing. Alexander Boakye Marful <br>
-                                                Principal Architect <br>
-                                                Infrastructure Planning & Engineering <br>
+                                                Principal Architect / Infrastructure planner
                                             </span>
                                         </a>
                                     </div>
@@ -131,8 +130,7 @@
                                             <img class="card-img-top" src="images/dp/Joe.png" alt="Card image cap">
                                             <span class="card-text">
                                                 Arc Joe Danquah <br>
-                                                Senior Project Architect <br>
-                                                Infrastructure Planning & Engineering
+                                                Snr Project Architect / Barrier-free Expert
                                             </span>
                                         </a>
                                     </div>
@@ -151,18 +149,16 @@
                         <img class="card-img-top" src="images/dp/Adaku.png" alt="Card image cap">
                         <span class="card-text">
                             Dr. -Ing. Ebenezer Adaku <br>
-                            Cost Engineer/Infrastructure <br>
-                            Infrastructure Planning & Engineering
+                            Cost Engineer/Infrastructure 
                         </span>
                     </a>
                 </div>
                 <div class="card col-3">
                     <a href="{{ url('/infrastructure') }}" class="card_link">
-                        <img class="card-img-top" src="images/dp/Duah.png" alt="Card image cap">
+                        <img class="card-img-top" src="images/dp/Duah.jpg" alt="Card image cap">
                         <span class="card-text">
                             Dr Daniel Duah <br>
-                            Senior Project Architect <br>
-                            Infrastructure Planning & Engineering
+                            Snr Project Architect
                         </span>
                     </a>
                 </div>
@@ -171,18 +167,16 @@
                         <img class="card-img-top" src="images/dp/Doh.png" alt="Card image cap">
                         <span class="card-text">
                             Patrick Doh <br>
-                            Quantity Surveyor <br>
-                            Infrastructure Planning & Engineering
+                            Snr Quantity Surveyor
                         </span>
                     </a>
                 </div>
                 <div class="card col-3">
                     <a href="{{ url('/infrastructure') }}" class="card_link">
-                        <img class="card-img-top" src="images/dp/James.png" alt="Card image cap">
+                        <img class="card-img-top" src="images/dp/James.jpg" alt="Card image cap">
                         <span class="card-text">
-                            James Appah Dankyi <br>
-                            Associate Architect <br>
-                            Infrastructure Planning & Engineering
+                            Arc James Appah Dankyi <br>
+                            Projects Architect
                         </span>
                     </a>
                 </div>
@@ -195,8 +189,7 @@
                         <img class="card-img-top" src="images/dp/Wahab.png" alt="Card image cap">
                         <span class="card-text">
                             Ishmael Wahab <br>
-                            Business Development Manager <br>
-                            Infrastructure Planning & Engineering
+                            Business Development Manager 
                         </span>
                     </a>
                 </div>
@@ -205,8 +198,7 @@
                         <img class="card-img-top" src="images/dp/Pauline.png" alt="Card image cap">
                         <span class="card-text">
                             Pauline Ashiagbor <br>
-                            Administrative Associate <br>
-                            Infrastructure Planning & Engineering
+                            Administrative/HR Manager
                         </span>
                     </a>
                 </div>
@@ -215,8 +207,7 @@
                         <img class="card-img-top" src="images/dp/Kwame.png" alt="Card image cap">
                         <span class="card-text">
                             Kwame Nkrumah <br>
-                            Senior AutoCAD Technician <br>
-                            Infrastructure Planning & Engineering
+                            Senior AutoCAD Technician 
                         </span>
                     </a>
                 </div>
@@ -225,8 +216,7 @@
                         <img class="card-img-top" src="images/dp/Maurice.JPG" alt="Card image cap">
                         <span class="card-text">
                             Dipl.-Ing. Maurice Migadde  <br>
-                            Sustainability Project Manager <br>
-                            Infrastructure Planning & Engineering
+                            Land / Sustainability Management
                         </span>
                     </a>
                 </div>
@@ -236,11 +226,28 @@
             <div class="row">
                 <div class="card col-3">
                     <a href="{{ url('/infrastructure') }}" class="card_link">
-                        <img class="card-img-top" src="images/dp/Osei.png" alt="Card image cap">
+                        <img class="card-img-top" src="images/dp/ishmael.png" alt="Card image cap">
                         <span class="card-text">
-                            Hoffmann Omane Osei <br>
-                            Driver & Office Assistant <br>
-                            Infrastructure Planning & Engineering
+                            Ishmael Bekoe <br>
+                            Associate Spatial Planner
+                        </span>
+                    </a>
+                </div>
+                <div class="card col-3">
+                    <a href="{{ url('/infrastructure') }}" class="card_link">
+                        <img class="card-img-top" src="images/dp/Prince.png" alt="Card image cap">
+                        <span class="card-text">
+                            Mary Amoah <br>
+                            Associate Development Planner
+                        </span>
+                    </a>
+                </div>
+                <div class="card col-3">
+                    <a href="{{ url('/infrastructure') }}" class="card_link">
+                        <img class="card-img-top" src="images/dp/monica.jpg" alt="Card image cap">
+                        <span class="card-text">
+                            Monica Dapaah <br>
+                            Junior Constriction Manager
                         </span>
                     </a>
                 </div>
@@ -249,28 +256,7 @@
                         <img class="card-img-top" src="images/dp/Prince.png" alt="Card image cap">
                         <span class="card-text">
                             Prince Ofosuhene Marful <br>
-                            Site Supritendent <br>
-                            Infrastructure Planning & Engineering
-                        </span>
-                    </a>
-                </div>
-                <div class="card col-3">
-                    <a href="{{ url('/infrastructure') }}" class="card_link">
-                        <img class="card-img-top" src="images/dp/Christabel.png" alt="Card image cap">
-                        <span class="card-text">
-                            Christabel Ofei Kwakye <br>
-                            HR Manager <br>
-                            Infrastructure Planning & Engineering
-                        </span>
-                    </a>
-                </div>
-                <div class="card col-3">
-                    <a href="{{ url('/infrastructure') }}" class="card_link">
-                        <img class="card-img-top" src="images/dp/Gyamfi.png" alt="Card image cap">
-                        <span class="card-text">
-                            Prince Adu-Gyamf <br>
-                            Junior Architect  <br>
-                            Infrastructure Planning & Engineering
+                            Site Supritendent
                         </span>
                     </a>
                 </div>

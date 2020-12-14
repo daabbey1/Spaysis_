@@ -59,4 +59,21 @@ Route::get('/business_profiles', function () {
     return view('business_profiles');
 });
 
+// Individual Team
+Route::get('/teams/Alexander', function () {
+    return view('teams/Alexander');
+});
+Route::get('/individual_team', function () {
+    return view('individual_team');
+});
+
+
+// Projects
+Route::get('/projects/general_profile', function () {
+    return view('projects/general_profile');
+});
+Route::get('/projects/individual_project', function () {
+    return view('projects/individual_project');
+});
+
 

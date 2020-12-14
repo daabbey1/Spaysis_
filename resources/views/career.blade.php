@@ -39,7 +39,6 @@
                             <div class="sub-tab">
                                 <div class="hover-tabs">
                                     <span class="hover-link"> <a href="{{ url('/about') }}"> About Spaysis </a> </span>
-                                    <span class="hover-link" id="team"> <a href="#"> Team </a> </span>
                                     <span class="hover-link" id="publication"> <a href="#"> Publications </a> </span>
                                     <span class="hover-link" id="career"> <a href="{{ url('/career') }}"> Career </a> </span>
                                     <span class="hover-link" id="policy"> <a href="#"> Policy & Notice </a> </span>
@@ -48,7 +47,7 @@
                         </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link nav-link-txt  text-light" href="#"> PROJECTS </a>
+                        <a class="nav-link nav-link-txt  text-light" href="{{ url('/projects/general_profile') }}"> PROJECTS </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link nav-link-txt  text-light" href="{{ url('/expertise') }}"> EXPERTISE </a>

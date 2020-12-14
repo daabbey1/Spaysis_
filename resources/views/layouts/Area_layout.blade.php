@@ -42,7 +42,6 @@
                                 <div class="sub-tab">
                                     <div class="hover-tabs">
                                         <span class="hover-link"> <a href="{{ url('/about') }}"> About Spaysis </a> </span>
-                                        <span class="hover-link" id="team"> <a href="{{ url('/profile') }}"> Team </a> </span>
                                         <span class="hover-link" id="publication"> <a href="#"> Publications </a> </span>
                                         <span class="hover-link" id="career"> <a href="{{ url('/career') }}"> Career </a> </span>
                                         <span class="hover-link" id="policy"> <a href="#"> Policy & Notice </a> </span>
@@ -51,7 +50,7 @@
                             </div>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link nav-link-txt  text-light" href="expertise.html"> PROJECTS </a>
+                            <a class="nav-link nav-link-txt  text-light" href="{{ url('/projects/general_profile') }}"> PROJECTS </a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link nav-link-txt  text-light nav-active" href="{{ url('/expertise') }}">
@@ -61,7 +60,7 @@
                             <a class="nav-link nav-link-txt text-light " href="{{ url('/profile') }}"> TEAM </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link nav-link-txt text-light " href="/contact"> CONTACT </a>
+                            <a class="nav-link nav-link-txt text-light " href="{{ url('/contact') }}"> CONTACT </a>
                         </li>
                     </ul>
         
@@ -88,6 +87,8 @@
         @yield('range')
 
         @yield('business_content')
+
+        @yield('individual_team')
         
         
         <!-- ------------------| Footer |---------------------- -->

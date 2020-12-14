@@ -130,7 +130,7 @@ html, body {
     }
     /* height:32rem; */
     .head-team{
-        color: #031c4e;
+        /* color: #031c4e; */
         font-family: Arial, Helvetica, sans-serif;
         font-size: 40px;
         font-weight: 600;
@@ -151,9 +151,12 @@ html, body {
         /* display: justify; */
     }
     .sub-team{
-        border: 1px solid gray;
+        border: 1px solid rgb(138, 137, 137);
+        background-color: #031c4e ;
+        color: white;
         /* height: 62vh; */
-        padding: 80px;
+        padding-left: 50px;
+        padding-right: 50px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -161,12 +164,13 @@ html, body {
 
     .card{
         border: 1px solid ;
-        width: 20rem; 
-        height:32rem;
+        /* width: 20rem;  */
+        /* height:28rem; */
     }
 
     .card-img-top{
         margin-top: 10px;
+        height: 23rem;
     }
 
     .card_link{
@@ -176,8 +180,8 @@ html, body {
     }
 
     .card-text:hover{
-        /* color: white;
-        background-color: chartreuse; */
+        color: white;
+        /* background-color: chartreuse; */
     }
     
     .card_link:hover{
@@ -215,7 +219,8 @@ html, body {
         background-color: black;
         opacity: 0.7; */
     }
-    /* .area-color{
+    /* 
+    .area-color{
         color: aliceblue !important;
         background-color:black;
         opacity: 0.7 !important;
@@ -225,7 +230,7 @@ html, body {
         /* display: inline; */
         margin-top: 50.9%;
         
-    } */
+    } 
 
 
     /* ************************| Footer |******************** */
