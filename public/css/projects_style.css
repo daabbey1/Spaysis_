@@ -192,7 +192,9 @@ font-size: 22px;
 
 /* Discription */
 .discription{
-    /* background-color: orange; */
+    background-color: white;
+    padding:50px;
+    height: 270px;
     /* margin-top: 30px;
     margin-bottom: 30px; */
     /* padding: 50px; */
@@ -220,9 +222,9 @@ font-size: 22px;
 
 /* Project Info */
 .pro-info{
-    /* margin-top: 95px;
-    margin-bottom: 100px; */
-    /* padding: 50px; */
+    background-color: white;
+    padding:50px;
+    height: 270px;
 }
 
 td{
