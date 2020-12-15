@@ -56,6 +56,25 @@
         </div>
     </div>
 
+    <div class="row no-gutter">
+        <div class="col-3 card" style="width: 100%;">
+            <img class="card-img-top" src="../images/Projects/addo.png" alt="Card image cap">
+            <span class="card-text"> Mr. Addo </span>
+        </div>
+        <div class="col-3 card" style="width: 100%;">
+            <img class="card-img-top" src="../images/Projects/sarpong.jpg" alt="Card image cap">
+            <span class="card-text"> Mr. Saarpong </span>
+        </div>
+        <div class="col-3 card" style="width: 100%;">
+            <img class="card-img-top" src="../images/Projects/zambian.jpg" alt="Card image cap">
+            <span class="card-text"> Zambian </span>
+        </div>
+        <div class="col-3 card" style="width: 100%;">
+            <img class="card-img-top" src="../images/Projects/aa.png" alt="Card image cap">
+            <span class="card-text"> Lorem </span>
+        </div>
+    </div>
+
     {{-- Education --}}
     <span class="gen-profile-head"> Education </span>
     <div class="row no-gutter">
