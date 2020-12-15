@@ -40,8 +40,8 @@
         </div>
 
         {{-- Image Selector --}}
-        <div class="row px-5 bg-light pb-4 text-light">
-            <div class="col-2 cards" style="width: 80%;">
+        <div class="row px-5 bg-light pb-4 text-light" style="">
+            <div class="col-2 cards" style="width: 100%;">
                 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active">
                     <img class="card-img-top" src="../images/Projects/ashrich1.jpg" alt="Card image cap">
                 </li>
