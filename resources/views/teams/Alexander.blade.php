@@ -64,7 +64,7 @@
             <div class="p-link">
                 <div class="row">
                     <div class="col-4">
-                        <a href="{{ url('/expertise') }}">
+                        <a href="{{ url('/profile') }}">
                             <i class="fas fa-angle-double-left"></i>
                             Go back
                         </a>
@@ -75,8 +75,8 @@
                         </a>
                     </div>
                     <div class="col-4 text-right">
-                        <a href="{{ url('/business_profiles') }}">
-                            View all Business Profiles
+                        <a href="{{ url('#') }}">
+                            View all Team Profiles
                             <i class="fas fa-angle-double-right"></i>
                         </a>
                     </div>
