@@ -168,11 +168,11 @@ font-size: 22px;
 
 /* ************************| Individual Slide Pofile |******************** */
 .slide-section{
-    /* margin-top: 5vh; */
+    margin-top: 7.5vh;
 }
 
 .carousel-item img{
-    height: 100vh;
+    height: 92.5vh;
 }
 
 /* Sub slider */
@@ -182,6 +182,52 @@ font-size: 22px;
     /* height: 500px; */
 }
 
+.left-right-info{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+
+/* Discription */
+.discription{
+    /* background-color: orange; */
+    /* margin-top: 30px;
+    margin-bottom: 30px; */
+    /* padding: 50px; */
+}
+
+.disc-main-head,.pro-sub-head{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    /* disp lay: block; */
+    /* text-align: center; */
+    /* margin-top: 25px; */
+    margin-bottom: 30px;
+    border-bottom: 1px solid orange;
+}
+.disc-sub-head{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.disc-body, .pro-body{
+    font-size: 18px;
+}
+
+/* Project Info */
+.pro-info{
+    /* margin-top: 95px;
+    margin-bottom: 100px; */
+    /* padding: 50px; */
+}
+
+td{
+    margin-right: 10px;
+}
 
 
 /* ************************| Footer |******************** */
