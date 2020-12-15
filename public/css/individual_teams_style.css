@@ -68,6 +68,10 @@ margin-top: 10px;
 /* margin-left: 350px; */
 }
 
+.hover-tabs{
+        margin-left: 80px;
+    }
+
 .hover-link a{
 margin-right: 40px;
 font-size: 16px;

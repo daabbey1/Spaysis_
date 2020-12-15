@@ -60,6 +60,9 @@ html,body{
     .sub-tab{
         width: 250vh !important;
     }
+    .hover-tabs{
+        margin-left: 80px;
+    }
 
     .search-input{
         font-size: 15px;
@@ -118,6 +121,7 @@ html,body{
 
     .hover-link a{
         margin-right: 40px;
+        /* margin-left: 80px; */
         font-size: 16px;
         /* display: block; */
         color: aliceblue;
