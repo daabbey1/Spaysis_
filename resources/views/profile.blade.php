@@ -186,7 +186,7 @@
             <div class="row">
                 <div class="card col-3">
                     <a href="{{ url('#') }}" class="card_link">
-                        <img class="card-img-top" src="images/dp/Wahab.png" alt="Card image cap">
+                        <img class="card-img-top" src="images/dp/Wahab.jpg" alt="Card image cap">
                         <span class="card-text">
                             Ishmael Wahab <br>
                             Business Development Manager 
@@ -195,7 +195,7 @@
                 </div>
                 <div class="card col-3">
                     <a href="{{ url('#') }}" class="card_link">
-                        <img class="card-img-top" src="images/dp/Pauline.png" alt="Card image cap">
+                        <img class="card-img-top" src="images/dp/Pauline.jpg" alt="Card image cap">
                         <span class="card-text">
                             Pauline Ashiagbor <br>
                             Administrative/HR Manager

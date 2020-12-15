@@ -120,8 +120,8 @@ html, body {
         /* height: 70vh; */
     }
     .profile-body{
-        margin-left: 50px;
-        margin-right: 50px;
+        margin-left: 80px;
+        margin-right: 80px;
         margin-top: 50px;
     }
     .team-box{
@@ -169,8 +169,9 @@ html, body {
     }
 
     .card-img-top{
-        margin-top: 10px;
-        height: 23rem;
+        margin-top: 20px;
+        width: 18rem;
+        height: 20rem;
     }
 
     .card_link{
@@ -186,12 +187,12 @@ html, body {
     
     .card_link:hover{
         color: white;
-        background-color: #000022;
+        background-color:#031c4e ;
         animation-delay: 4s;
         text-decoration: none;
     }
     .card:hover{
-        background: #000022;
+        background:#031c4e ;
         color: aliceblue !important;
         animation-delay: 2s;
         transition: width 9s linear 60s;
@@ -202,6 +203,7 @@ html, body {
         font-size: 18px;
         /* text-align: center; */
         font-weight: 600;
+        display: block;
         /* background-color: orange; */
     }
 

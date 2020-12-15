@@ -3,7 +3,7 @@
 @section('Alex')
 <div class="body-section">
     {{-- ********************| Individual Profile |************************* --}}
-    <div class="individual-box bg-warnin container">
+    <div class="individual-box bg-warnin">
         <div class="">
             {{-- <span class="individual-txt"> Dr. -Ing. Alexander Boakye Marful </span> --}}
         </div>
@@ -13,7 +13,7 @@
             <div class="row row-height">
     
                 <!-- First Column -->
-                <div class="col-6">
+                <div class="col-7">
                     <div class="right-profile">
                 
                         <div class="energy">
@@ -54,7 +54,7 @@
                 <!-- Second Column -->
                 {{-- <div class="col-6 left-col bg-info"> --}}
                     {{-- <div > --}}
-                        <img src="../images/dp/Marful.png" class="alex-img col-6" alt="" srcset="">
+                        <img src="../images/dp/Marful.png" class="alex-img col-5" alt="" srcset="">
                     {{-- </div> --}}
                 {{-- </div> --}}
                 
