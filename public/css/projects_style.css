@@ -144,6 +144,8 @@ font-size: 22px;
     color: rgb(24, 23, 23);
 }
 
+
+
 .card-img-top{
     height: 200px;
 }
@@ -173,6 +175,12 @@ font-size: 22px;
     height: 100vh;
 }
 
+/* Sub slider */
+.cards img{
+    height: auto;
+    /* width: 200px !important; */
+    /* height: 500px; */
+}
 
 
 
