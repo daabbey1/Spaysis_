@@ -304,11 +304,11 @@
                                     </div>
 
                                     <div class="acon">
-                                        <span class="partner-sub-title"> Associated Consults Ltd </span> <br>
-                                        Engineering Support services <br>
-                                        <a href="#"> associatedconsultantsltd.com.gh </a> <br>
-                                        Tel: +233(0)302 23758/9 <br>
-                                        info@associatedconsultantsltd.com.gh
+                                        <span class="partner-sub-title"> miniCREATION Ltd </span> <br>
+                                        You dream, We create! <br>
+                                        <a href="#"> minicreation.com.gh </a> <br>
+                                        Tel: +233(0)502105309 <br>
+                                        amarful@yahoo.com
                                     </div>
                                 </div>
                             </div>
