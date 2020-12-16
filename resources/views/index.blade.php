@@ -102,7 +102,7 @@
 
                     <!-- Slide One - Set the background image for this slide in the line below -->
                     <div class="carousel-item ">
-                        <img src="images/Patasi - Kumasi home 2.jpg" style="width:100%; height: 93.5vh !important">
+                        <img src="images/Patasi---Kumasi-home-3.jpg" style="width:100%; height: 93.5vh !important">
                         <div class="carousel-caption d-none d-md-block" style="text-shadow: 2px 2px black;">
                             <h2 class="display-5">RESIDENTIAL VILLA</h2>
                             <p class="slide-txt"> Patasi - Kumasi.</p>

@@ -304,7 +304,7 @@
                                     </div>
 
                                     <div class="acon">
-                                        <span class="partner-sub-title"> miniCREATiON Ltd </span> <br>
+                                        <span class="partner-sub-title"> miniCREATigit ON Ltd </span> <br>
                                         You dream, We create! <br>
                                         <a href="#"> minicreation.com.gh </a> <br>
                                         Tel: +233(0)502105309 <br>
