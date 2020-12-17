@@ -19,29 +19,7 @@ Route::get('/', function () {
 Route::get('/about', function () {
     return view('about');
 });
-Route::get('/expertise', function () {
-    return view('expertise');
-});
-Route::get('/infrastructure', function () {
-    return view('infrastructure');
-});
-Route::get('/architecture', function () {
-    return view('architecture');
-});
 
-Route::get('/industrial', function () {
-    return view('industrial');
-});
-
-Route::get('/land', function () {
-    return view('land');
-});
-Route::get('/barrier', function () {
-    return view('barrier');
-});
-Route::get('/range', function () {
-    return view('range');
-});
 
 Route::get('/contact', function () {
     return view('contact');
@@ -51,21 +29,54 @@ Route::get('/career', function () {
     return view('career');
 });
 
-Route::get('/profile', function () {
-    return view('profile');
-});
+
 
 Route::get('/business_profiles', function () {
     return view('business_profiles');
 });
 
+
+// ---------- Experitse----------------
+
+Route::get('/expertise/index', function () {
+    return view('expertise/index');
+});
+
+Route::get('/expertise/infrastructure', function () {
+    return view('/expertise/infrastructure');
+});
+Route::get('/expertise/architecture', function () {
+    return view('/expertise/architecture');
+});
+
+Route::get('/expertise/industrial', function () {
+    return view('/expertise/industrial');
+});
+
+Route::get('/expertise/land', function () {
+    return view('/expertise/land');
+});
+Route::get('/expertise/barrier', function () {
+    return view('/expertise/barrier');
+});
+Route::get('/expertise/range', function () {
+    return view('/expertise/range');
+});
+
+
+
 // Individual Team
 Route::get('/teams/Alexander', function () {
     return view('teams/Alexander');
 });
-Route::get('/individual_team', function () {
-    return view('individual_team');
+
+Route::get('/teams/profile', function () {
+    return view('teams/profile');
 });
+
+// Route::get('/individual_team', function () {
+//     return view('individual_team');
+// });
 
 
 // Projects
@@ -74,6 +85,15 @@ Route::get('/projects/general_profile', function () {
 });
 Route::get('/projects/ashrich', function () {
     return view('projects/ashrich');
+});
+Route::get('/projects/jucap', function () {
+    return view('projects/jucap');
+});
+Route::get('/projects/motag', function () {
+    return view('projects/motag');
+});
+Route::get('/projects/residence_1', function () {
+    return view('projects/residence_1');
 });
 
 

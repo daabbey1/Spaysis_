@@ -2,13 +2,13 @@
 <html>
 
 <head>
-    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-    <link href="css/font.css" rel="stylesheet" type="text/css">
-    <link href="css/all.css" rel="stylesheet" type="text/css">
+    <link href="../css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="../css/font.css" rel="stylesheet" type="text/css">
+    <link href="../css/all.css" rel="stylesheet" type="text/css">
     <meta charset="ISO-8859-1">
 
-    <script src="js/about.js"></script>
-    <link rel="stylesheet" href="css/infrastructure_style.css">
+    <script src="../js/about.js"></script>
+    <link rel="stylesheet" href="../css/infrastructure_style.css">
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title> SPAYSIS </title>
@@ -20,7 +20,7 @@
         <div class="head-section">
             <nav class="navbar navbar-expand-lg navbar-dark sub-head fixed-top">
                 <a class="navbar-brand logo" href="#">
-                    <img src="images/main_logo.png" alt="logo" srcset="" style="color: aliceblue;">
+                    <img src="../images/main_logo.png" alt="logo" srcset="" style="color: aliceblue;">
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -57,7 +57,7 @@
                                 EXPERTISE </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link nav-link-txt text-light " href="{{ url('/profile') }}"> TEAM </a>
+                            <a class="nav-link nav-link-txt text-light " href="{{ url('/teams/profile') }}"> TEAM </a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link nav-link-txt text-light " href="{{ url('/contact') }}"> CONTACT </a>
@@ -108,10 +108,10 @@
         </div>
         
         <!-- <script src="js/about.js"></script> -->
-        <script src="js/Bootstrapjquery.js"></script>
-        <script defer src="js/all.js"></script>
-        <script src="js/Propper.js"></script>
-        <script src="js/bootstrap.js"></script>
+        <script src="../js/Bootstrapjquery.js"></script>
+        <script defer src="../js/all.js"></script>
+        <script src="../js/Propper.js"></script>
+        <script src="../js/bootstrap.js"></script>
    </div>
 </body>
 
