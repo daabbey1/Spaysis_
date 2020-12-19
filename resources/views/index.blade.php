@@ -15,8 +15,8 @@
     <!-- Header -->
     <div class="head-section">
     
-        <nav class="navbar navbar-expand-lg navbar-dark sub-head">
-            <a class="navbar-brand logo" href="#">
+        <nav class="navbar navbar-expand-lg navbar-dark sub-head bg-dange">
+            <a class="navbar-brand logo bg-inf" href="#">
                 <img src="images/main_logo.png" alt="logo" srcset="" style="color: aliceblue;">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -61,15 +61,15 @@
                     </li>
                 </ul>
     
-                <div class="row sub-sech no-gutters">
+                <div class="row sub-sec no-gutters">
                     <form class="form-inline search-box my-lg-0">
-                        <input class="form-control search-input col-xs-10 col-sm-10 col-md-11 col-lg-11" type="search"
+                        <input class="form-control search-input  col-xs-12 col-sm-12 col-md-11 col-lg-11 " type="search"
                             placeholder="Search" aria-label="Search">
-                        <div class="col-xs-2 col-sm-2 col-md-1 col-lg-1">
+                        {{-- <div class="col-xs-2 col-sm-2 col-md-1 col-lg-1">
                             <!-- <button class="btn my-sm-0 search-btn" type="submit">
                                             <i class="fa fa-search" aria-hidden="true"></i>
                                         </button> -->
-                        </div>
+                        </div> --}}
                     </form>
                 </div>
             </div>

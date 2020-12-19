@@ -170,8 +170,11 @@ html, body {
 
     .card-img-top{
         margin-top: 20px;
-        width: 18rem;
-        height: 20rem;
+        /* width: 18re-m; */
+        height: 22rem;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
     }
 
     .card_link{
@@ -200,7 +203,7 @@ html, body {
 
 
     .card-text{
-        font-size: 18px;
+        font-size: 17px;
         /* text-align: center; */
         font-weight: 600;
         display: block;

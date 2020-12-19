@@ -1,6 +1,6 @@
 @extends('layouts.team_layout')
 
-@section('Alex')
+@section('content')
 <div class="body-section">
     {{-- ********************| Individual Profile |************************* --}}
     <div class="individual-box bg-warnin">

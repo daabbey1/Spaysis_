@@ -49,8 +49,10 @@
             </a>
         </div>
         <div class="col-3 card" style="width: 100%;">
+            <a href="{{ url('/projects/residence_2') }}">
             <img class="card-img-top" src="../images/Projects/brice.jpg" alt="Card image cap">
             <span class="card-text"> Brice </span>
+            </a>
         </div>
         <div class="col-3 card" style="width: 100%;">
             <img class="card-img-top" src="../images/Projects/doh.jpg" alt="Card image cap">

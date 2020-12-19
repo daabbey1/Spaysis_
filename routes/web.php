@@ -65,21 +65,57 @@ Route::get('/expertise/range', function () {
 
 
 
-// Individual Team
-Route::get('/teams/Alexander', function () {
-    return view('teams/Alexander');
-});
+//--------- Individual Team
 
 Route::get('/teams/profile', function () {
     return view('teams/profile');
 });
+
+Route::get('/teams/Alexander', function () {
+    return view('teams/Alexander');
+});
+
+Route::get('/teams/Joe', function () {
+    return view('teams/Joe');
+});
+
+Route::get('/teams/Ebenezer', function () {
+    return view('teams/Ebenezer');
+});
+
+Route::get('/teams/Duah', function () {
+    return view('teams/Duah');
+});
+
+Route::get('/teams/Doh', function () {
+    return view('teams/Doh');
+});
+
+Route::get('/teams/James', function () {
+    return view('teams/James');
+});
+Route::get('/teams/Wahab', function () { return view('teams/Wahab'); });
+
+Route::get('/teams/Pauline', function () { return view('teams/Pauline'); });
+
+Route::get('/teams/Kwame', function () { return view('teams/Kwame'); });
+
+Route::get('/teams/Maurice', function () { return view('teams/Maurice'); });
+
+Route::get('/teams/Ishmael', function () { return view('teams/Ishmael'); });
+
+Route::get('/teams/Monica', function () { return view('teams/Monica'); });
+
+Route::get('/teams/Prince', function () { return view('teams/Prince'); });
+
+
 
 // Route::get('/individual_team', function () {
 //     return view('individual_team');
 // });
 
 
-// Projects
+// ----------- Projects
 Route::get('/projects/general_profile', function () {
     return view('projects/general_profile');
 });
@@ -94,6 +130,9 @@ Route::get('/projects/motag', function () {
 });
 Route::get('/projects/residence_1', function () {
     return view('projects/residence_1');
+});
+Route::get('/projects/residence_2', function () {
+    return view('projects/residence_2');
 });
 
 

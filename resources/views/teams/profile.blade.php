@@ -118,7 +118,7 @@
                                         <a href="{{ url('/teams/Alexander') }}" class="card_link">
                                             <img class="card-img-top" src="../images/dp/Marful.png" alt="Card image cap">
                                             <span class="card-text">
-                                                Dr. -Ing. Alexander Boakye Marful <br>
+                                                Dr. -Ing. Alexander B. Marful <br>
                                                 Principal Architect / Infrastructure planner
                                             </span>
                                         </a>
@@ -126,7 +126,7 @@
                                 {{-- </div> --}}
                                 {{-- <div class="col-6"> --}}
                                     <div class="card col-6">
-                                        <a href="{{ url('#') }}" class="card_link">
+                                        <a href="{{ url('/teams/Joe') }}" class="card_link">
                                             <img class="card-img-top" src="../images/dp/Joe1.jpg" alt="Card image cap">
                                             <span class="card-text">
                                                 Arc Joe Danquah <br>
@@ -145,7 +145,7 @@
             {{-- Second Row --}}
             <div class="row">
                 <div class="card col-3">
-                    <a href="{{ url('#') }}" class="card_link">
+                    <a href="{{ url('/teams/Ebenezer') }}" class="card_link">
                         <img class="card-img-top" src="../images/dp/Adaku.png" alt="Card image cap">
                         <span class="card-text">
                             Dr. -Ing. Ebenezer Adaku <br>
@@ -154,7 +154,7 @@
                     </a>
                 </div>
                 <div class="card col-3">
-                    <a href="{{ url('#') }}" class="card_link">
+                    <a href="{{ url('/teams/Duah') }}" class="card_link">
                         <img class="card-img-top" src="../images/dp/Duah.jpg" alt="Card image cap">
                         <span class="card-text">
                             Dr Daniel Duah <br>
@@ -163,7 +163,7 @@
                     </a>
                 </div>
                 <div class="card col-3">
-                    <a href="{{ url('#') }}" class="card_link">
+                    <a href="{{ url('/teams/Doh') }}" class="card_link">
                         <img class="card-img-top" src="../images/dp/Doh.png" alt="Card image cap">
                         <span class="card-text">
                             Patrick Doh <br>
@@ -172,7 +172,7 @@
                     </a>
                 </div>
                 <div class="card col-3">
-                    <a href="{{ url('#') }}" class="card_link">
+                    <a href="{{ url('/teams/James') }}" class="card_link">
                         <img class="card-img-top" src="../images/dp/James.jpg" alt="Card image cap">
                         <span class="card-text">
                             Arc James Appah Dankyi <br>
@@ -185,7 +185,7 @@
             {{-- Third Row --}}
             <div class="row">
                 <div class="card col-3">
-                    <a href="{{ url('#') }}" class="card_link">
+                    <a href="{{ url('/teams/Wahab') }}" class="card_link">
                         <img class="card-img-top" src="../images/dp/Wahab.jpg" alt="Card image cap">
                         <span class="card-text">
                             Ishmael Wahab <br>
@@ -194,7 +194,7 @@
                     </a>
                 </div>
                 <div class="card col-3">
-                    <a href="{{ url('#') }}" class="card_link">
+                    <a href="{{ url('/teams/Pauline') }}" class="card_link">
                         <img class="card-img-top" src="../images/dp/Pauline.jpg" alt="Card image cap">
                         <span class="card-text">
                             Pauline Ashiagbor <br>
@@ -203,7 +203,7 @@
                     </a>
                 </div>
                 <div class="card col-3">
-                    <a href="{{ url('#') }}" class="card_link">
+                    <a href="{{ url('/teams/Kwame') }}" class="card_link">
                         <img class="card-img-top" src="../images/dp/Kwame.png" alt="Card image cap">
                         <span class="card-text">
                             Kwame Nkrumah <br>
@@ -212,7 +212,7 @@
                     </a>
                 </div>
                 <div class="card col-3">
-                    <a href="{{ url('#') }}" class="card_link">
+                    <a href="{{ url('teams/Maurice') }}" class="card_link">
                         <img class="card-img-top" src="../images/dp/Maurice.JPG" alt="Card image cap">
                         <span class="card-text">
                             Dipl.-Ing. Maurice Migadde  <br>
@@ -225,7 +225,7 @@
             {{-- Fouth --}}
             <div class="row">
                 <div class="card col-3">
-                    <a href="{{ url('#') }}" class="card_link">
+                    <a href="{{ url('teams/Ishmael') }}" class="card_link">
                         <img class="card-img-top" src="../images/dp/ishmael.png" alt="Card image cap">
                         <span class="card-text">
                             Ishmael Bekoe <br>
@@ -234,7 +234,7 @@
                     </a>
                 </div>
                 <div class="card col-3">
-                    <a href="{{ url('#') }}" class="card_link">
+                    <a href="{{ url('teams/Prince') }}" class="card_link">
                         <img class="card-img-top" src="../images/dp/Prince.png" alt="Card image cap">
                         <span class="card-text">
                             Mary Amoah <br>
@@ -243,7 +243,7 @@
                     </a>
                 </div>
                 <div class="card col-3">
-                    <a href="{{ url('#') }}" class="card_link">
+                    <a href="{{ url('teams/Monica') }}" class="card_link">
                         <img class="card-img-top" src="../images/dp/monica.jpg" alt="Card image cap">
                         <span class="card-text">
                             Monica Dapaah <br>
@@ -252,7 +252,7 @@
                     </a>
                 </div>
                 <div class="card col-3">
-                    <a href="{{ url('#') }}" class="card_link">
+                    <a href="{{ url('teams/Prince') }}" class="card_link">
                         <img class="card-img-top" src="../images/dp/Prince.png" alt="Card image cap">
                         <span class="card-text">
                             Prince Ofosuhene Marful <br>
