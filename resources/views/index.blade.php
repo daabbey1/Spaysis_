@@ -79,7 +79,7 @@
 
     <!-- Image Slider  -->
     <div>
-        <header class="outline">
+        <header class="outline image-slider">
             <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators" style="">
                     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -93,7 +93,7 @@
                 <div class="carousel-inner" role="listbox" style="margin-left: 0%;">
 
                     <div class="carousel-item active">
-                        <img src="images/Capa_Chemist_Tema.jpg" style="width:100%; height: 93.5vh !important">
+                        <img src="images/Capa_Chemist_Tema.jpg" style="">
                         <div class="carousel-caption d-none d-md-block " style="text-shadow: 2px 2px black;">
                             <h2 class="display-5"> CAPA CHEMIST </h2>
                             <p class="slide-txt">Tema - Accra </p>
@@ -102,7 +102,7 @@
 
                     <!-- Slide One - Set the background image for this slide in the line below -->
                     <div class="carousel-item ">
-                        <img src="images/Patasi---Kumasi-home-3.jpg" style="width:100%; height: 93.5vh !important">
+                        <img src="images/Patasi---Kumasi-home-3.jpg" >
                         <div class="carousel-caption d-none d-md-block" style="text-shadow: 2px 2px black;">
                             <h2 class="display-5">RESIDENTIAL VILLA</h2>
                             <p class="slide-txt"> Patasi - Kumasi.</p>
@@ -111,7 +111,7 @@
 
                     <!-- Slide Two - Set the background image for this slide in the line below -->
                     <div class="carousel-item">
-                        <img src="images/trinity_towers_accra.jpg" style="width:100%; height: 93.5vh !important">
+                        <img src="images/trinity_towers_accra.jpg" >
                         <div class="carousel-caption d-none d-md-block" style="text-shadow: 2px 2px black;">
                             <div class="trinity">
                                 <h2 class="display-5 "> TRINITY TOWERS </h2>
@@ -122,7 +122,7 @@
 
                     <!-- Slide Three - Set the background image for this slide in the line below -->
                      <div class="carousel-item">
-                      <img src="images/slide3.jpg" style="width:100%; height: 93.5vh !important">
+                      <img src="images/slide3.jpg" >
                         <div class="carousel-caption d-none d-md-block" style="text-shadow: 2px 2px black;">
                             <div class="trinity">
                                 <h2 class="display-5 "> MIBSIP </h2>
@@ -133,7 +133,7 @@
 
                     <!-- Slide Four - Set the background image for this slide in the line below -->
                      <div class="carousel-item">
-                      <img src="images/slide1.jpg" style="width:100%; height: 93.5vh !important">
+                      <img src="images/slide1.jpg" >
                         <div class="carousel-caption d-none d-md-block" style="text-shadow: 2px 2px black;">
                             <div class="trinity">
                                 <h2 class="display-5 "> COVID-19 EFFECT </h2>
@@ -144,7 +144,7 @@
 
                     <!-- Slide Five - Set the background image for this slide in the line below -->
                     <div class="carousel-item">
-                        <img src="images/SPACES.jpg" style="width:100%; height: 93.5vh !important">
+                        <img src="images/SPACES.jpg">
                         <div class="carousel-caption d-none d-md-block" style="text-shadow: 2px 2px black;">
                             <div class="trinity">
                                 <h2 class="display-5 "> </h2>
@@ -168,11 +168,11 @@
 
     <!-- ------------------| Footer |---------------------- -->
     <div class="foot">
-        <div class="row no-gutters">
-            <div class="foot-txt col-auto mr-auto">
-                <span class="copy ml-3"> 2020 SPAYSIS. All Rights Preserved. </span>
+        <div class="row no-gutters sub-foot">
+            <div class="foot-txt col-xs-12 mr-aut bg-dange">
+                <span class="copy ml- bg-inf"> 2020 SPAYSIS. All Rights Preserved. </span>
             </div>
-            <div class="foot-logo col-auto">
+            <div class="foot-logo col-aut col-xs-12 bg-warnin">
                 <span class="mr-5">
                     <span class="twitter ml-1"> <i class="fab fa-twitter"></i> </span>
                     <span class="facebook mx-3"> <i class="fab fa-facebook"></i> </span>
