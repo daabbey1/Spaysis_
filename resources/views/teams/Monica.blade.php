@@ -16,7 +16,12 @@
                         <span class="individual-txt"> Monica Dapaah </span>
 
                         <div class="profile-body">
-                            
+                            Ms. Dapaah is an Assistant Construction Manager with over 3 years of professional experience. She has formally worked
+                            with ASIB Construction Limited and Architectural and Engineering Services Limited. She has also been an intern at Nature
+                            Builds Consults Kumasi. She joined SPAYSIS Ltd in 2019 and she works as a liaison Expert between the Company and the
+                            contractors. Ms. Dapaah holds MSc and BSc in Construction Technology and Management, KNUST, Kumasi. Currently she is
+                            also persuing an M.Phil by Assessing The Causes Poor and Inappropriate Managerial Skills in the Construction Industry,
+                            at the Department of Construction Technology And Management, KNUST.
                         </div>
                     </div>
 
@@ -36,7 +41,7 @@
         <div class="p-link">
             <div class="row">
                 <div class="col-4">
-                    <a href="{{ url('/profile') }}">
+                    <a href="{{ url('/teams/profile') }}">
                         <i class="fas fa-angle-double-left"></i>
                         Go back
                     </a>

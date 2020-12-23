@@ -104,7 +104,7 @@
             </div>
         </div>
 
-        <!-- <script src="js/about.js"></script> -->
+         {{-- <script src="../js/about.js"></script>  --}}
         <script src="../js/Bootstrapjquery.js"></script>
         <script defer src="../js/all.js"></script>
         <script src="../js/Propper.js"></script>

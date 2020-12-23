@@ -16,15 +16,13 @@
                         <span class="individual-txt"> Ishmael Bekoe </span>
 
                         <div class="profile-body">
-                            Ishmael is a young urban planner who holds a degree in BSc Human Settlement Planning
-                            and an MPhil Planning. He started working with SPAYSIS in 2017 and has several years
-                            of experience. His career illustrates a proven track record of delivering results on various
-                            forms of assignments in challenging circumstances. He has extensive experience in
-                            leading integrated urban planning projects across several regions in Ghana. Ishmael’s
-                            significant knowledge in urban planning and design, Social Policy and Sustainability,
-                            Geographic Information System (GIS) and Resilient Planning, together with effective
-                            relationship and managerial skills have allowed him to be able to deliver pragmatic
-                            solutions to challenges that arise with his assignments.
+                            Ishmael is a young urban planner who holds a degree in BSc Human Settlement Planning and an MPhil Planning. He started
+                            working with SPAYSIS in 2017 and has several years of experience. His career illustrates a proven track record of
+                            delivering results on various forms of assignments in challenging circumstances. He has extensive experience in leading
+                            integrated urban planning projects across several regions in Ghana. Ishmael’s significant knowledge in urban planning
+                            and design, Social Policy and Sustainability, Geographic Information System (GIS) and Resilient Planning, together with
+                            effective relationship and managerial skills have allowed him to be able to deliver pragmatic solutions to challenges
+                            that arise with his assignments.
                         </div>
                     </div>
 
@@ -44,7 +42,7 @@
         <div class="p-link">
             <div class="row">
                 <div class="col-4">
-                    <a href="{{ url('/profile') }}">
+                    <a href="{{ url('/teams/profile') }}">
                         <i class="fas fa-angle-double-left"></i>
                         Go back
                     </a>

@@ -13,24 +13,19 @@
                 <div class="right-profile">
 
                     <div class="energy">
-                        <span class="individual-txt"> Arc Joe Danquah </span>
+                        <span class="individual-txt"> Arc. Joseph Adjei Danquah </span>
 
                         <div class="profile-body">
-                            Joseph Adjei Danquah is SPAYSIS’s senior research scientist and project architect with over
-                            15 years of industry experience. Arc. Danquah has worked across a wide range of different
-                            sectors including building and road research, retail and community projects whilst
-                            maintaining a particular interest in barrier free systems and sustainable architecture.
-                            His diverse portfolio includes overseeing a number of projects for VRA- Takoradi Thermal
-                            Power Station at Aboadze, Takoradi as well as numerous successful residential remodels
-                            and new developments.
-                            He obtained his Master’s degree in Architecture, Postgraduate Diploma in Architecture
-                            and Bachelors at the Kwame Nkrumah University of Science and Technology, Kumasi –
-                            Ghana. He has an Advanced Post Graduate Diploma in Shelter Design Development &
-                            Management and Development, HDM, Lund Sweden & Philippines. He has since been
-                            working for Council for Scientific and Industrial Research – Building and Road Research
-                            Institute (CSIR – BRRI) as the Head of Architecture Department. He is currently pursuing
-                            his PhD in barrier free environments and smart cities at the department of Architecture,
-                            KNUST.
+                            Arc. Danquah is SPAYSIS’s senior research scientist, project architect and barrier-free expert with over 15 years of
+                            industry experience. He has worked across a wide range of different sectors including building and road research, retail
+                            and community projects whilst maintaining a particular interest in barrier-free systems and sustainable smart
+                            architecture. His diverse portfolio includes overseeing a number of projects for VRA- Takoradi Thermal Power Station at
+                            Aboadze, as well as numerous successful residential remodels and new developments. He is working for Council for
+                            Scientific and Industrial Research – Building and Road Research Institute (CSIR – BRRI) as the Head of Architecture
+                            Department. Arc. Danquah holds a Master’s, Postgraduate Diploma and BSc in Architecture from KNUST Kumasi Ghana. He also
+                            has an Advanced Post Graduate Diploma in Shelter Design Development & Management from HDM, Lund Sweden & Philippines. He
+                            has also completed his PhD (waiting for defence) in barrier-free environments and smart cities at the department of
+                            Architecture, KNUST. His working experience spans several regions in Ghana.
                         </div>
                     </div>
 
@@ -50,7 +45,7 @@
         <div class="p-link">
             <div class="row">
                 <div class="col-4">
-                    <a href="{{ url('/profile') }}">
+                    <a href="{{ url('/teams/profile') }}">
                         <i class="fas fa-angle-double-left"></i>
                         Go back
                     </a>

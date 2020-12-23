@@ -16,11 +16,10 @@
                         <span class="individual-txt"> Kwame Nkrumah </span>
 
                         <div class="profile-body">
-                            As the senior AutoCAD technician, Kwame Nkrumah is in charge of production drawing
-                            and site supervision Kwame Nkrumah brings over 10 years hands on experience across
-                            a variety of sectors, with a particular passion for innovative house designs, large scale
-                            redevelopment and Residential buildings. Outside of work Nkrumah tutors AutoCAD at
-                            IPMC and Home Image.
+                            As the senior AutoCAD technician, Kwame Nkrumah is in charge of production drawing and site supervision Kwame Nkrumah
+                            brings over 10 years of hands-on experience across a variety of sectors, with a particular passion for innovative house
+                            designs, large scale redevelopment and Residential buildings. Outside of work Nkrumah tutors AutoCAD at IPMC and Home
+                            Image.
                         </div>
                     </div>
 
@@ -40,7 +39,7 @@
         <div class="p-link">
             <div class="row">
                 <div class="col-4">
-                    <a href="{{ url('/profile') }}">
+                    <a href="{{ url('/teams/profile') }}">
                         <i class="fas fa-angle-double-left"></i>
                         Go back
                     </a>

@@ -4,6 +4,8 @@ padding: 0px;
 box-sizing: border-box;
 max-width: 100%;
 overflow-x: hidden;
+
+background-color: #E7EBF0;
 }
 
 .sub-head{
@@ -137,7 +139,7 @@ font-size: 22px;
 }
 
 .individual-box{
-    background-color: white;
+    background-color: #E7EBF0;
     /* padding-top: 5vh; */
     /* padding-bottom: 12.5vh; */
     margin-left: 120px;
@@ -164,11 +166,10 @@ font-size: 22px;
 .alex-img{
     height: 75vh;
     width: 100vh;
-    /* background: url('../images/dp/Marful.png') top/cover no-repeat; */
 }
 
 .right-profile{
-    /* background-color: orange; */
+    background-color: white;
     padding-top: 25px;
     padding-left: 25px;
     padding-right: 25px;
@@ -213,6 +214,7 @@ font-size: 22px;
         font-size: 20px;
         /* text-align: center; */
         font-style: italic;
+        background-color: #E7EBF0;
     }
 
     .p-link a{

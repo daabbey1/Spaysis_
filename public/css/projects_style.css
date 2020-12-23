@@ -208,10 +208,11 @@ font-size: 22px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 25px;
     font-weight: 500;
-    /* disp lay: block; */
+    /* display: block; */
     /* text-align: center; */
     /* margin-top: 25px; */
-    margin-bottom: 30px;
+    /* margin-bottom: 8px; */
+    /* background-color: #000022; */
     border-bottom: 1px solid orange;
 }
 .disc-sub-head{
@@ -222,6 +223,7 @@ font-size: 22px;
 
 .disc-body, .pro-body{
     font-size: 18px;
+    margin-top: 5px;
 }
 
 /* Project Info */

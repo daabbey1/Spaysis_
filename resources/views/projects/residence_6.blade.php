@@ -9,22 +9,22 @@
         </ol>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img class="d-block w-100" src="../images/Projects/brice.jpg" alt="First slide">
+                <img class="d-block w-100" src="../images/Projects/addo.png" alt="First slide">
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100" src="../images/Projects/aa2.ng" alt="Second slide">
+                <img class="d-block w-100" src="../images/Projects/addo2.png" alt="Second slide">
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100" src="../images/Projects/aa3.pg" alt="Third slide">
+                <img class="d-block w-100" src="../images/Projects/addo3.png" alt="Third slide">
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100" src="../images/Projects/aa4.pg" alt="Fourth slide">
+                <img class="d-block w-100" src="../images/Projects/a4.pg" alt="Fourth slide">
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100" src="../images/Projects/aa4.pg" alt="Fifth slide">
+                <img class="d-block w-100" src="../images/Projects/a4.pg" alt="Fifth slide">
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100" src="../images/Projects/aa6.pg" alt="Sixth slide">
+                <img class="d-block w-100" src="../images/Projects/a6.pg" alt="Sixth slide">
             </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -45,17 +45,17 @@
     <div class="row px-5 py-2 " style=" background-color:#000022;">
         <div class="col-2 cards" style="width: 100%;">
             <span data-target="#carouselExampleIndicators" data-slide-to="0" class="active ">
-                <img class="card-img-top" src="../images/Projects/brice.jpg" alt="Card image cap">
+                <img class="card-img-top" src="../images/Projects/addo.png" alt="Card image cap">
             </span>
         </div>
         <div class="col-2 cards" style="width: 100%;">
             <span data-target="#carouselExampleIndicators" data-slide-to="1">
-                <img class="card-img-top" src="../images/Projects/brice.jg" alt="image">
+                <img class="card-img-top" src="../images/Projects/addo2.png" alt="image">
             </span>
         </div>
         <div class="col-2 cards" style="width: 100%;">
             <span data-target="#carouselExampleIndicators" data-slide-to="2">
-                <img class="card-img-top" src="../images/Projects/aa3.pg" alt="image">
+                <img class="card-img-top" src="../images/Projects/addo3.png" alt="image">
             </span>
         </div>
         <div class="col-2 cards" style="width: 100%;">
@@ -80,10 +80,10 @@
         <div class="col-7">
             <div class="discription">
                 <div class="disc-head">
-                    <span class="disc-main-head"> Mixed Use Facility </span>
+                    <span class="disc-main-head"> </span>
                 </div>
                 <div class="disc-body">
-                   This is facility consist of a restaurant on the ground floor with 3 bedroom apartments on the 1st and 2nd floor.
+
                 </div>
             </div>
         </div>
@@ -97,19 +97,19 @@
                         {{-- <caption>Monthlys</caption> --}}
                         <tr>
                             <td> Status: </td>
-                            <td> Under Construction </td>
+                            <td> </td>
                         </tr>
                         <tr>
                             <td> Area: </td>
-                            <td>  </td>
+                            <td> </td>
                         </tr>
                         <tr>
                             <td> Location: </td>
-                            <td> Yaounde, Cameroon </td>
+                            <td> </td>
                         </tr>
                         <tr>
                             <td> Estimated Cost: </td>
-                            <td>  </td>
+                            <td> </td>
                         </tr>
                     </table>
                 </div>

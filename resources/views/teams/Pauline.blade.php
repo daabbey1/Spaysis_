@@ -16,14 +16,17 @@
                         <span class="individual-txt"> Pauline Ashiagbor </span>
 
                         <div class="profile-body">
-                            When you go behind the scenes at SPAYSIS – behind the blueprints, you’ll find Pauline.
-                            While most Administrative assistants focus solely on their company’s internal workings,
-                            Pauline’s administrative expertise is put to work on client projects. In addition to
-                            managing our administrative works, Pauline is also responsible for reviewing contracts,
-                            tender documents and assisting with monitoring and evaluation activities.
-                            She is currently pursuing a Master of Science in Planning, Monitoring and Evaluation at
-                            KNUST. Prior to joining the SPAYSIS team, Pauline volunteered as a programs coordinator
-                            with CLEAN-AFRICA Ghana; a role she still plays.
+                           When you go behind the scenes at SPAYSIS, you’ll find Pauline. She ensures that all administrative and human resource
+                        activities run smoothly. She manages in-house and external company events, arranges official travels and accommodation,
+                        and keep the team updated on both internal and external company procedures. Her strong organisational skills and
+                        problem-solving skills, have grounded the SPAYSIS administrative procedures especially during the COVID-19 pandemic
+                        period. While most Administrators focus solely on their company’s internal workings, Pauline’s administrative expertise
+                        goes beyond that. she took the responsibility to review contracts, tender documents, proof reading of official documents
+                        and assists with monitoring and evaluation of project activities. Prior to joining the SPAYSIS team, Pauline volunteered
+                        as a program’s coordinator with CLEAN-AFRICA Ghana; a role she still plays. Under this role she has coordinated the
+                        implementation of projects such as AfroMobitecture, LaNCoR+, among other. She holds a B. A Linguistics (English and
+                        French) from the University of Ghana Legon and she is currently pursuing a Master of Science in Planning, Monitoring and
+                        Evaluation at KNUST.
                         </div>
                     </div>
 
@@ -33,7 +36,7 @@
             <!-- Second Column -->
             {{-- <div class="col-6 left-col bg-info"> --}}
             {{-- <div > --}}
-            <img src="../images/dp/Pauline.jpg" class="alex-img col-5" alt="" srcset="">
+            <img src="../images/dp/Paurine.jpg" class="alex-img col-5" alt="" srcset="">
             {{-- </div> --}}
             {{-- </div> --}}
 
@@ -43,7 +46,7 @@
         <div class="p-link">
             <div class="row">
                 <div class="col-4">
-                    <a href="{{ url('/profile') }}">
+                    <a href="{{ url('/teams/profile') }}">
                         <i class="fas fa-angle-double-left"></i>
                         Go back
                     </a>

@@ -3,9 +3,9 @@
 @section('general_profile')
     <div class="slide-section">
         {{-- Image Slider --}}
-        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <div id="carouselExampleIndicators" class="carousel slide" id="carousel" data-ride="carousel">
             <ol class="carousel-indicators">
-                <span style="color: white; font-size:60px;"> <i class="fas fa-chevron-down"></i> </span>
+                {{-- <span style="color: white; font-size:60px;"> <i class="fas fa-chevron-down"></i> </span> --}}
                 {{-- <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li> --}}
                 {{-- <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
                 <li data-target="#carouselExampleIndicators" data-slide-to="2"></li> --}}
@@ -30,14 +30,18 @@
                     <img class="d-block w-100" src="../images/Projects/ashrich6.jpg" alt="Third slide">
                 </div>
             </div>
-            {{-- <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-ico"  aria-hidden="true">
+                    <span style="color: white; font-size:60px;"> <i class="fas fa-chevron-left"></i> </span>
+                </span>
                 <span class="sr-only">Previous</span>
-            </a> --}}
-            {{-- <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-ico"   aria-hidden="true">
+                    <span style="color: white; font-size:60px;"> <i class="fas fa-chevron-right"></i> </span>
+                </span>
                 <span class="sr-only">Next</span>
-            </a> --}}
+            </a>
         </div>
 
         {{-- Image Selector --}}
@@ -78,9 +82,8 @@
         <div class="row left-right-info">
             <div class="col-7">
                 <div class="discription">
-                   <div class="disc-head">
-                       <span class="disc-main-head"> Ashrich Development Training Center </span> <br>
-                        <span class="disc-sub-head"> Kpone, Tema </span>
+                   <div class="disc-head ">
+                       <span class="disc-main-head"> Ashrich Development Training Center </span> 
                    </div>
                    <div class="disc-body">
                        Ashrich Development training Centre is a first of its Kind IT based development training center that seeks to fill a
@@ -106,6 +109,10 @@
                             <tr>
                                 <td> Area: </td>
                                 <td> 10 acres </td>
+                            </tr>
+                            <tr>
+                                <td> Location: </td>
+                                <td>  Kpone, Tema </td>
                             </tr>
                             <tr>
                                 <td> Estimated Cost: </td>

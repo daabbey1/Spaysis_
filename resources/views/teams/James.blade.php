@@ -13,19 +13,17 @@
                 <div class="right-profile">
 
                     <div class="energy">
-                        <span class="individual-txt"> James Appah Dankyi </span>
+                        <span class="individual-txt">Arc. James Appah Dankyi </span>
 
                         <div class="profile-body">
-                            James joined SPAYSIS in 2015 and presently the company’s design guru when it comes
-                            to devising smart, efficient, highly functional and sustainable buildings. As one of our
-                            Junior, he has a talent for picking up on the smallest details that are critical to a successful
-                            project and execution. He is currently the Project Architect who is responsible for
-                            managing, planning, organizing, directing, and evaluating all architectural research,
-                            development, design and construction.
-                            James Appah Dankyi holds a Master’s degree in Architecture from the Kwame Nkrumah
-                            University of Science and Technology, Kumasi, Ghana. He has over 5 years of cumulative of
-                            architectural design experience – working on small- to large-size mixed use, commercial,
-                            residential, institutional and industrial projects for numerous clients and organizations.
+                            Arc. Dankyi is the Projects Architect and design guru. He has over 7 years of cumulative architectural design
+                            experience; working on small to large-size mixed-use, commercial, residential, institutional and industrial projects for
+                            numerous clients and organizations. Currently, he is the Project Architect responsible for managing, planning,
+                            organizing, directing, and evaluating all architectural research, development, design and construction. As a projects
+                            Architect, he has a special eye for picking up on the smallest details that are critical to a successful project design
+                            and execution. He is an expert in devising smart, efficient, highly functional and sustainable buildings. He also has
+                            hands-on experience in the use of architectural design software such as AutoCAD, Revit, Rhino, Photoshop, Arch GIS among
+                            others. Arc. Dankyi holds a Master’s and BSc. Architecture from the KNUST, Kumasi, Ghana.
                         </div>
                     </div>
 
@@ -45,7 +43,7 @@
         <div class="p-link">
             <div class="row">
                 <div class="col-4">
-                    <a href="{{ url('/profile') }}">
+                    <a href="{{ url('/teams/profile') }}">
                         <i class="fas fa-angle-double-left"></i>
                         Go back
                     </a>

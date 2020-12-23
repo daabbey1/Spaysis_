@@ -55,31 +55,43 @@
             </a>
         </div>
         <div class="col-3 card" style="width: 100%;">
+            <a href="{{ url('/projects/residence_3') }}">
             <img class="card-img-top" src="../images/Projects/doh.jpg" alt="Card image cap">
             <span class="card-text"> Dr DOh </span>
+            </a>
         </div>
         <div class="col-3 card" style="width: 100%;">
+            <a href="{{ url('/projects/residence_4') }}">
             <img class="card-img-top" src="../images/Projects/marful.png" alt="Card image cap">
             <span class="card-text"> Dr Marful </span>
+            </a>
         </div>
     </div>
 
     <div class="row no-gutter">
         <div class="col-3 card" style="width: 100%;">
+            <a href="{{ url('/projects/residence_5') }}">
             <img class="card-img-top" src="../images/Projects/addo.png" alt="Card image cap">
             <span class="card-text"> Mr. Addo </span>
+            </a>
         </div>
         <div class="col-3 card" style="width: 100%;">
+            <a href="{{ url('/projects/residence_6') }}">
             <img class="card-img-top" src="../images/Projects/sarpong.jpg" alt="Card image cap">
             <span class="card-text"> Mr. Saarpong </span>
+            </a>
         </div>
         <div class="col-3 card" style="width: 100%;">
+            <a href="{{ url('/projects/residence_7') }}">
             <img class="card-img-top" src="../images/Projects/zambian.jpg" alt="Card image cap">
             <span class="card-text"> Zambian </span>
+            </a>
         </div>
         <div class="col-3 card" style="width: 100%;">
+            <a href="{{ url('/projects/residence_8') }}">
             <img class="card-img-top" src="../images/Projects/patasi.jpg" alt="Card image cap">
             <span class="card-text"> Patasi </span>
+            </a>
         </div>
     </div>
 

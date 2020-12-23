@@ -16,26 +16,19 @@
                         <span class="individual-txt"> Dr Daniel Duah </span>
 
                         <div class="profile-body">
-                            State University (specialization – Construction Management). Daniel lived in the United
-                            Kingdom for four years and completed his MSc in Construction Management and
-                            Economics from the University of Greenwich with a research focused on the concept
-                            of build ability in the built environment and also taught Building Studies at Barnfield
-                            College in Luton during the period. Prior to his MSc studies, Daniel completed his Post
-                            Graduate Diploma and Bachelor of Science degrees both in Architecture from KNUST in
-                            Ghana.
-                            He joined the Department of Architecture in 2006 as a lecturer and is currently a Senior
-                            Lecturer, the Chair of the Senior Staff Housing Committee of KNUST, the Chair of the...
-                            Quality Assurance Sub- Committee of the College of Art and Built Environment, the
-                            Assistant Examinations Officer of the College, and the Coordinator of Undergraduate
-                            Programmes at the Department of Architecture, KNUST. Daniel has been involved in
-                            over 40 academic publications including peer-reviewed journal publications, peerreviewed conference proceedings, book
-                            chapters, and research reports. His research
-                            interests include: sustainable planning, design, and construction; construction project
-                            management; energy efficiency in existing and new buildings; barrier free and smart
-                            environments; and economic design and construction. In addition to teaching and
-                            research, Dr. Duah is a practicing Architect and a Construction Management Consultant
-                            and has been involved in a number of residential, religious, and commercial projects for
-                            various clients.
+                            Dr. Daniel Duah is a Senior Project Architect, Construction Manager, and Sustainability expert at SPAYSIS Ltd with more
+                            than 15 year of professional work experience. He has been involved in a number of residential, religious, and commercial
+                            projects for various clients such as Government of Sierra Leone, Asanko Mining Company, the Church of Pentecost
+                            especially in the Ashanti region, Juaben Municipal Assembly among others. He is also a Senior Lecturer at the Department
+                            of Architecture, KNUST and has served in various capacities at both Departmental, College and University levels. Dr.
+                            Duah has been involved in over 40 academic publications including peer-reviewed journal articles, conference
+                            proceedings, book chapters, and research reports. His research interests include: sustainable planning, and design;
+                            construction project management; energy efficiency in existing and new buildings; barrier-free and smart environments,
+                            economic design and construction, sustainable community development among others. Dr. Duah holds a Ph.D. in Planning,
+                            Design, and Construction (specialization – Construction Management) from Michigan State University, USA. He also holds a
+                            MSc in Construction Management and Economics from the University of Greenwich UK; and a Post Graduate Diploma and BSc
+                            Architecture both from KNUST, Ghana. His work experience spans several countries including; Ghana, USA, UK, and Sierra
+                            Leone.
                         </div>
                     </div>
 
@@ -55,7 +48,7 @@
         <div class="p-link">
             <div class="row">
                 <div class="col-4">
-                    <a href="{{ url('/profile') }}">
+                    <a href="{{ url('/teams/profile') }}">
                         <i class="fas fa-angle-double-left"></i>
                         Go back
                     </a>

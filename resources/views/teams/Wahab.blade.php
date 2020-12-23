@@ -16,16 +16,13 @@
                         <span class="individual-txt"> James Appah Dankyi </span>
 
                         <div class="profile-body">
-                            When it comes to your project, you can count on Ishmael to have everything under
-                            control. Ishmael has at least five years of business development management and urban
-                            planning experience. Since joining SPAYSIS, he has been overseeing and managing
-                            projects for key organizations, government ministries and upmarket clients.
-                            Ishmael is adept at developing strategic and feasibility studies, facilitating permit
-                            submissions and approval from various municipalities, as well as providing construction
-                            support and coordinating inspections monitoring and evaluation.
-                            Prior to joining SPAYSIS, he worked as a Data Security Specialist at the Ministry of Finance
-                            and Economic planning. He holds a degree in Social Sciences and an MPhil in Geography
-                            and Regional Planning from the University of Cape coast.
+                            When it comes to your project, you can count on Ishmael to have everything under control. Ishmael has at least five
+                            years of business development management and urban planning experience. Since joining SPAYSIS, he has been overseeing
+                            and managing projects for key organizations, government ministries and upmarket clients. Ishmael is adept at developing
+                            strategic and feasibility studies, facilitating permit submissions and approval from various municipalities, as well as
+                            providing construction support and coordinating inspections monitoring and evaluation. Prior to joining SPAYSIS, he
+                            worked as a Data Security Specialist at the Ministry of Finance and Economic planning. He holds a degree in Social
+                            Sciences and an MPhil in Geography and Regional Planning from the University of Cape Coast.
                         </div>
                     </div>
 
@@ -45,7 +42,7 @@
         <div class="p-link">
             <div class="row">
                 <div class="col-4">
-                    <a href="{{ url('/profile') }}">
+                    <a href="{{ url('/teams/profile') }}">
                         <i class="fas fa-angle-double-left"></i>
                         Go back
                     </a>

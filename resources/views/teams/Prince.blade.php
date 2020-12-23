@@ -16,13 +16,11 @@
                         <span class="individual-txt"> Prince Ofosuhene Marful </span>
 
                         <div class="profile-body">
-                            Prince Ofosuhene Marful has worked with SPAYSIS Architecture since 2016, Prince has
-                            become an important member of the team, being a key figure on many projects. As Site
-                            Superintendent he oversees the day-to-day operations on the various sites and projects
-                            and control their short-term schedule. Prince also reports on important quality control
-                            and subcontractor issues at site. Still developing his understanding of the various sectors,
-                            he seeks to further his role as a project assistant with a graduate certificate in project
-                            management.
+                            Prince Ofosuhene has worked with SPAYSIS Architecture since 2016, Prince has become an important member of the team,
+                            being a key figure on many projects. As Site Superintendent he oversees the day-to-day operations on the various sites
+                            and projects and control their short-term schedule. Prince also reports on important quality control and subcontractor
+                            issues at site. Still developing his understanding of the various sectors, he seeks to further his role as a project
+                            assistant with a graduate certificate in project management.
                         </div>
                     </div>
 
@@ -42,7 +40,7 @@
         <div class="p-link">
             <div class="row">
                 <div class="col-4">
-                    <a href="{{ url('/profile') }}">
+                    <a href="{{ url('/teams/profile') }}">
                         <i class="fas fa-angle-double-left"></i>
                         Go back
                     </a>

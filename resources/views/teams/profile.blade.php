@@ -146,7 +146,7 @@
             <div class="row">
                 <div class="card col-3">
                     <a href="{{ url('/teams/Ebenezer') }}" class="card_link">
-                        <img class="card-img-top" src="../images/dp/Adaku.png" alt="Card image cap">
+                        <img class="card-img-top" src="../images/dp/Adaku.png" alt="image">
                         <span class="card-text">
                             Dr. -Ing. Ebenezer Adaku <br>
                             Cost Engineer/Infrastructure 
@@ -155,7 +155,7 @@
                 </div>
                 <div class="card col-3">
                     <a href="{{ url('/teams/Duah') }}" class="card_link">
-                        <img class="card-img-top" src="../images/dp/Duah.jpg" alt="Card image cap">
+                        <img class="card-img-top" src="../images/dp/Duah.jpg" alt="image">
                         <span class="card-text">
                             Dr Daniel Duah <br>
                             Snr Project Architect
@@ -164,7 +164,7 @@
                 </div>
                 <div class="card col-3">
                     <a href="{{ url('/teams/Doh') }}" class="card_link">
-                        <img class="card-img-top" src="../images/dp/Doh.png" alt="Card image cap">
+                        <img class="card-img-top" src="../images/dp/Doh.png" alt="image">
                         <span class="card-text">
                             Patrick Doh <br>
                             Snr Quantity Surveyor
@@ -173,7 +173,7 @@
                 </div>
                 <div class="card col-3">
                     <a href="{{ url('/teams/James') }}" class="card_link">
-                        <img class="card-img-top" src="../images/dp/James.jpg" alt="Card image cap">
+                        <img class="card-img-top" src="../images/dp/James.jpg" alt="image">
                         <span class="card-text">
                             Arc James Appah Dankyi <br>
                             Projects Architect
@@ -216,7 +216,7 @@
                         <img class="card-img-top" src="../images/dp/Maurice.JPG" alt="Card image cap">
                         <span class="card-text">
                             Dipl.-Ing. Maurice Migadde  <br>
-                            Land / Sustainability Management
+                            Land / Sustainability Manager
                         </span>
                     </a>
                 </div>
@@ -226,7 +226,7 @@
             <div class="row">
                 <div class="card col-3">
                     <a href="{{ url('teams/Ishmael') }}" class="card_link">
-                        <img class="card-img-top" src="../images/dp/ishmael.png" alt="Card image cap">
+                        <img class="card-img-top" src="../images/dp/ishmael.png" alt="image">
                         <span class="card-text">
                             Ishmael Bekoe <br>
                             Associate Spatial Planner
@@ -234,8 +234,8 @@
                     </a>
                 </div>
                 <div class="card col-3">
-                    <a href="{{ url('teams/Prince') }}" class="card_link">
-                        <img class="card-img-top" src="../images/dp/Prince.png" alt="Card image cap">
+                    <a href="{{ url('teams/Mary') }}" class="card_link">
+                        <img class="card-img-top" src="../images/dp/Prince.pg" alt="image">
                         <span class="card-text">
                             Mary Amoah <br>
                             Associate Development Planner
@@ -244,7 +244,7 @@
                 </div>
                 <div class="card col-3">
                     <a href="{{ url('teams/Monica') }}" class="card_link">
-                        <img class="card-img-top" src="../images/dp/monica.jpg" alt="Card image cap">
+                        <img class="card-img-top" src="../images/dp/monica.jpg" alt="image">
                         <span class="card-text">
                             Monica Dapaah <br>
                             Junior Constriction Manager
@@ -253,7 +253,7 @@
                 </div>
                 <div class="card col-3">
                     <a href="{{ url('teams/Prince') }}" class="card_link">
-                        <img class="card-img-top" src="../images/dp/Prince.png" alt="Card image cap">
+                        <img class="card-img-top" src="../images/dp/Prince.png" alt="image">
                         <span class="card-text">
                             Prince Ofosuhene Marful <br>
                             Site Supritendent

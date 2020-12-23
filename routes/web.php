@@ -104,6 +104,8 @@ Route::get('/teams/Maurice', function () { return view('teams/Maurice'); });
 
 Route::get('/teams/Ishmael', function () { return view('teams/Ishmael'); });
 
+Route::get('/teams/Mary', function () { return view('teams/Mary'); });
+
 Route::get('/teams/Monica', function () { return view('teams/Monica'); });
 
 Route::get('/teams/Prince', function () { return view('teams/Prince'); });
@@ -131,8 +133,13 @@ Route::get('/projects/motag', function () {
 Route::get('/projects/residence_1', function () {
     return view('projects/residence_1');
 });
-Route::get('/projects/residence_2', function () {
-    return view('projects/residence_2');
-});
+Route::get('/projects/residence_2', function () {  return view('projects/residence_2');});
+
+Route::get('/projects/residence_3', function () {  return view('projects/residence_3');});
+Route::get('/projects/residence_4', function () {  return view('projects/residence_4');});
+Route::get('/projects/residence_5', function () {  return view('projects/residence_5');});
+Route::get('/projects/residence_6', function () {  return view('projects/residence_6');});
+Route::get('/projects/residence_7', function () {  return view('projects/residence_7');});
+Route::get('/projects/residence_8', function () {  return view('projects/residence_8');});
 
 

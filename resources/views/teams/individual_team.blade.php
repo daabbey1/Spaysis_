@@ -32,7 +32,7 @@
             <div class="p-link">
                 <div class="row">
                     <div class="col-4">
-                        <a href="{{ url('/expertise') }}">
+                        <a href="{{ url('/teams/profile') }}">
                             <i class="fas fa-angle-double-left"></i>
                             Go back
                         </a>
