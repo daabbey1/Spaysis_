@@ -122,7 +122,7 @@
             <div class="row mt-4">
                 <div class="card col-xs-12 col-xl-4">
                     <a href="{{ url('/expertise/land') }}" class="card_link">
-                        <img class="card-img-top" src="../images/Land.jpgs" alt="Card image cap">
+                        <img class="card-img-top" src="../images/Land.jpg" alt="Card image cap">
                         <p class="card-text">
                             Land, Property & Facilities management
                         </p>
