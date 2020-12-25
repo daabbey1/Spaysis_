@@ -27,7 +27,7 @@
                     <img class="d-block w-100" src="../images/Projects/ashrich5.jpg" alt="Third slide">
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100" src="../images/Projects/ashrich6.jpg" alt="Third slide">
+                    <img class="d-block w-100" src="../images/Projects/ashrich.jpg" alt="Third slide">
                 </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -73,7 +73,7 @@
             </div>
             <div class="col-2 cards" style="width: 100%;">
                 <span data-target="#carouselExampleIndicators" data-slide-to="5">
-                <img class="card-img-top" src="../images/Projects/ashrich6.jpg" alt="Card image cap">
+                <img class="card-img-top" src="../images/Projects/ashrich.jpg" alt="Card image cap">
                 </span>
             </div>
         </div>

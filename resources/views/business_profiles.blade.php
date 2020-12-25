@@ -499,7 +499,7 @@
                 <div class="p-link">
                     <div class="row">
                         <div class="col-12">
-                            <a href="{{ url('/expertise') }}">
+                            <a href="{{ url('/expertise/index') }}">
                                 <i class="fas fa-angle-double-left"></i>
                                 Go back
                             </a>

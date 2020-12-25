@@ -92,7 +92,7 @@
 
                 <div class="card col-xs-12 col-xl-4">
                 <a href="{{ url('/expertise/infrastructure') }}" class="card_link">
-                        <img class="card-img-top" src="../images/deeper life2.jpg" alt="Card image cap">
+                        <img class="card-img-top" src="../images/deeper-life2.jpg" alt="Card image cap">
                         <span class="card-text">
                             Infrastructure Planning & Engineering
                         </span>
@@ -101,7 +101,7 @@
 
                 <div class="card col-xs-12 col-xl-4">
                     <a href="{{ url('/expertise/architecture') }}" class="card_link">
-                        <img class="card-img-top" src="../images/architecture.png" alt="Card image cap">
+                        <img class="card-img-top" src="../images/architecture.jpg" alt="Card image cap">
                         <span class="card-text">
                             Architecture, Urban & Rural Planning
                         </span>
@@ -110,7 +110,7 @@
 
                 <div class="card col-xs-12 col-xl-4">
                 <a href="{{ url('/expertise/industrial') }}" class="card_link">
-                        <img class="card-img-top" src="../images/AERIAL VIEW TOWARDS CHAPEL.jpg" alt="Card image cap">
+                        <img class="card-img-top" src="../images/AERIAL-VIEW-TOWARDS-CHAPEL.jpg" alt="Card image cap">
                         <span class="card-text">
                             Industrial Model Building & Animations
                         </span>
@@ -122,7 +122,7 @@
             <div class="row mt-4">
                 <div class="card col-xs-12 col-xl-4">
                     <a href="{{ url('/expertise/land') }}" class="card_link">
-                        <img class="card-img-top" src="../images/Land.png" alt="Card image cap">
+                        <img class="card-img-top" src="../images/Land.jpgs" alt="Card image cap">
                         <p class="card-text">
                             Land, Property & Facilities management
                         </p>

@@ -182,13 +182,13 @@ body::-webkit-scrollbar {
     .industrial-img{
         height: 53vh;
         width: 53vh;
-        background: url('../images/AERIAL\ VIEW\ TOWARDS\ CHAPEL.jpg') center/cover no-repeat;
+        background: url('../images/AERIAL-VIEW-TOWARDS-CHAPEL.jpg') center/cover no-repeat;
     }
 
     .land-img{
         height: 53vh;
         width: 53vh;
-        background: url('../images/Land.png') center/cover no-repeat;
+        background: url('../images/Land.jpg') center/cover no-repeat;
     }
 
     .barrier-img{

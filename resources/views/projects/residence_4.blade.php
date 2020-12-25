@@ -9,7 +9,7 @@
         </ol>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img class="d-block w-100" src="../images/Projects/marful.png" alt="First slide">
+                <img class="d-block w-100" src="../images/Projects/marful.jpg" alt="First slide">
             </div>
             <div class="carousel-item">
                 <img class="d-block w-100" src="../images/Projects/a2.ng" alt="Second slide">
@@ -45,7 +45,7 @@
     <div class="row px-5 py-2 " style=" background-color:#000022;">
         <div class="col-2 cards" style="width: 100%;">
             <span data-target="#carouselExampleIndicators" data-slide-to="0" class="active ">
-                <img class="card-img-top" src="../images/Projects/marful.png" alt="Card image cap">
+                <img class="card-img-top" src="../images/Projects/marful.jpg" alt="Card image cap">
             </span>
         </div>
         <div class="col-2 cards" style="width: 100%;">

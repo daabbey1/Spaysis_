@@ -133,13 +133,52 @@ Route::get('/projects/motag', function () {
 Route::get('/projects/residence_1', function () {
     return view('projects/residence_1');
 });
+
+// Residence
 Route::get('/projects/residence_2', function () {  return view('projects/residence_2');});
 
 Route::get('/projects/residence_3', function () {  return view('projects/residence_3');});
+
 Route::get('/projects/residence_4', function () {  return view('projects/residence_4');});
+
 Route::get('/projects/residence_5', function () {  return view('projects/residence_5');});
+
 Route::get('/projects/residence_6', function () {  return view('projects/residence_6');});
+
 Route::get('/projects/residence_7', function () {  return view('projects/residence_7');});
+
 Route::get('/projects/residence_8', function () {  return view('projects/residence_8');});
+
+// Education
+Route::get('/projects/education_1', function () {  return view('projects/education_1');});
+Route::get('/projects/education_2', function () {  return view('projects/education_2');});
+Route::get('/projects/education_3', function () {  return view('projects/education_3');});
+Route::get('/projects/education_4', function () {  return view('projects/education_4');});
+
+// Hostels
+Route::get('/projects/hostel_1', function () {  return view('projects/hostel_1');});
+Route::get('/projects/hostel_2', function () {  return view('projects/hostel_2');});
+Route::get('/projects/hostel_3', function () {  return view('projects/hostel_3');});
+Route::get('/projects/hostel_4', function () {  return view('projects/hostel_4');});
+
+// Container Houses
+Route::get('/projects/container_hse_1', function () {  return view('projects/container_hse_1');});
+Route::get('/projects/container_hse_2', function () {  return view('projects/container_hse_2');});
+Route::get('/projects/container_hse_3', function () {  return view('projects/container_hse_3');});
+Route::get('/projects/container_hse_4', function () {  return view('projects/container_hse_4');});
+
+// Office Building
+Route::get('/projects/office_1', function () {  return view('projects/office_1');});
+Route::get('/projects/office_2', function () {  return view('projects/office_2');});
+Route::get('/projects/office_3', function () {  return view('projects/office_3');});
+Route::get('/projects/office_4', function () {  return view('projects/office_4');});
+
+// Industry
+Route::get('/projects/industry_1', function () {  return view('projects/industry_1');});
+Route::get('/projects/industry_2', function () {  return view('projects/industry_2');});
+Route::get('/projects/industry_3', function () {  return view('projects/industry_3');});
+Route::get('/projects/industry_4', function () {  return view('projects/industry_4');});
+
+
 
 
