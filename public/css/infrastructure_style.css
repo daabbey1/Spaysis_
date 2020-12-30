@@ -19,8 +19,241 @@ body::-webkit-scrollbar {
   /*scrollbar-width: none;  /* Firefox */
 }
 
-/* ****************************** */
+/* xs */
+@media(max-width: 575px){
+    .sub-head{
+        background-color: #000022;
+        color: white;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
 
+    .logo{
+        display: inline;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .logo img{
+        height: 40px;
+    }
+
+    .nav-link-txt{
+        color:white;
+        font-size: 15px;
+        margin-right: 25px;
+    }
+    
+    .nav-active {
+        color: orange;
+        width:90px;
+        border-bottom: 1px solid orange !important;
+    }
+    .nav-item a{
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;
+        color: aliceblue;
+        border-bottom: 1px solid black;
+    }
+
+    .nav-item a:hover{
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;
+        border-bottom: 1px solid  orange;
+    }
+
+
+    .dropdown-menu{
+        color: aliceblue;
+        background-color: #000022;
+    }
+
+    .hover-link{
+        display: block;
+    }
+
+    .search-input{
+        font-size: 15px;
+        border-radius: 45px;
+        color: white;
+        outline-style: none;
+        border: none;
+    }
+    
+
+    .search-box{
+        width: 100%;
+    }
+
+    .fa-search{
+        font-size: 22px;
+    }
+
+
+    .hover-tab{
+        background-color: #0c7ad0;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        margin-top: 10px;
+        /* margin-left: 350px; */
+    }
+    .dropdown-menu{
+        /* margin-top: 15px; */
+    }
+
+
+    .hover-link a{
+        margin-right: 40px;
+        /* margin-left: 80px; */
+        font-size: 16px;
+        /* display: block; */
+        color: aliceblue;
+        border-bottom: 1px solid  #0c7ad0;
+    }
+
+     /* *********************| Infrastructure Planning |****************** */
+    .business-txt{
+        color: #031c4e;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 23px;
+        font-weight: 600;
+        display: block;
+        /* text-align: center; */
+        
+        /* margin-bottom: 30px; */
+    }
+
+    /* ***************| Infrastructure Profile |*************** */
+    .def-height{
+        /* min-height: 90vh !important; */
+        /* background-color: orangered; */
+    }
+    .infrastructure-section{
+        background-color: white;
+        padding-top: 10vh;
+        padding-bottom: 12.5vh;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .body-section{
+        margin-top:4vh;
+        /* height: 88vh; */
+    }
+
+    .left-col{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .infrastructure-img{
+        height: 40vh;
+        width: 40vh;
+        border-radius: 20px 20px 0px 00px;
+        /* border: 1px solid orange; */
+        border: 1px solid #000022;
+        background: url('../images/Aerial.jpg') center/cover no-repeat;
+    }
+
+    /****************** Text Section *******************/
+    .right-profile{
+        /* background-color: orange; */
+        padding-top: 20px;
+        padding-left: 15px;
+        padding-right: 15px;
+        height: 53vh;
+        overflow-y: auto;
+        border: 1px solid #000022;
+        /* padding-right: 25px; */
+    }
+
+    .right-profile::-webkit-scrollbar {
+        width: 5px;
+    }
+    .right-profile::-webkit-scrollbar-thumb {
+        background: #001744; 
+        border-radius: 25px;
+    }
+    /* .right-profile::-webkit-scrollbar-thumb:hover { */
+        background: rgb(204, 134, 5);
+        /* border-radius: 0px; */
+    }
+
+    .profile-txt{
+        /* background-color:#001744 !important; */
+        font-size: 19px;
+        font-weight: 500;
+        color: black;
+    }
+
+    .energies{
+        /* background-color: cornflowerblue !important; */
+        /* font-size: 20px;
+        font-weight: 600;
+        color: black; */
+    }
+
+    .profile-body{
+        font-size: 16px;   
+        /* text-align: justify;      */
+        padding-bottom: 20px;
+    }
+
+    /* **********************| Project Links |******************* */
+    .p-link{
+        /* display: block; */
+        margin-top: 5vh;
+        font-style: italic;
+    }
+
+    .p-link a{
+        color: rgb(24, 24, 163);
+        /* background-color: orangered;         */
+        font-size: 15px;
+        font-weight: 400;
+    }
+
+    /* ************************| Footer |******************** */
+    .foot{
+        background-color:#001744;
+        color: aliceblue;
+        display: block;
+    }
+
+    .sub-foot{
+        display: block;
+        text-align: center;
+    }
+
+    .foot-txt{
+        font-size: 17px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        display: block;
+    }
+
+    .copy{
+        text-align: center;
+    }
+
+    .foot-logo{
+        margin-top: 4px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+    }
+}
+
+/* sm */
+@media(min-width: 576px) and (max-width:767px){}
+
+/* md */
+@media(min-width: 768px) and (max-width:991px){}
+
+/* lg */
+@media(min-width: 992px) and (max-width:1199px){}
+
+/* xl */
+@media(min-width: 1200px) {
     .sub-head{
         background-color: #000022;
         color: white;
@@ -301,10 +534,9 @@ body::-webkit-scrollbar {
 
 
     /* **********************| Project Links |******************* */
-    .p-link{
+    /* .p-link{
         display: block;
         margin-top: 5vh;
-        /* padding-top: 100px; */
         font-size: 20px;
         text-align: center;
         font-style: italic;
@@ -313,7 +545,7 @@ body::-webkit-scrollbar {
     .p-link a{
         color: rgb(24, 24, 163);
         font-weight: 450;
-    }
+    } */
 
     /* ************************| Projects |******************** */
     .projects{
@@ -353,3 +585,4 @@ body::-webkit-scrollbar {
         padding-top: 3px;
         padding-bottom: 3px;
     } 
+}

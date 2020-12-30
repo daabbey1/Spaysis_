@@ -7,8 +7,853 @@ html, body {
     background-color: #E7EBF0;
 }
 
-/* ****************************** */
 
+/* xs */
+@media(max-width: 575px){
+    .sub-head{
+        background-color: #000022;
+        color: white;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    .logo{
+        display: inline;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .logo img{
+        height: 40px;
+    }
+
+    .nav-link-txt{
+        color:white;
+        font-size: 15px;
+        margin-right: 25px;
+    }
+    
+    .nav-active {
+        color: orange;
+        border-bottom: 1px solid orange !important;
+    }
+    .nav-item a{
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;
+        color: aliceblue;
+        border-bottom: 1px solid black;
+    }
+
+    .nav-item a:hover{
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;
+        border-bottom: 1px solid  orange;
+    }
+
+
+    .dropdown-menu{
+        color: aliceblue;
+        background-color: #000022;
+    }
+
+    .sub-tab{
+        /* width: 250vh !important; */
+    }
+    .hover-tabs{
+        /* margin-left: 80px; */
+    }
+
+    .hover-link{
+        display: block;
+    }
+
+    .search-input{
+        font-size: 15px;
+        border-radius: 45px;
+        color: white;
+        outline-style: none;
+        border: none;
+    }
+    
+
+    .search-box{
+        width: 100%;
+    }
+
+    .fa-search{
+        font-size: 22px;
+    }
+
+
+    .hover-tab{
+        background-color: #0c7ad0;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        margin-top: 10px;
+        /* margin-left: 350px; */
+    }
+    .dropdown-menu{
+        /* margin-top: 15px; */
+    }
+
+
+    .hover-link a{
+        margin-right: 40px;
+        /* margin-left: 80px; */
+        font-size: 16px;
+        /* display: block; */
+        color: aliceblue;
+        border-bottom: 1px solid  #0c7ad0;
+    }
+
+    /* ***********************| Business Areas | ********************** */
+    .business-section{
+        margin-top: 90px;
+        margin-bottom: 25px;
+    }
+
+    .business{
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .business-txt{
+        color: #031c4e;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 30px;
+        font-weight: 500;
+        text-shadow: 1px 1px #031c4e;
+    }
+
+    .card{
+        border: 1px solid ;
+        margin-bottom: 25px;
+    }
+
+    .card img{
+        height: 30vh;
+        margin-top: 20px;
+    }
+
+    .card-text{
+        font-size: 19px !important;
+    }
+
+    .card_link{
+        color: #031c4e ;
+        text-align: center;
+        text-decoration: none;
+    }
+    
+    .card_link:hover{
+        color: white;
+        background-color: #000022;
+        animation-delay: 4s;
+        text-decoration: none;
+    }
+    .card:hover{
+        background: #000022;
+    }
+    
+
+    .card-text{
+        font-size: 23px;
+        text-align: center;
+        font-weight: 600;
+    }
+
+    .card-text a{
+        color: #031c4e ;
+    }
+      
+
+    .area-box-txt{
+        color: aliceblue;
+        font-size: 1.8rem;
+        font-weight: 500;
+        line-height: 40px;
+        text-align: center;
+        background-color: black;
+        opacity: 0.7;
+    }
+    .area-color{
+        color: aliceblue !important;
+        background-color:black;
+        opacity: 0.7 !important;
+        line-height: 40px;
+        padding-bottom: 10px;
+        /* width: 100%; */
+        /* display: inline; */
+        margin-top: 50.9%;
+        
+    }
+
+    /* ************************| Footer |******************** */
+    .foot{
+        background-color:#001744;
+        color: aliceblue;
+        display: block;
+    }
+
+    .sub-foot{
+        display: block;
+        text-align: center;
+    }
+
+    .foot-txt{
+        font-size: 17px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        display: block;
+    }
+
+    .copy{
+        text-align: center;
+    }
+
+    .foot-logo{
+        margin-top: 4px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+    }
+
+}
+
+/* sm */
+@media(min-width: 576px) and (max-width:767px){
+    .sub-head{
+        background-color: #000022;
+        color: white;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    .logo{
+        display: inline;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .logo img{
+        height: 40px;
+    }
+
+    .nav-link-txt{
+        color:white;
+        font-size: 15px;
+        margin-right: 25px;
+    }
+    
+    .nav-active {
+        color: orange;
+        width: 90px;
+        border-bottom: 1px solid orange !important;
+    }
+    .nav-item a{
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;
+        color: aliceblue;
+        border-bottom: 1px solid black;
+    }
+
+    .nav-item a:hover{
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;
+        border-bottom: 1px solid  orange;
+    }
+
+
+    .dropdown-menu{
+        color: aliceblue;
+        background-color: #000022;
+    }
+
+    .sub-tab{
+        /* width: 250vh !important; */
+    }
+    .hover-tabs{
+        /* margin-left: 80px; */
+    }
+
+    .hover-link{
+        display: block;
+    }
+
+    .search-input{
+        font-size: 15px;
+        border-radius: 45px;
+        color: white;
+        outline-style: none;
+        border: none;
+    }
+    
+
+    .search-box{
+        width: 100%;
+    }
+
+    .fa-search{
+        font-size: 22px;
+    }
+
+
+    .hover-tab{
+        background-color: #0c7ad0;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        margin-top: 10px;
+        /* margin-left: 350px; */
+    }
+    .dropdown-menu{
+        /* margin-top: 15px; */
+    }
+
+
+    .hover-link a{
+        margin-right: 40px;
+        /* margin-left: 80px; */
+        font-size: 16px;
+        /* display: block; */
+        color: aliceblue;
+        border-bottom: 1px solid  #0c7ad0;
+    }
+
+    /* ***********************| Business Areas | ********************** */
+    .business-section{
+        margin-top: 90px;
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-bottom: 25px;
+    }
+
+    .business{
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .business-txt{
+        color: #031c4e;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 40px;
+        font-weight: 500;
+        text-shadow: 1px 1px #031c4e;
+    }
+
+    .card{
+        border: 1px solid ;
+        margin-bottom: 25px;
+    }
+
+    .card img{
+        height: 40vh;
+        margin-top: 20px;
+    }
+
+    .card-text{
+        font-size: 20px !important;
+    }
+
+    .card_link{
+        color: #031c4e ;
+        text-align: center;
+        text-decoration: none;
+    }
+    
+    .card_link:hover{
+        color: white;
+        background-color: #000022;
+        animation-delay: 4s;
+        text-decoration: none;
+    }
+    .card:hover{
+        background: #000022;
+    }
+    
+
+    .card-text{
+        font-size: 23px;
+        text-align: center;
+        font-weight: 600;
+    }
+
+    .card-text a{
+        color: #031c4e ;
+    }
+      
+
+    .area-box-txt{
+        color: aliceblue;
+        font-size: 1.8rem;
+        font-weight: 500;
+        line-height: 40px;
+        text-align: center;
+        background-color: black;
+        opacity: 0.7;
+    }
+    .area-color{
+        color: aliceblue !important;
+        background-color:black;
+        opacity: 0.7 !important;
+        line-height: 40px;
+        padding-bottom: 10px;
+        /* width: 100%; */
+        /* display: inline; */
+        margin-top: 50.9%;
+        
+    }
+
+    /* ************************| Footer |******************** */
+    .foot{
+        background-color:#001744;
+        color: aliceblue;
+        display: block;
+    }
+
+    .sub-foot{
+        display: block;
+        text-align: center;
+    }
+
+    .foot-txt{
+        font-size: 17px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        display: block;
+    }
+
+    .copy{
+        text-align: center;
+    }
+
+    .foot-logo{
+        margin-top: 4px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+    }
+}
+
+/* md */
+@media(min-width: 768px) and (max-width:991px){
+    .sub-head{
+        background-color: #000022;
+        color: white;
+        padding-top: 7px;
+        padding-bottom: 7px;
+    }
+
+    .logo{
+        display: inline;
+        margin-left: 25px;
+        margin-right: 0px;
+    }
+
+    .logo img{
+        height: 45px;
+    }
+
+    .nav-link-txt{
+        color:white;
+        font-size: 15px;
+        margin-right: 25px;
+    }
+    
+    .nav-active {
+        color: orange;
+        width: 90px;
+        border-bottom: 1px solid orange !important;
+    }
+    .nav-item a{
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;
+        color: aliceblue;
+        border-bottom: 1px solid black;
+    }
+
+    .nav-item a:hover{
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;
+        border-bottom: 1px solid  orange;
+    }
+
+
+    .dropdown-menu{
+        color: aliceblue;
+        background-color: #000022;
+    }
+
+    .sub-tab{
+        /* width: 250vh !important; */
+    }
+    .hover-tabs{
+        /* margin-left: 80px; */
+    }
+
+    .hover-link{
+        display: block;
+    }
+
+    .search-input{
+        font-size: 15px;
+        border-radius: 45px;
+        color: white;
+        outline-style: none;
+        border: none;
+    }
+    
+
+    .search-box{
+        width: 100%;
+    }
+
+    .fa-search{
+        font-size: 22px;
+    }
+
+
+    .hover-tab{
+        background-color: #0c7ad0;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        margin-top: 10px;
+        /* margin-left: 350px; */
+    }
+    .dropdown-menu{
+        /* margin-top: 15px; */
+    }
+
+
+    .hover-link a{
+        margin-right: 40px;
+        /* margin-left: 80px; */
+        font-size: 16px;
+        /* display: block; */
+        color: aliceblue;
+        border-bottom: 1px solid  #0c7ad0;
+    }
+
+    /* ***********************| Business Areas | ********************** */
+    .business-section{
+        margin-top: 90px;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-bottom: 25px;
+    }
+
+    .business{
+        text-align: center;
+        /* margin-bottom: 5px; */
+    }
+
+    .business-txt{
+        color: #031c4e;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 38px;
+        font-weight: 500;
+        text-shadow: 1px 1px #031c4e;
+    }
+
+    .card{
+        border: 1px solid ;
+        /* margin-bottom: 25px; */
+    }
+
+    .card img{
+        height: 26vh;
+        margin-top: 20px;
+    }
+
+    .card-text{
+        font-size: 16px !important;
+    }
+
+    .card_link{
+        color: #031c4e ;
+        text-align: center;
+        text-decoration: none;
+    }
+    
+    .card_link:hover{
+        color: white;
+        background-color: #000022;
+        animation-delay: 4s;
+        text-decoration: none;
+    }
+    .card:hover{
+        background: #000022;
+    }
+    
+
+    .card-text{
+        font-size: 23px;
+        text-align: center;
+        font-weight: 600;
+    }
+
+    .card-text a{
+        color: #031c4e ;
+    }
+      
+
+    .area-box-txt{
+        color: aliceblue;
+        font-size: 1.8rem;
+        font-weight: 500;
+        line-height: 40px;
+        text-align: center;
+        background-color: black;
+        opacity: 0.7;
+    }
+    .area-color{
+        color: aliceblue !important;
+        background-color:black;
+        opacity: 0.7 !important;
+        line-height: 40px;
+        padding-bottom: 10px;
+        /* width: 100%; */
+        /* display: inline; */
+        margin-top: 50.9%;
+        
+    }
+
+    /* ************************| Footer |******************** */
+    .foot{
+        background-color:#001744;
+        color: aliceblue;
+    }
+    .sub-foot{
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+
+    .foot-txt{
+        font-size: 20px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        margin-right: auto;
+        
+    }
+
+    .foot-logo{
+        margin-top: 4px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+    } 
+}
+
+/* lg */
+@media(min-width: 992px) and (max-width:1199px){
+    .sub-head{
+        background-color: #000022;
+        color: white;
+        padding-top: 7px;
+        padding-bottom: 7px;
+    }
+
+    .logo{
+        display: inline;
+        margin-left: 25px;
+        margin-right: 0px;
+    }
+
+    .logo img{
+        height: 45px;
+    }
+
+    .nav-link-txt{
+        color:white;
+        font-size: 15px;
+        margin-right: 25px;
+    }
+    
+    .nav-active {
+        color: orange;
+        width: 90px;
+        border-bottom: 1px solid orange !important;
+    }
+    .nav-item a{
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;
+        color: aliceblue;
+        border-bottom: 1px solid black;
+    }
+
+    .nav-item a:hover{
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;
+        border-bottom: 1px solid  orange;
+    }
+
+
+    .dropdown-menu{
+        color: aliceblue;
+        background-color: #000022;
+    }
+
+    .sub-tab{
+        /* width: 250vh !important; */
+    }
+    .hover-tabs{
+        /* margin-left: 80px; */
+    }
+
+    .hover-link{
+        display: block;
+    }
+
+    .search-input{
+        font-size: 15px;
+        border-radius: 45px;
+        color: white;
+        outline-style: none;
+        border: none;
+    }
+    
+
+    .search-box{
+        width: 100%;
+    }
+
+    .fa-search{
+        font-size: 22px;
+    }
+
+
+    .hover-tab{
+        background-color: #0c7ad0;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        margin-top: 10px;
+        /* margin-left: 350px; */
+    }
+    .dropdown-menu{
+        /* margin-top: 15px; */
+    }
+
+
+    .hover-link a{
+        margin-right: 40px;
+        /* margin-left: 80px; */
+        font-size: 16px;
+        /* display: block; */
+        color: aliceblue;
+        border-bottom: 1px solid  #0c7ad0;
+    }
+
+    /* ***********************| Business Areas | ********************** */
+    .business-section{
+        margin-top: 90px;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-bottom: 25px;
+    }
+
+    .business{
+        text-align: center;
+        /* margin-bottom: 5px; */
+    }
+
+    .business-txt{
+        color: #031c4e;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 38px;
+        font-weight: 500;
+        text-shadow: 1px 1px #031c4e;
+    }
+
+    .card{
+        border: 1px solid ;
+        /* margin-bottom: 25px; */
+    }
+
+    .card img{
+        height: 30vh;
+        margin-top: 20px;
+    }
+
+    .card-text{
+        font-size: 17px !important;
+    }
+
+    .card_link{
+        color: #031c4e ;
+        text-align: center;
+        text-decoration: none;
+    }
+    
+    .card_link:hover{
+        color: white;
+        background-color: #000022;
+        animation-delay: 4s;
+        text-decoration: none;
+    }
+    .card:hover{
+        background: #000022;
+    }
+    
+
+    .card-text{
+        font-size: 23px;
+        text-align: center;
+        font-weight: 600;
+    }
+
+    .card-text a{
+        color: #031c4e ;
+    }
+      
+
+    .area-box-txt{
+        color: aliceblue;
+        font-size: 1.8rem;
+        font-weight: 500;
+        line-height: 40px;
+        text-align: center;
+        background-color: black;
+        opacity: 0.7;
+    }
+    .area-color{
+        color: aliceblue !important;
+        background-color:black;
+        opacity: 0.7 !important;
+        line-height: 40px;
+        padding-bottom: 10px;
+        /* width: 100%; */
+        /* display: inline; */
+        margin-top: 50.9%;
+        
+    }
+
+    /* ************************| Footer |******************** */
+    .foot{
+        background-color:#001744;
+        color: aliceblue;
+    }
+    .sub-foot{
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+
+    .foot-txt{
+        font-size: 20px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        margin-right: auto;
+        
+    }
+
+    .foot-logo{
+        margin-top: 4px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+    } 
+}
+
+/* xl */
+@media(min-width: 1200px) {
     .sub-head{
         background-color: #000022;
         color: white;
@@ -122,20 +967,23 @@ html, body {
     }
     
     /* ***********************| Image Section | ********************** */
-    .image-section{
+    /* .image-section{
         height: 60vh;
         background: url('../images/AboutPage.jpg') top/cover no-repeat;
-    }
+    } */
 
     /* ***********************| Business Areas | ********************** */
     .business-section{
-        margin-bottom: 25px;
+        margin-top: 10vh;
+        margin-bottom: 6vh;
+        margin-left: 40px;
+        margin-right: 40px;
     }
 
     .business{
         margin-top: 0px;
         text-align: center;
-        margin-bottom: 10px;
+        /* margin-bottom: 10px; */
         /* background-color: orange; */
     }
 
@@ -149,6 +997,11 @@ html, body {
 
     .card{
         border: 1px solid ;
+    }
+
+    .card img{
+        height: 32vh;
+        margin-top: 20px;
     }
 
     .card_link{
@@ -169,10 +1022,7 @@ html, body {
         animation-delay: 2s; */
         /* transition: width 9s linear 60s; */
     }
-    .card img{
-        height: 30vh;
-        margin-top: 20px;
-    }
+    
 
     .card-text{
         font-size: 23px;
@@ -212,10 +1062,16 @@ html, body {
         color: aliceblue;
     }
 
+    .sub-foot{
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+
     .foot-txt{
         font-size: 20px;
         padding-top: 5px;
         padding-bottom: 5px;
+        margin-right: auto;
     }
 
     .foot-logo{
@@ -223,3 +1079,4 @@ html, body {
         padding-top: 3px;
         padding-bottom: 3px;
     } 
+}

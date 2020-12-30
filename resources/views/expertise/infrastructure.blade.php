@@ -6,7 +6,7 @@
 
         {{-- ************| Infrastructure |************************* --}}
         <div class="infrastructure-section">
-            <div class="business mx-5">
+            <div class="business">
                 <span class="business-txt "> Infrastructure Planning & Engineering </span>
             </div>
             
@@ -15,18 +15,18 @@
                 <div class="row">
             
                     <!-- First Column -->
-                    <div class="col-6 left-col">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6  left-col">
                         <div class="infrastructure-img col-12">
             
                         </div>
                     </div>
             
                     <!-- Second Column -->
-                    <div class="col-6">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
                         <div class="right-profile">
                             <!-- Energy -->
                             <div class="energy">
-                                <span class="profile-txt  energie"> ENERGY </span>
+                                <span class="profile-txt"> ENERGY </span>
                                 <div class="profile-body">
                                     Energy economics | Power plants | Renewables | Energy transmission and distribution |
                                     I&C and power system technology |
@@ -61,20 +61,20 @@
                 {{-- Profile Link --}}
                 <div class="p-link">
                     <div class="row">
-                        <div class="col-4">
+                        <div class="col-4 text-left bg-inf">
                             <a href="{{ url('/expertise') }}">
                                 <i class="fas fa-angle-double-left"></i>
-                                Go back
+                                 Back
                             </a>
                         </div>
-                        <div class="col-4">
+                        <div class="col-4 text-center">
                             <a href="#">
-                                View Projects
+                                Projects
                             </a>
                         </div>
-                        <div class="col-4">
+                        <div class="col-4 text-right">
                             <a href="{{ url('/business_profiles') }}">
-                                View all Business Profiles
+                                All
                                 <i class="fas fa-angle-double-right"></i>
                             </a>
                         </div>

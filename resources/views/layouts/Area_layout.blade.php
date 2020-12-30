@@ -93,11 +93,11 @@
         
         <!-- ------------------| Footer |---------------------- -->
         <div class="foot">
-            <div class="row no-gutters">
-                <div class="foot-txt col-auto mr-auto">
-                    <span class="copy ml-3"> 2020 SPAYSIS. All Rights Preserved. </span>
+            <div class="row no-gutters sub-foot">
+                <div class="foot-txt col-xs-12 mr-aut bg-dange">
+                    <span class="copy ml- bg-inf"> 2020 SPAYSIS. All Rights Preserved. </span>
                 </div>
-                <div class="foot-logo col-auto">
+                <div class="foot-logo col-aut col-xs-12 bg-warnin">
                     <span class="mr-5">
                         <span class="twitter ml-1"> <i class="fab fa-twitter"></i> </span>
                         <span class="facebook mx-3"> <i class="fab fa-facebook"></i> </span>

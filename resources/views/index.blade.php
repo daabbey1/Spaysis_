@@ -12,6 +12,7 @@
 </head>
 
 <body>
+  <div class='sub-body'>
     <!-- Header -->
     <div class="head-section">
     
@@ -187,7 +188,7 @@
     <script defer src="js/all.js"></script>
     <script src="js/Propper.js"></script>
     <script src="js/bootstrap.js"></script>
-
+  </div>
 </body>
 
 </html>

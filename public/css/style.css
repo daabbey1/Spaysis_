@@ -1,12 +1,18 @@
 html,body{
 	overflow-x: hidden;
+    /* background-color: #000022c1; */
 }
 ::-ms-input-placeholder {
 	color: white;
 }
 
 body{
+    /* background: url('../images/AboutPage.jpg') top/cover no-repeat; */
+}
+.sub-body{
     background-color: #000022c1;
+    /* opacity:0.5; */
+    /* background: url('../images/AboutPage.jpg') top/cover no-repeat; */
 }
 
 /* xs */
@@ -109,23 +115,24 @@ body{
     }
 
     
-/* ***********************************| Carousel |******************************** */
+    /* ***********************************| Carousel |******************************** */
 
-.image-slider{
-        padding-top: 17vh;
+    .image-slider{
+        padding-top: 25vh;
+        padding-bottom: 25.5vh;
         position: over;
-}
-.carousel-item img{
+    }
+    .carousel-item img{
     width:100%; 
-    height: 50vh !important
-}
+    height: 35vh !important
+    }
 
 
-.carousel-inner h2{
+    .carousel-inner h2{
 	font-weight: bold;
-}
+    }
 
-.trinity{
+    .trinity{
     /* color: rgb(179, 6, 6); */
     font-weight: 900;
     text-shadow: 2px 2px black;
@@ -135,23 +142,21 @@ body{
     padding-bottom: 20px;
     /* border-radius: 75px; */
     /* opacity: 0.7; */
-}
+    }
 
-.slide-txt{
+    .slide-txt{
     font-weight: 500;
     font-size: 20px;
-}
+    }
 
-/* ************************| Footer |******************** */
+    /* ************************| Footer |******************** */
     .foot{
         background-color:#001744;
         color: aliceblue;
         display: block;
-        margin-top: 13vh;
     }
 
     .sub-foot{
-        /* background-color: orangered; */
         display: block;
         text-align: center;
     }
@@ -161,8 +166,6 @@ body{
         padding-top: 3px;
         padding-bottom: 3px;
         display: block;
-        /* text-align: center; */
-        /* background-color: orange; */
     }
 
     .copy{
@@ -179,7 +182,7 @@ body{
 
 /* sm */
 @media(min-width: 576px) and (max-width:767px){
-     .sub-head{
+    .sub-head{
         background-color: #000022;
         color: white;
         padding-top: 5px;
@@ -188,7 +191,7 @@ body{
 
     .logo{
         display: inline;
-        margin-left: 0px;
+        margin-left: 25px;
         margin-right: 0px;
     }
 
@@ -276,22 +279,23 @@ body{
         border-bottom: 1px solid  #0c7ad0;
     }
 
-/* ***********************************| Carousel |******************************** */
-.image-slider{
-    padding-top: 15vh;
+    /* ***********************************| Carousel |******************************** */
+   .image-slider{
+    padding-top: 10vh;
+    margin-bottom:10vh;
     position: over;
-}
-.carousel-item img{
+    }
+   .carousel-item img{
     width:100%; 
-    height: 50vh !important
-}
+    height: 60vh !important
+    }
 
 
-.carousel-inner h2{
+    .carousel-inner h2{
 	font-weight: bold;
-}
+    }
 
-.trinity{
+    .trinity{
     /* color: rgb(179, 6, 6); */
     font-weight: 900;
     text-shadow: 2px 2px black;
@@ -301,19 +305,19 @@ body{
     padding-bottom: 20px;
     /* border-radius: 75px; */
     /* opacity: 0.7; */
-}
+    }
 
-.slide-txt{
+   .slide-txt{
     font-weight: 500;
     font-size: 20px;
-}
+   }
 
-/* ************************| Footer |******************** */
+   /* ************************| Footer |******************** */
     .foot{
         background-color:#001744;
         color: aliceblue;
         display: block;
-        margin-top: 15vh;
+        /* margin-top: 15vh; */
     }
 
     .sub-foot{
@@ -480,6 +484,8 @@ body{
         background-color:#001744;
         color: aliceblue;
         display: block;
+        padding-top:10px;
+        padding-bottom:10px;
     }
 
     .foot-txt{
@@ -643,6 +649,8 @@ body{
         background-color:#001744;
         color: aliceblue;
         display: block;
+        padding-top:10px;
+        padding-bottom:10px;
     }
 
     .foot-txt{
@@ -671,7 +679,7 @@ body{
 /* xl */
 @media(min-width: 1200px) {
     /* **************************| Nav Bar |**************************** */
-.sub-head{
+    .sub-head{
         background-color: #000022;
         color: white;
         padding-top: 5px;
@@ -793,18 +801,18 @@ body{
         border-bottom: 1px solid  #0c7ad0;
     }
 
-/* ***********************************| Carousel |******************************** */
+   /* ***********************************| Carousel |******************************** */
 
-.carousel-item img{
+    .carousel-item img{
     width:100%; 
     height: 93.5vh !important
-}
+     }
 
-.carousel-inner h2{
+    .carousel-inner h2{
 	font-weight: bold;
-}
+    }
 
-.trinity{
+    .trinity{
     /* color: rgb(179, 6, 6); */
     font-weight: 900;
     text-shadow: 2px 2px black;
@@ -814,29 +822,41 @@ body{
     padding-bottom: 20px;
     /* border-radius: 75px; */
     /* opacity: 0.7; */
-}
+   }
 
-.slide-txt{
+   .slide-txt{
     font-weight: 500;
     font-size: 20px;
-}
+   }
 
   /* ************************| Footer |******************** */
-    .foot{
+   .foot{
         background-color:#001744;
         color: aliceblue;
+        display: block;
+        padding-top:10px;
+        padding-bottom:10px;
     }
 
     .foot-txt{
         font-size: 20px;
-        padding-top: 3px;
-        padding-bottom: 3px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        display: block;
+        margin-right: auto;
+        /* text-align: center; */
+        /* background-color: orange; */
+    }
+
+    .copy{
+        
+        margin-left: 50px;
+        /* text-align: center; */
     }
 
     .foot-logo{
         margin-top: 4px;
-        padding-top: 3px;
-        padding-bottom: 3px;
+        padding-top: 5px;
+        padding-bottom: 5px;
     }
-
 }

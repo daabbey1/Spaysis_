@@ -1,254 +1,688 @@
 html, body {
-margin: 0px;
-padding: 0px;
-box-sizing: border-box;
-max-width: 100%;
-overflow-x: hidden;
-background-color: #E7EBF0;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    max-width: 100%;
+    overflow-x: hidden;
+    background-color: #E7EBF0;
 }
 
 .sub-head{
-background-color: #000022;
-color: white;
-padding-top: 5px;
-padding-bottom: 5px;
+    background-color: #000022;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
-.nav-link-txt{
-color:white;
-font-size: 17px;
-margin-right: 25px;
-/* font-weight: 500; */
-/* background-color: aqua; */
-}
-.logo{
-display: inline;
-margin-left: 50px;
-margin-right: 50px;
-}
-
-.logo img{
-height: 45px;
-}
-
-.nav-active {
-color: orange;
-border-bottom: 1px solid orange !important;
-}
-.nav-item a{
-font-family: Arial, Helvetica, sans-serif;
-text-decoration: none;
-color: aliceblue;
-border-bottom: 1px solid black;
-}
-
-.nav-item a:hover{
-font-family: Arial, Helvetica, sans-serif;
-text-decoration: none;
-border-bottom: 1px solid orange;
-}
-.dropdown-menu{
-/* margin-top: 5px; */
-margin-left: -97.9vh;
-/* margin-right: 100vh; */
-background-color: #0c7ad0;
-color: aliceblue;
-text-align: center;
-transition-duration: 2s;
-}
-
-.sub-tab{
-width: 250vh !important;
-}
-
-.hover-tab{
-background-color: #0c7ad0;
-color: white;
-font-family: Arial, Helvetica, sans-serif;
-font-size: 16px;
-margin-top: 10px;
-/* margin-left: 350px; */
-}
-
-.hover-tabs{
-        margin-left: 80px;
+/* xs */
+@media(max-width: 575px){
+    .sub-head{
+        background-color: #000022;
+        color: white;
+        padding-top: 5px;
+        padding-bottom: 5px;
     }
 
-.hover-link a{
-margin-right: 40px;
-font-size: 16px;
-/* display: block; */
-color: aliceblue;
-border-bottom: 1px solid #0c7ad0;
-}
+    .logo{
+        display: inline;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
 
-.search-input{
-font-size: 15px;
-border-radius: 45px;
-color: white;
-outline-style: none;
-border: none;
-/* margin-bottom: -30px; */
-/* text-align: center; */
-}
-.search-btn{
-font-family: Arial, Helvetica, sans-serif;
-font-size: 15px;
-background-color: rgb(0, 195, 255);
-padding:7px 16px 7px 16px;
-color: white;
-margin-top: -11px !important;
-margin-left: 150px;
-border-radius: 0px 45px 45px 0px;
-}
+    .logo img{
+        height: 40px;
+    }
 
-.sub-sech{
-/* width: 0vh; */
-/* text-align: center; */
+    .nav-link-txt{
+        color:white;
+        font-size: 15px;
+        margin-right: 25px;
+    }
+    
+    .nav-active {
+        color: orange;
+        border-bottom: 1px solid orange !important;
+    }
+    .nav-item a{
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;
+        color: aliceblue;
+        border-bottom: 1px solid black;
+    }
 
-}
-
-.search-box{
-margin-top: 12px;
-width: 33vh;
-/* display: inline-block; */
-/* display: flex;
-justify-content: center;
-align-items: center; */
-}
-
-.fa-search{
-font-size: 22px;
-}
-
-/* ************************| Body |******************** */
-.body-section{
-    margin-top: 10vh;
-    margin-left: 50px;
-    margin-right: 50px;
-}
-.gen-profile-head{
-    font-size: 23px;
-    font-weight: 400;
-}
-.col-box{
-    /* padding-top: 10px;
-    padding-bottom: 10px;
-    border: 1px solid blue; */
-}
-.card{
-    text-align: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border: 1px solid #001744;
-    /* transition: width 2s linear 1s; */
-}
-
-.card a{
-    color: rgb(24, 23, 23);
-}
+    .nav-item a:hover{
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;
+        border-bottom: 1px solid  orange;
+    }
 
 
+    .dropdown-menu{
+        color: aliceblue;
+        background-color: #000022;
+    }
 
-.card-img-top{
-    height: 200px;
-}
+    .hover-link{
+        display: block;
+    }
 
-.card:hover{
-    text-align: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    color: white;
-    transition: all;
-    background-color: #081838;
-    /* transition: 1s linear; */
-}
+    .search-input{
+        font-size: 15px;
+        border-radius: 45px;
+        color: white;
+        outline-style: none;
+        border: none;
+    }
+    
 
-.card a:hover{
-    text-decoration: none;
-    color:white;
-}
+    .search-box{
+        width: 100%;
+    }
 
-
-/* ************************| Individual Slide Pofile |******************** */
-.slide-section{
-    margin-top: 7.5vh;
-}
-
-.carousel-item img{
-    height: 92.5vh;
-}
-
-/* Sub slider */
-.cards img{
-    height: 132px;
-    /* width: 200px !important; */
-    /* height: 500px; */
-}
-
-.left-right-info{
-    padding-top: 50px;
-    padding-bottom: 50px;
-    padding-left: 50px;
-    padding-right: 50px;
-
-}
-
-/* Discription */
-.discription{
-    background-color: white;
-    padding:50px;
-    height: 270px;
-    /* margin-top: 30px;
-    margin-bottom: 30px; */
-    /* padding: 50px; */
-}
-
-.disc-main-head,.pro-sub-head{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 25px;
-    font-weight: 500;
-    /* display: block; */
-    /* text-align: center; */
-    /* margin-top: 25px; */
-    /* margin-bottom: 8px; */
-    /* background-color: #000022; */
-    border-bottom: 1px solid orange;
-}
-.disc-sub-head{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    font-weight: 300;
-}
-
-.disc-body, .pro-body{
-    font-size: 18px;
-    margin-top: 5px;
-}
-
-/* Project Info */
-.pro-info{
-    background-color: white;
-    padding:50px;
-    height: 270px;
-}
-
-td{
-    margin-right: 10px;
-}
+    .fa-search{
+        font-size: 22px;
+    }
 
 
-/* ************************| Footer |******************** */
+    .hover-tab{
+        background-color: #0c7ad0;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        margin-top: 10px;
+        /* margin-left: 350px; */
+    }
+    .dropdown-menu{
+        /* margin-top: 15px; */
+    }
+
+
+    .hover-link a{
+        margin-right: 40px;
+        /* margin-left: 80px; */
+        font-size: 16px;
+        /* display: block; */
+        color: aliceblue;
+        border-bottom: 1px solid  #0c7ad0;
+    }
+
+    /* ************************| Body |******************** */
+    .body-section{
+        margin-top: 13vh;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .gen-profile-head{
+        font-size: 25px;
+        font-weight: 450;
+    }
+    .card-text{
+        font-weight: 450;
+    }
+    .card{
+        text-align: center;
+        margin-bottom: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border: 1px solid #001744;
+        /* transition: width 2s linear 1s; */
+    }
+
+    .card a{
+        color: rgb(24, 23, 23);
+    }
+
+
+
+    .card-img-top{
+        height: 200px;
+    }
+
+    .card:hover{
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        color: white;
+        transition: all;
+        background-color: #081838;
+        /* transition: 1s linear; */
+    }
+
+    .card a:hover{
+        text-decoration: none;
+        color:white;
+    }
+
+    /* ************************| Footer |******************** */
     .foot{
         background-color:#001744;
         color: aliceblue;
-        margin-top: 17px;
+        display: block;
+    }
+
+    .sub-foot{
+        display: block;
+        text-align: center;
+    }
+
+    .foot-txt{
+        font-size: 17px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        display: block;
+    }
+
+    .copy{
+        text-align: center;
+    }
+
+    .foot-logo{
+        margin-top: 4px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+    }
+}
+
+
+/* sm */
+@media(min-width: 576px) and (max-width:767px){
+    .sub-head{
+        background-color: #000022;
+        color: white;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .logo{
+        display: inline;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .logo img{
+        height: 40px;
+    }
+
+    .nav-link-txt{
+        color:white;
+        font-size: 15px;
+        margin-right: 25px;
+    }
+    
+    .nav-active {
+        color: orange;
+        border-bottom: 1px solid orange !important;
+    }
+    .nav-item a{
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;
+        color: aliceblue;
+        border-bottom: 1px solid black;
+    }
+
+    .nav-item a:hover{
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;
+        border-bottom: 1px solid  orange;
+    }
+
+
+    .dropdown-menu{
+        color: aliceblue;
+        background-color: #000022;
+    }
+
+    .hover-link{
+        display: block;
+    }
+
+    .search-input{
+        font-size: 15px;
+        border-radius: 45px;
+        color: white;
+        outline-style: none;
+        border: none;
+    }
+    
+
+    .search-box{
+        width: 100%;
+    }
+
+    .fa-search{
+        font-size: 22px;
+    }
+
+
+    .hover-tab{
+        background-color: #0c7ad0;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        margin-top: 10px;
+        /* margin-left: 350px; */
+    }
+    .dropdown-menu{
+        /* margin-top: 15px; */
+    }
+
+
+    .hover-link a{
+        margin-right: 40px;
+        /* margin-left: 80px; */
+        font-size: 16px;
+        /* display: block; */
+        color: aliceblue;
+        border-bottom: 1px solid  #0c7ad0;
+    }
+
+    /* ************************| Body |******************** */
+    .body-section{
+        margin-top: 13vh;
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+    .gen-profile-head{
+        font-size: 25px;
+        font-weight: 450;
+    }
+    .card-text{
+        font-weight: 450;
+    }
+    .card{
+        text-align: center;
+        margin-bottom: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        height: 60vh;
+        border: 1px solid #001744;
+        /* transition: width 2s linear 1s; */
+    }
+
+    .card a{
+        color: rgb(24, 23, 23);
+    }
+
+
+
+    .card-img-top{
+        height: 53vh;
+    }
+
+    .card:hover{
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        color: white;
+        transition: all;
+        background-color: #081838;
+        /* transition: 1s linear; */
+    }
+
+    .card a:hover{
+        text-decoration: none;
+        color:white;
+    }
+
+    /* ************************| Footer |******************** */
+    .foot{
+        background-color:#001744;
+        color: aliceblue;
+        display: block;
+    }
+
+    .sub-foot{
+        display: block;
+        text-align: center;
+    }
+
+    .foot-txt{
+        font-size: 17px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        display: block;
+    }
+
+    .copy{
+        text-align: center;
+    }
+
+    .foot-logo{
+        margin-top: 4px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+    }
+}
+
+
+/* md */
+@media(min-width: 768px) and (max-width:991px){
+    .sub-head{
+        background-color: #000022;
+        color: white;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .logo{
+        display: inline;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .logo img{
+        height: 40px;
+    }
+
+    .nav-link-txt{
+        color:white;
+        font-size: 15px;
+        margin-right: 25px;
+    }
+    
+    .nav-active {
+        color: orange;
+        border-bottom: 1px solid orange !important;
+    }
+    .nav-item a{
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;
+        color: aliceblue;
+        border-bottom: 1px solid black;
+    }
+
+    .nav-item a:hover{
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;
+        border-bottom: 1px solid  orange;
+    }
+
+
+    .dropdown-menu{
+        color: aliceblue;
+        background-color: #000022;
+    }
+
+    .hover-link{
+        display: block;
+    }
+
+    .search-input{
+        font-size: 15px;
+        border-radius: 45px;
+        color: white;
+        outline-style: none;
+        border: none;
+    }
+    
+
+    .search-box{
+        width: 100%;
+    }
+
+    .fa-search{
+        font-size: 22px;
+    }
+
+
+    .hover-tab{
+        background-color: #0c7ad0;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        margin-top: 10px;
+        /* margin-left: 350px; */
+    }
+    .dropdown-menu{
+        /* margin-top: 15px; */
+    }
+
+
+    .hover-link a{
+        margin-right: 40px;
+        /* margin-left: 80px; */
+        font-size: 16px;
+        /* display: block; */
+        color: aliceblue;
+        border-bottom: 1px solid  #0c7ad0;
+    }
+
+    /* ************************| Body |******************** */
+    .body-section{
+        margin-top: 13vh;
+        margin-bottom: 7vh;
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+    .gen-profile-head{
+        font-size: 25px;
+        font-weight: 450;
+    }
+    .card-text{
+        font-weight: 450;
+    }
+    .card{
+        text-align: center;
+        margin-bottom: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        height: 36vh;
+        border: 1px solid #001744;
+        /* transition: width 2s linear 1s; */
+    }
+
+    .card a{
+        color: rgb(24, 23, 23);
+    }
+
+
+
+    .card-img-top{
+        height: 30vh;
+    }
+
+    .card:hover{
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        color: white;
+        transition: all;
+        background-color: #081838;
+        /* transition: 1s linear; */
+    }
+
+    .card a:hover{
+        text-decoration: none;
+        color:white;
+    }
+
+    /* ************************| Footer |******************** */
+    .foot{
+        background-color:#001744;
+        color: aliceblue;
+        display: block;
+    }
+
+    .sub-foot{
+        display: block;
+        text-align: center;
+    }
+
+    .foot-txt{
+        font-size: 17px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        display: block;
+    }
+
+    .copy{
+        text-align: center;
+    }
+
+    .foot-logo{
+        margin-top: 4px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+    }
+}
+
+
+/* lg */
+@media(min-width: 992px) and (max-width:1199px){
+    .sub-head{
+        background-color: #000022;
+        color: white;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .logo{
+        display: inline;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .logo img{
+        height: 40px;
+    }
+
+    .nav-link-txt{
+        color:white;
+        font-size: 15px;
+        margin-right: 25px;
+    }
+    
+    .nav-active {
+        color: orange;
+        border-bottom: 1px solid orange !important;
+    }
+    .nav-item a{
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;
+        color: aliceblue;
+        border-bottom: 1px solid black;
+    }
+
+    .nav-item a:hover{
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;
+        border-bottom: 1px solid  orange;
+    }
+
+
+    .dropdown-menu{
+        color: aliceblue;
+        background-color: #000022;
+    }
+
+    .hover-link{
+        display: block;
+    }
+
+    .search-input{
+        font-size: 15px;
+        border-radius: 45px;
+        color: white;
+        outline-style: none;
+        border: none;
+    }
+    
+
+    .search-box{
+        width: 100%;
+    }
+
+    .fa-search{
+        font-size: 22px;
+    }
+
+
+    .hover-tab{
+        background-color: #0c7ad0;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        margin-top: 10px;
+        /* margin-left: 350px; */
+    }
+    .dropdown-menu{
+        /* margin-top: 15px; */
+    }
+
+
+    .hover-link a{
+        margin-right: 40px;
+        /* margin-left: 80px; */
+        font-size: 16px;
+        /* display: block; */
+        color: aliceblue;
+        border-bottom: 1px solid  #0c7ad0;
+    }
+
+    /* ************************| Body |******************** */
+    .body-section{
+        margin-top: 13vh;
+        margin-bottom: 7vh;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .gen-profile-head{
+        font-size: 25px;
+        font-weight: 450;
+    }
+    .card-text{
+        font-weight: 450;
+    }
+    .card{
+        text-align: center;
+        margin-bottom: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        height: 46vh;
+        border: 1px solid #001744;
+        /* transition: width 2s linear 1s; */
+    }
+
+    .card a{
+        color: rgb(24, 23, 23);
+    }
+
+
+
+    .card-img-top{
+        height: 40vh;
+    }
+
+    .card:hover{
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        color: white;
+        transition: all;
+        background-color: #081838;
+        /* transition: 1s linear; */
+    }
+
+    .card a:hover{
+        text-decoration: none;
+        color:white;
+    }
+
+    /* ************************| Footer |******************** */
+    .foot{
+        background-color:#001744;
+        color: aliceblue;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 50px;
+        /* padding-right: 30px; */
     }
 
     .foot-txt{
         font-size: 20px;
         padding-top: 3px;
         padding-bottom: 3px;
+        margin-right: auto;
     }
 
     .foot-logo{
@@ -256,3 +690,221 @@ td{
         padding-top: 3px;
         padding-bottom: 3px;
     } 
+}
+
+
+/* xl */
+@media(min-width: 1200px) {
+    .nav-link-txt{
+    color:white;
+    font-size: 17px;
+    margin-right: 25px;
+    }
+    .logo{
+        display: inline;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .logo img{
+        height: 45px;
+    }
+
+    .nav-active {
+        color: orange;
+        border-bottom: 1px solid orange !important;
+    }
+    .nav-item a{
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;
+        color: aliceblue;
+        border-bottom: 1px solid black;
+    }
+
+    .nav-item a:hover{
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;
+        border-bottom: 1px solid orange;
+    }
+    .dropdown-menu{
+        /* margin-top: 5px; */
+        margin-left: -97.9vh;
+        /* margin-right: 100vh; */
+        background-color: #0c7ad0;
+        color: aliceblue;
+        text-align: center;
+        transition-duration: 2s;
+    }
+
+    .sub-tab{
+        width: 250vh !important;
+    }
+
+    .hover-tab{
+        background-color: #0c7ad0;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        margin-top: 10px;
+    }
+
+    .hover-tabs{
+        margin-left: 80px;
+    }
+
+    .hover-link a{
+        margin-right: 40px;
+        font-size: 16px;
+        /* display: block; */
+        color: aliceblue;
+        border-bottom: 1px solid #0c7ad0;
+    }
+
+    .search-input{
+        font-size: 15px;
+        border-radius: 45px;
+        color: white;
+        outline-style: none;
+        border: none;
+    }
+
+    .search-box{
+        margin-top: 12px;
+        width: 33vh;
+    }
+
+    .fa-search{
+        font-size: 22px;
+    }
+
+    /* ************************| Body |******************** */
+    .body-section{
+        margin-top: 10vh;
+        margin-bottom: 5vh;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .gen-profile-head{
+        font-size: 23px;
+        font-weight: 400;
+    }
+    .col-box{
+        /* padding-top: 10px;
+        padding-bottom: 10px;
+        border: 1px solid blue; */
+    }
+    .card{
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border: 1px solid #001744;
+        /* transition: width 2s linear 1s; */
+    }
+
+    .card a{
+        color: rgb(24, 23, 23);
+    }
+
+
+
+    .card-img-top{
+        height: 200px;
+    }
+
+    .card:hover{
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        color: white;
+        transition: all;
+        background-color: #081838;
+        /* transition: 1s linear; */
+    }
+
+    .card a:hover{
+        text-decoration: none;
+        color:white;
+    }
+
+
+    /* ************************| Individual Slide Pofile |******************** */
+    .slide-section{
+        margin-top: 7.5vh;
+    }
+
+    .carousel-item img{
+        height: 92.5vh;
+    }
+
+    /* Sub slider */
+    .cards img{
+        height: 132px;
+    }
+
+    .left-right-info{
+        padding-top: 50px;
+        padding-bottom: 50px;
+        padding-left: 50px;
+        padding-right: 50px;
+
+    }
+
+    /* Discription */
+    .discription{
+        background-color: white;
+        padding:50px;
+        height: 270px;
+    }
+
+    .disc-main-head,.pro-sub-head{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 25px;
+        font-weight: 500;
+        border-bottom: 1px solid orange;
+    }
+    .disc-sub-head{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        font-weight: 300;
+    }
+
+    .disc-body, .pro-body{
+        font-size: 18px;
+        margin-top: 5px;
+    }
+
+    /* Project Info */
+    .pro-info{
+        background-color: white;
+        padding:50px;
+        height: 270px;
+    }
+
+    td{
+        margin-right: 10px;
+    }
+
+
+    /* ************************| Footer |******************** */
+    .foot{
+        background-color:#001744;
+        color: aliceblue;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 50px;
+        /* padding-right: 30px; */
+    }
+
+    .foot-txt{
+        font-size: 20px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        margin-right: auto;
+    }
+
+    .foot-logo{
+        margin-top: 4px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+    } 
+}

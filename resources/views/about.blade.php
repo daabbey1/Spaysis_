@@ -62,15 +62,15 @@
                     </li>
                 </ul>
 
-                <div class="row sub-sech no-gutters">
-                    <form class="form-inline search-box my-lg-0  bg-warnin">
-                        <input class="form-control search-input col-xs-10 col-sm-10 col-md-11 col-lg-11" type="search"
+                <div class="row no-gutters">
+                    <form class="form-inline search-box my-lg-0">
+                        <input class="form-control search-input  col-xs-12 col-sm-12 col-md-11 col-lg-11 " type="search"
                             placeholder="Search" aria-label="Search">
-                        <div class="col-xs-2 col-sm-2 col-md-1 col-lg-1">
+                        {{-- <div class="col-xs-2 col-sm-2 col-md-1 col-lg-1">
                             <!-- <button class="btn my-sm-0 search-btn" type="submit">
-                                    <i class="fa fa-search" aria-hidden="true"></i>
-                                </button> -->
-                        </div>
+                                            <i class="fa fa-search" aria-hidden="true"></i>
+                                        </button> -->
+                        </div> --}}
                     </form>
                 </div>
             </div>
@@ -185,78 +185,11 @@
 
     <!-- ----------------------| Partners & Clients |----------------------- -->
     <div class="partner-client ">
-
-        <div class="dropAppearance">
-            <!-- <div id="accordion">
-                <div class="card ">
-                    <div class="card-header" id="headingOne">
-                        <h5 class="mb-0">
-                            <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true"
-                                aria-controls="collapseOne">
-                                Collapsible Group Item #1
-                            </button>
-                        </h5>
-                    </div>
-            
-                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
-                        <div class="card-body">
-                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf
-                            moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
-                            Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda
-                            shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea
-                            proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim
-                            aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                        </div>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-header" id="headingTwo">
-                        <h5 class="mb-0">
-                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo"
-                                aria-expanded="false" aria-controls="collapseTwo">
-                                Collapsible Group Item #2
-                            </button>
-                        </h5>
-                    </div>
-                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-                        <div class="card-body">
-                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf
-                            moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
-                            Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda
-                            shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea
-                            proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim
-                            aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                        </div>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-header" id="headingThree">
-                        <h5 class="mb-0">
-                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree"
-                                aria-expanded="false" aria-controls="collapseThree">
-                                Collapsible Group Item #3
-                            </button>
-                        </h5>
-                    </div>
-                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
-                        <div class="card-body">
-                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf
-                            moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
-                            Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda
-                            shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea
-                            proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim
-                            aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                        </div>
-                    </div>
-                </div>
-            </div> -->
-        </div>
-
         <div class="rowAppearance">
             <div class="row">
 
                 <!-- Partners -->
-                <div class="partners-space col-xs-12 col-sm-12 col-xl-8">
+                <div class="partners-space col-xs-12 col-sm-12 col-lg-12 col-xl-8">
                     <span class="partner-head"> Our Partners </span>
 
 
@@ -303,7 +236,7 @@
                                         john@joeamah.com <br>
                                     </div>
 
-                                    <div class="acon">
+                                    <div class="minicreation">
                                         <span class="partner-sub-title"> miniCREATigit ON Ltd </span> <br>
                                         You dream, We create! <br>
                                         <a href="#"> minicreation.com.gh </a> <br>
@@ -320,11 +253,11 @@
                 </div>
 
                 <!-- Clients -->
-                <div class="col-xs-12 col-sm-12 col-xl-4">
+                <div class="col-xs-12 col-sm-12 col-lg-12 col-xl-4">
                     <div>
                         <span class="client-head"> Our Clients </span>
                         <div class="client-body">
-                            <span class="valued-client"> Some of our valued clients include: </span> <br>
+                            <span class="valued-client"> Some of our valued clients include: </span>
                             Kuwait Institute of Scientific Research (KISR), Kuwait <span class="seperate"> | </span>
                             FICHTNER GMBH Co. & KG, Germany <span class="seperate"> | </span> SOLENGCO
                             GMBH, Germany, King Edward School, Accra Ghana <span class="seperate"> | </span>
@@ -345,12 +278,12 @@
     </div>
 
     <!-- ------------------| Footer |---------------------- -->
-    <div class="foot">
-        <div class="row no-gutters">
-            <div class="foot-txt col-auto mr-auto">
-                <span class="copy ml-3"> 2020 SPAYSIS. All Rights Preserved. </span>
+     <div class="foot">
+        <div class="row no-gutters sub-foot">
+            <div class="foot-txt col-xs-12 mr-aut bg-dange">
+                <span class="copy ml- bg-inf"> 2020 SPAYSIS. All Rights Preserved. </span>
             </div>
-            <div class="foot-logo col-auto">
+            <div class="foot-logo col-aut col-xs-12 bg-warnin">
                 <span class="mr-5">
                     <span class="twitter ml-1"> <i class="fab fa-twitter"></i> </span>
                     <span class="facebook mx-3"> <i class="fab fa-facebook"></i> </span>
