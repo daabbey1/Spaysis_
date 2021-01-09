@@ -7,15 +7,14 @@ html, body {
     background-color: #E7EBF0;
 }
 
-.sub-head{
-    background-color: #000022;
-    color: white;
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
+
 
 /* xs */
 @media(max-width: 575px){
+    .head-section{
+        height: 10vh;
+    }
+
     .sub-head{
         background-color: #000022;
         color: white;
@@ -107,6 +106,7 @@ html, body {
     }
 
     /* ************************| Body |******************** */
+    /* -------------| General Body |-------------------- */
     .body-section{
         margin-top: 13vh;
         margin-left: 50px;
@@ -153,6 +153,76 @@ html, body {
         color:white;
     }
 
+    /* ---------------|Individual Project Page |--------------- */
+    /***Image Slider ***/
+    .carousel-item img{
+        height: 70vh;
+        width: auto;
+        /* width: 100%; */
+        background-size: center;
+        background-position: center;
+        background-image: no-repeat;
+    }
+
+    .selection-box{
+        height: 20vh;
+        padding-left: 10px;
+        padding-left: 10px;
+        overflow-x: auto;
+        width: auto;
+    }
+    .cards{
+        width: 100px !important;
+    }
+    .img-selection{
+        height: 17vh;
+        width: 150px;
+        /* float: left; */
+        /* padding-right: 25px !important; */
+    }
+
+    /*** Profile ***/
+    .left-right-info{
+        padding-top: 30px;
+        padding-bottom: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    /* Discription */
+    .discription{
+        background-color: white;
+        padding:20px;
+        height:auto;
+        /* overflow-y: auto; */
+    }
+
+    .disc-main-head,.pro-sub-head{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        font-weight: 500;
+        border-bottom: 1px solid orange;
+    }
+    
+
+    .disc-body, .pro-body{
+        font-size: 16px;
+        /* margin-top: 5px; */
+    }
+
+    /* Project Info */
+    .pro-info{
+        margin-top: 30px;
+        margin-bottom: 25px;
+        background-color: white;
+        padding:20px;
+        height: auto;
+    }
+
+    td{
+        margin-right: 10px;
+    }
+
     /* ************************| Footer |******************** */
     .foot{
         background-color:#001744;
@@ -186,6 +256,9 @@ html, body {
 
 /* sm */
 @media(min-width: 576px) and (max-width:767px){
+    .head-section{
+        height: 10vh;
+    }
     .sub-head{
         background-color: #000022;
         color: white;
@@ -276,6 +349,8 @@ html, body {
         border-bottom: 1px solid  #0c7ad0;
     }
 
+    
+
     /* ************************| Body |******************** */
     .body-section{
         margin-top: 13vh;
@@ -324,6 +399,76 @@ html, body {
         color:white;
     }
 
+    /* ---------------|Individual Project Page |--------------- */
+    /***Image Slider ***/
+    .carousel-item img{
+        height: 80vh;
+        width: auto;
+        /* width: 100%; */
+        background-size: center;
+        background-position: center;
+        background-image: no-repeat;
+    }
+
+    .selection-box{
+        height: 20vh;
+        padding-left: 10px;
+        padding-left: 10px;
+        overflow-x: auto;
+        width: auto;
+    }
+    /* .cards{
+        width: 100px !important;
+    } */
+    .img-selection{
+        height: 17vh;
+        width: 150px;
+        /* float: left; */
+        /* padding-right: 25px !important; */
+    }
+
+    /*** Profile ***/
+    .left-right-info{
+        padding-top: 40px;
+        padding-bottom: 10px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    /* Discription */
+    .discription{
+        background-color: white;
+        padding:20px;
+        height:auto;
+        /* overflow-y: auto; */
+    }
+
+    .disc-main-head,.pro-sub-head{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        font-weight: 500;
+        border-bottom: 1px solid orange;
+    }
+    
+
+    .disc-body, .pro-body{
+        font-size: 16px;
+        /* margin-top: 5px; */
+    }
+
+    /* Project Info */
+    .pro-info{
+        margin-top: 30px;
+        margin-bottom: 25px;
+        background-color: white;
+        padding:20px;
+        height: auto;
+    }
+
+    td{
+        margin-right: 10px;
+    }
+
     /* ************************| Footer |******************** */
     .foot{
         background-color:#001744;
@@ -357,6 +502,9 @@ html, body {
 
 /* md */
 @media(min-width: 768px) and (max-width:991px){
+    .head-section{
+        height: 10vh;
+    }
     .sub-head{
         background-color: #000022;
         color: white;
@@ -496,6 +644,76 @@ html, body {
         color:white;
     }
 
+    /* ---------------|Individual Project Page |--------------- */
+    /***Image Slider ***/
+    .carousel-item img{
+        height: 80vh;
+        width: auto;
+        /* width: 100%; */
+        background-size: center;
+        background-position: center;
+        background-image: no-repeat;
+    }
+
+    .selection-box{
+        height: 20vh;
+        padding-left: 10px;
+        padding-left: 10px;
+        overflow-x: auto;
+        width: auto;
+    }
+    /* .cards{
+        width: 100px !important;
+    } */
+    .img-selection{
+        height: 17vh;
+        width: 170px;
+        /* float: left; */
+        /* padding-right: 25px !important; */
+    }
+
+    /*** Profile ***/
+    .left-right-info{
+        padding-top: 40px;
+        padding-bottom: 10px;
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+
+    /* Discription */
+    .discription{
+        background-color: white;
+        padding:20px;
+        height:auto;
+        /* overflow-y: auto; */
+    }
+
+    .disc-main-head,.pro-sub-head{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 23px;
+        font-weight: 500;
+        border-bottom: 1px solid orange;
+    }
+    
+
+    .disc-body, .pro-body{
+        font-size: 16px;
+        /* margin-top: 5px; */
+    }
+
+    /* Project Info */
+    .pro-info{
+        margin-top: 30px;
+        margin-bottom: 25px;
+        background-color: white;
+        padding:20px;
+        height: auto;
+    }
+
+    td{
+        margin-right: 10px;
+    }
+
     /* ************************| Footer |******************** */
     .foot{
         background-color:#001744;
@@ -529,6 +747,9 @@ html, body {
 
 /* lg */
 @media(min-width: 992px) and (max-width:1199px){
+    .head-section{
+        height: 10vh;
+    }
     .sub-head{
         background-color: #000022;
         color: white;
@@ -668,6 +889,76 @@ html, body {
         color:white;
     }
 
+    /* ---------------|Individual Project Page |--------------- */
+    /***Image Slider ***/
+    .carousel-item img{
+        height: 100vh;
+        width: auto;
+        /* width: 100%; */
+        background-size: center;
+        background-position: center;
+        background-image: no-repeat;
+    }
+
+    .selection-box{
+        height: 20vh;
+        padding-left: 10px;
+        padding-left: 10px;
+        overflow-x: auto;
+        width: auto;
+    }
+    /* .cards{
+        width: 100px !important;
+    } */
+    .img-selection{
+        height: 17vh;
+        width: 170px;
+        /* float: left; */
+        /* padding-right: 25px !important; */
+    }
+
+    /*** Profile ***/
+    .left-right-info{
+        padding-top: 40px;
+        padding-bottom: 40px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    /* Discription */
+    .discription{
+        background-color: white;
+        padding:20px;
+        height:230px;
+        /* overflow-y: auto; */
+    }
+
+    .disc-main-head,.pro-sub-head{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 23px;
+        font-weight: 500;
+        border-bottom: 1px solid orange;
+    }
+    
+
+    .disc-body, .pro-body{
+        font-size: 17px;
+        /* margin-top: 5px; */
+    }
+
+    /* Project Info */
+    .pro-info{
+        /* margin-top: 30px; */
+        margin-bottom: 25px;
+        background-color: white;
+        padding:20px;
+        height: 230px;
+    }
+
+    td{
+        margin-right: 10px;
+    }
+
     /* ************************| Footer |******************** */
     .foot{
         background-color:#001744;
@@ -695,6 +986,16 @@ html, body {
 
 /* xl */
 @media(min-width: 1200px) {
+    .head-section{
+        height: 8vh;
+    }
+    .sub-head{
+    background-color: #000022;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    }
+ 
     .nav-link-txt{
     color:white;
     font-size: 17px;
@@ -829,16 +1130,33 @@ html, body {
 
     /* ************************| Individual Slide Pofile |******************** */
     .slide-section{
-        margin-top: 7.5vh;
+        margin-top: 8vh;
     }
 
+    /***Image Slider ***/
     .carousel-item img{
-        height: 92.5vh;
+        height: 100vh;
+        width: auto;
+        /* width: 100%; */
+        background-size: center;
+        background-position: center;
+        background-image: no-repeat;
     }
 
-    /* Sub slider */
-    .cards img{
-        height: 132px;
+    .selection-box{
+        height: 20vh;
+        padding-left: 50px;
+        padding-left: 50px;
+        overflow-x: auto;
+        width: auto;
+        text-align: center;
+    }
+    
+    .img-selection{
+        height: 17vh;
+        width: 220px;
+        /* float: left; */
+        padding-right: 25px !important;
     }
 
     .left-right-info{

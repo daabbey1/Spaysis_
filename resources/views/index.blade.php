@@ -5,6 +5,7 @@
     <title>SPAYSIS</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/font.css" rel="stylesheet" type="text/css">
     <link href="css/all.css" rel="stylesheet" type="text/css">
@@ -16,7 +17,7 @@
     <!-- Header -->
     <div class="head-section">
     
-        <nav class="navbar navbar-expand-lg navbar-dark sub-head bg-dange">
+        <nav class="navbar navbar-expand-lg navbar-dark sub-head">
             <a class="navbar-brand logo bg-inf" href="#">
                 <img src="images/main_logo.png" alt="logo" srcset="" style="color: aliceblue;">
             </a>
@@ -183,7 +184,7 @@
         </div>
     </div>
 
-    <script src="js/myscript.js"></script>
+    <!-- <script src="js/about.js"></script> -->
     <script src="js/Bootstrapjquery.js"></script>
     <script defer src="js/all.js"></script>
     <script src="js/Propper.js"></script>

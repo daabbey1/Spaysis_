@@ -5,9 +5,9 @@
     <div class="body-section">
 
         {{-- ************| Infrastructure |************************* --}}
-        <div class="infrastructure-section">
+        <div class="infrastructure-section ">
             <div class="business">
-                <span class="business-txt "> Infrastructure Planning & Engineering </span>
+                <span class="business-txt"> Infrastructure Planning & Engineering </span>
             </div>
             
             <!-- Infrastructure Profile -->
@@ -15,14 +15,14 @@
                 <div class="row">
             
                     <!-- First Column -->
-                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6  left-col">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6  left-col bg-dange" style="padding: 0px !important">
                         <div class="infrastructure-img col-12">
             
                         </div>
                     </div>
             
                     <!-- Second Column -->
-                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 bg-inf" style="padding: 0px !important">
                         <div class="right-profile">
                             <!-- Energy -->
                             <div class="energy">
@@ -62,13 +62,13 @@
                 <div class="p-link">
                     <div class="row">
                         <div class="col-4 text-left bg-inf">
-                            <a href="{{ url('/expertise') }}">
+                            <a href="{{ url('expertise/index') }}">
                                 <i class="fas fa-angle-double-left"></i>
                                  Back
                             </a>
                         </div>
                         <div class="col-4 text-center">
-                            <a href="#">
+                            <a href="/projects/general_profile">
                                 Projects
                             </a>
                         </div>

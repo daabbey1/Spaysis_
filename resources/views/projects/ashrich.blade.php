@@ -12,22 +12,22 @@
             </ol>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img class="d-block w-100" src="../images/Projects/ashrich1.jpg" alt="First slide">
+                    <img class="d-block " src="../images/Projects/ashrich1.jpg" alt="First slide">
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100" src="../images/Projects/ashrich2.jpg" alt="Second slide">
+                    <img class="d-block " src="../images/Projects/ashrich2.jpg" alt="Second slide">
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100" src="../images/Projects/ashrich3.jpg" alt="Third slide">
+                    <img class="d-block " src="../images/Projects/ashrich3.jpg" alt="Third slide">
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100" src="../images/Projects/ashrich4.jpg" alt="Third slide">
+                    <img class="d-block " src="../images/Projects/ashrich4.jpg" alt="Third slide">
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100" src="../images/Projects/ashrich5.jpg" alt="Third slide">
+                    <img class="d-block " src="../images/Projects/ashrich5.jpg" alt="Third slide">
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100" src="../images/Projects/ashrich.jpg" alt="Third slide">
+                    <img class="d-block " src="../images/Projects/ashrich.jpg" alt="Third slide">
                 </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -45,42 +45,81 @@
         </div>
 
         {{-- Image Selector --}}
-        <div class="row px-5 py-2 " style=" background-color:#000022;">
-            <div class="col-2 cards" style="width: 100%;">
-                <span data-target="#carouselExampleIndicators" data-slide-to="0" class="active ">
-                    <img class="card-img-top" src="../images/Projects/ashrich1.jpg" alt="Card image cap">
-                </span>
-            </div>
-            <div class="col-2 cards" style="width: 100%;">
-                <span data-target="#carouselExampleIndicators" data-slide-to="1">
-                    <img class="card-img-top" src="../images/Projects/ashrich2.jpg" alt="Card image cap">
-                </span>
-            </div>
-            <div class="col-2 cards" style="width: 100%;">
-                <span data-target="#carouselExampleIndicators" data-slide-to="2">
-                <img class="card-img-top" src="../images/Projects/ashrich3.jpg" alt="Card image cap">
-                </span>
-            </div>
-            <div class="col-2 cards" style="width: 100%;">
-                <span data-target="#carouselExampleIndicators" data-slide-to="3">
-                 <img class="card-img-top" src="../images/Projects/ashrich4.jpg" alt="Card image cap">
-                </span>
-            </div>
-            <div class="col-2 cards" style="width: 100%;">
-                <span data-target="#carouselExampleIndicators" data-slide-to="4">
-                <img class="card-img-top" src="../images/Projects/ashrich5.jpg" alt="Card image cap">
-                </span>
-            </div>
-            <div class="col-2 cards" style="width: 100%;">
-                <span data-target="#carouselExampleIndicators" data-slide-to="5">
-                <img class="card-img-top" src="../images/Projects/ashrich.jpg" alt="Card image cap">
-                </span>
-            </div>
+        <div class="  py-2 selection-box" style=" background-color:#000022;">
+            <table  >
+                <tr>
+                    <td>
+                        <span data-target="#carouselExampleIndicators" data-slide-to="0" class="active">
+                         <img class=" img-selection" src="../images/Projects/ashrich1.jpg" alt="Card image cap"> 
+                        </span>
+                    </td>
+                    <td> 
+                        <span data-target="#carouselExampleIndicators" data-slide-to="1">
+                        <img class=" img-selection" src="../images/Projects/ashrich2.jpg" alt="Card image cap">
+                        </span>
+                     </td>
+                    <td> 
+                        <span data-target="#carouselExampleIndicators" data-slide-to="2">
+                        <img class=" img-selection" src="../images/Projects/ashrich3.jpg" alt="Card image cap">
+                        </span>
+                    </td>
+                    <td> 
+                        <span data-target="#carouselExampleIndicators" data-slide-to="3">
+                        <img class=" img-selection" src="../images/Projects/ashrich4.jpg" alt="Card image cap">
+                        </span>
+                    </td>
+                    <td> 
+                        <span data-target="#carouselExampleIndicators" data-slide-to="4">
+                        <img class=" img-selection" src="../images/Projects/ashrich5.jpg" alt="Card image cap">
+                        </span>
+                    </td>
+                    <td> 
+                        <span data-target="#carouselExampleIndicators" data-slide-to="5">
+                        <img class=" img-selection" src="../images/Projects/ashrich.jpg" alt="Card image cap">
+                        </span>
+                    </td>
+                </tr>
+            </table>
+            
+            
         </div>
+
+        {{-- <div class="row px-5 py-2 selection-box" style=" background-color:#000022;">
+            <div class="col-xs-2 col-2 cards bg-info" style="">
+                <span data-target="#carouselExampleIndicators" data-slide-to="0" class="active bg-warning ">
+                    <img class="card-img-top img-selection" src="./images/Projects/ashrich1.jpg" alt="Card image cap">
+                </span>
+            </div>
+            <div class="col-xs-2 col-2 cards bg-danger" style="width: 100%;">
+                <span data-target="#carouselExampleIndicators" data-slide-to="1">
+                    <img class="card-img-top img-selection" src="./images/Projects/ashrich2.jpg" alt="Card image cap">
+                </span>
+            </div>
+            <div class="col-xs-2 col-2 cards bg-info" style="width: 100%;">
+                <span data-target="#carouselExampleIndicators" data-slide-to="2">
+                <img class="card-img-top img-selection" src="./images/Projects/ashrich3.jpg" alt="Card image cap">
+                </span>
+            </div>
+            <div class="col-xs-2 col-2 cards bg-info" style="width: 100%;">
+                <span data-target="#carouselExampleIndicators" data-slide-to="3">
+                 <img class="card-img-top img-selection" src="./images/Projects/ashrich4.jpg" alt="Card image cap">
+                </span>
+            </div>
+            <div class="col-xs-2 col-2 cards bg-info" style="width: 100%;">
+                <span data-target="#carouselExampleIndicators" data-slide-to="4">
+                <img class="card-img-top img-selection" src="./images/Projects/ashrich5.jpg" alt="Card image cap">
+                </span>
+            </div>
+            <div class="col-xs-2 col-2 cards bg-info" style="width: 100%;">
+                <span data-target="#carouselExampleIndicators" data-slide-to="5">
+                <img class="card-img-top img-selection" src="./images/Projects/ashrich.jpg" alt="Card image cap">
+                </span>
+            </div>
+        </div> --}}
 
         {{-- Info about the project --}}
         <div class="row left-right-info">
-            <div class="col-7">
+            <div class="col-xs-12 col-lg-7 col-xl-7 bg-inf">
                 <div class="discription">
                    <div class="disc-head ">
                        <span class="disc-main-head"> Ashrich Development Training Center </span> 
@@ -94,7 +133,7 @@
                    </div>
                 </div>
             </div>
-            <div class="col-5">
+            <div class="col-xs-12 col-lg-5 col-xl-5">
                 <div class="pro-info">
                     <div class="pro-head">
                         <span class="pro-sub-head"> Project Information </span>
