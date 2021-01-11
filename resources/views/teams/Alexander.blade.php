@@ -11,11 +11,14 @@
             <div class="row row-height">
     
                 <!-- First Column -->
-                <div class="col-7  bg-dange">
+                <img src="../images/dp/Marful.png" class="alex-img col-sm-12 col-md-5 col-xl-5" alt="" srcset="">
+
+                <!-- Second Column -->
+                <div class="col-sm-12 col-xl-7 col-md-7  bg-dange">
                     <div class="right-profile bg-inf">
                 
-                        <div class="energy">
-                            <span class="individual-txt"> Dr. -Ing. Alexander Boakye Marful </span>
+                        <div class="energ">
+                            <span class="individual-txt"> Dr. -Ing. Alexander B. Marful </span>
                             <div class="profile-body">
                                 Dr.-Ing. Alexander Boakye Marful is an Architect and Infrastructure Planner with 16 years of professional experience. He
                                 is the Principal Consultant at SPAYSIS Ltd and oversee the overall management of the company. He has previously worked
@@ -36,10 +39,10 @@
                     </div>
                 </div>
     
-                <!-- Second Column -->
+                
                 {{-- <div class="col-6 left-col bg-info"> --}}
                     {{-- <div > --}}
-                        <img src="../images/dp/Marful.png" class="alex-img col-5" alt="" srcset="">
+                        {{-- <img src="../images/dp/Marful.png" class="alex-img col-sm-12 col-xl-5" alt="" srcset=""> --}}
                     {{-- </div> --}}
                 {{-- </div> --}}
                 
@@ -51,7 +54,7 @@
                     <div class="col-4">
                         <a href="{{ url('/teams/profile') }}">
                             <i class="fas fa-angle-double-left"></i>
-                            Go back
+                            Back
                         </a>
                     </div>
                     <div class="col-4">
@@ -61,7 +64,7 @@
                     </div>
                     <div class="col-4 text-right">
                         <a href="{{ url('#') }}">
-                            View all Team Profiles
+                            All Teams
                             <i class="fas fa-angle-double-right"></i>
                         </a>
                     </div>

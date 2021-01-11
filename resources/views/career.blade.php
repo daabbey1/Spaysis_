@@ -56,7 +56,7 @@
                         <a class="nav-link nav-link-txt text-light" href="{{ url('/teams/profile') }}"> TEAM </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link nav-link-txt text-light nav-active" href="{{ url('/contact') }}"> CONTACT
+                        <a class="nav-link nav-link-txt text-light" href="{{ url('/contact') }}"> CONTACT
                         </a>
                     </li>
                 </ul>
@@ -79,7 +79,7 @@
     <!-- Contact Us -->
     <div class="contact">
         <div class="page" style="display: block; text-align:center; font-size:23">
-            <span class="page-txt"> Career at SPAYSIS </span>
+            <span class="page-txt"> Careers at SPAYSIS </span>
         </div>
         {{-- <div class="row">
             <div class="col-3">
@@ -130,17 +130,17 @@
     {{-- Image section --}}
     <div class="image">
         <div class="img-section">
-            <img src="images/complete_.jpg" height="50%" width="100%" alt="" srcset="">
+            <img src="images/complete_.jpg"  alt="" srcset="">
         </div>
     </div>
 
     <!-- ------------------| Footer |---------------------- -->
     <div class="foot">
-        <div class="row no-gutters">
-            <div class="foot-txt col-auto mr-auto">
-                <span class="copy ml-3"> 2020 SPAYSIS. All Rights Preserved. </span>
+        <div class="row no-gutters sub-foot">
+            <div class="foot-txt col-xs-12 mr-aut bg-dange">
+                <span class="copy ml- bg-inf"> 2020 SPAYSIS. All Rights Preserved. </span>
             </div>
-            <div class="foot-logo col-auto">
+            <div class="foot-logo col-aut col-xs-12 bg-warnin">
                 <span class="mr-5">
                     <span class="twitter ml-1"> <i class="fab fa-twitter"></i> </span>
                     <span class="facebook mx-3"> <i class="fab fa-facebook"></i> </span>

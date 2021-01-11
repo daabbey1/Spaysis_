@@ -91,7 +91,7 @@
             {{-- First row --}}
             <div class="team-row-1">
                 <div class="row">
-                    <div class="col-xs-12 col-lg-6 sub-team" style="padding: 0px !important">
+                    <div class="col-xs-12 col-lg-6 col-xl-6 sub-team" style="padding: 0px !important">
                         <div class="about-intro">
                             <div class="team-box">
                                 <span class="head-team"> Our Team </span>
@@ -115,11 +115,11 @@
                         </div>
                     </div>
                     {{-- <div class="col-3"></div> --}}
-                    <div class="col-xs-12 col-lg-6 profile-ig">
+                    <div class="col-xs-12 col-lg-6 col-xl-6 profile-ig">
                         <div class="team-row">
                             <div class="row">
                                 {{-- <div class="col-6"> --}}
-                                    <div class="card col-xs-12 col-sm-6 col-lg-6" >
+                                    <div class="card col-xs-12 col-sm-6 col-lg-6 col-xl-6" >
                                         <a href="{{ url('/teams/Alexander') }}" class="card_link">
                                             <img class="card-img-top" src="../images/dp/Marful.png" alt="Card image cap">
                                             <span class="card-text">
@@ -130,7 +130,7 @@
                                     </div>
                                 {{-- </div> --}}
                                 {{-- <div class="col-6"> --}}
-                                    <div class="card col-xs-12 col-sm-6 col-lg-6">
+                                    <div class="card col-xs-12 col-sm-6 col-lg-6 col-xl-6">
                                         <a href="{{ url('/teams/Joe') }}" class="card_link">
                                             <img class="card-img-top" src="../images/dp/Joe1.jpg" alt="Card image cap">
                                             <span class="card-text">
@@ -287,10 +287,10 @@
     </div>
     
     <!-- <script src="js/about.js"></script> -->
-    <script src="js/Bootstrapjquery.js"></script>
-    <script defer src="js/all.js"></script>
-    <script src="js/Propper.js"></script>
-    <script src="js/bootstrap.js"></script>
+    <script src="../js/Bootstrapjquery.js"></script>
+    <script defer src="../js/all.js"></script>
+    <script src="../js/Propper.js"></script>
+    <script src="../js/bootstrap.js"></script>
 </body>
 
 </html>
