@@ -5,7 +5,7 @@
     <div class="body-section">
 
         {{-- ************| Infrastructure |************************* --}}
-        <div class="infrastructure-section ">
+        <div class="infrastructure-section">
             <div class="business">
                 <span class="business-txt"> Infrastructure Planning & Engineering </span>
             </div>

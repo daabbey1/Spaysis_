@@ -4,7 +4,7 @@
 <div class="body-section">
     {{-- ******************| Barrier |************************* --}}
     <div class="barrier-section">
-        <div class="business mx-5">
+        <div class="business">
             <span class="business-txt "> Barrier-free Design & Planning </span>
         </div>
     
@@ -13,14 +13,14 @@
             <div class="row">
     
                 <!-- First Column -->
-                <div class="col-6 left-col">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 left-col">
                     <div class="barrier-img col-12">
     
                     </div>
                 </div>
     
                 <!-- Second Column -->
-                <div class="col-6">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
                     <div class="right-profile">
                         <!-- Energy -->
                         <div class="energy">
@@ -70,20 +70,20 @@
             {{-- Profile Link --}}
             <div class="p-link">
                 <div class="row">
-                    <div class="col-4">
-                        <a href="{{ url('/expertise') }}">
+                    <div class="col-4 text-left bg-inf">
+                        <a href="{{ url('expertise/index') }}">
                             <i class="fas fa-angle-double-left"></i>
-                            Go back
+                            Back
                         </a>
                     </div>
-                    <div class="col-4">
-                        <a href="#">
-                            View Projects
+                    <div class="col-4 text-center">
+                        <a href="/projects/general_profile">
+                            Projects
                         </a>
                     </div>
-                    <div class="col-4">
+                    <div class="col-4 text-right">
                         <a href="{{ url('/business_profiles') }}">
-                            View all Business Profiles
+                            All
                             <i class="fas fa-angle-double-right"></i>
                         </a>
                     </div>

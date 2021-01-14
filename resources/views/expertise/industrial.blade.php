@@ -4,8 +4,8 @@
 <div class="body-section">
 
         {{-- ************| Industrial |************************* --}}
-        <div class="industrial-section bg-light">
-            <div class="business mx-5">
+        <div class="industrial-section">
+            <div class="business">
                 <span class="business-txt "> Industrial Model Building & Animations </span>
             </div>
         
@@ -14,18 +14,18 @@
                 <div class="row">
         
                     <!-- First Column -->
-                    <div class="col-6 left-col">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 left-col">
                         <div class="industrial-img col-12">
         
                         </div>
                     </div>
         
                     <!-- Second Column -->
-                    <div class="col-6">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
                         <div class="right-profile">
                             <!-- Industrial Model -->
                             <div class="energy">
-                                <span class="profile-txt"> Industrial Model Building & Animation </span>
+                                <span class="profile-txt"> INDUSTRIAL MODEL BUILDING & ANIMATION </span>
                                 <div class="profile-body">
                                     When telling any story, visual representation always creates a better understanding of
                                     your
@@ -77,25 +77,25 @@
         
                 {{-- Profile Link --}}
                 <div class="p-link">
-                   <div class="row">
-                    <div class="col-4">
-                        <a href="{{ url('/expertise') }}">
-                            <i class="fas fa-angle-double-left"></i>
-                            Go back
-                        </a>
+                    <div class="row">
+                        <div class="col-4 text-left bg-inf">
+                            <a href="{{ url('expertise/index') }}">
+                                <i class="fas fa-angle-double-left"></i>
+                                Back
+                            </a>
+                        </div>
+                        <div class="col-4 text-center">
+                            <a href="/projects/general_profile">
+                                Projects
+                            </a>
+                        </div>
+                        <div class="col-4 text-right">
+                            <a href="{{ url('/business_profiles') }}">
+                                All
+                                <i class="fas fa-angle-double-right"></i>
+                            </a>
+                        </div>
                     </div>
-                    <div class="col-4">
-                        <a href="#">
-                            View Projects
-                        </a>
-                    </div>
-                    <div class="col-4">
-                        <a href="{{ url('/business_profiles') }}">
-                            View all Business Profiles
-                            <i class="fas fa-angle-double-right"></i>
-                        </a>
-                    </div>
-                </div>
                 </div>
             </div>
         

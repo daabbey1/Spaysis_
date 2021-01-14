@@ -124,6 +124,7 @@ body::-webkit-scrollbar {
         text-transform: uppercase;
         font-weight: 600;
         display: block;
+        /* background-color: #0c7ad0; */
         /* padding-left: -3px; */
     }
 
@@ -136,7 +137,7 @@ body::-webkit-scrollbar {
         padding-left: 25px;
         padding-right: 25px; */
     }
-    .infrastructure-section{
+    .infrastructure-section, .architecture-section, .industrial-section , .land-section, .range-section, .barrier-section{
         /* background-color: white; */
         padding-top: 2vh;
         /* background-color: #0c7ad0; */
@@ -157,10 +158,37 @@ body::-webkit-scrollbar {
     .infrastructure-img{
         height: 40vh;
         width: 40vh;
-        /* border-radius: 20px 20px 0px 00px; */
-        /* border: 1px solid orange; */
-        /* border: 1px solid #000022; */
         background: url('../images/Aerial.jpg') center/cover no-repeat;
+    }
+
+    .architecture-img{
+        height: 40vh;
+        width: 40vh;
+        background: url('../images/architecture.jpg') center/cover no-repeat;
+    }
+
+    .industrial-img{
+        height: 40vh;
+        width: 40vh;
+        background: url('../images/AERIAL-VIEW-TOWARDS-CHAPEL.jpg') center/cover no-repeat;
+    }
+
+    .land-img{
+        height: 40vh;
+        width: 40vh;
+        background: url('../images/Land.jpg') center/cover no-repeat;
+    }
+
+    .barrier-img{
+        height: 40vh;
+        width: 40vh;
+        background: url('../images/barrierFree.jpg') center/cover no-repeat;
+    }
+
+    .range-img{
+        height: 40vh;
+        width: 40vh;
+        background: url('../images/range.jpg') center/cover no-repeat;
     }
 
     /****************** Text Section *******************/
