@@ -118,13 +118,13 @@ body{
         margin-top: 6vh;
         margin-left: 50px;
         margin-right: 50px;
-        height: 44vh;
+        height: 50vh;
         /* text-align: center; */
         /* background-color: orange; */
     }
 
     .page-txt{
-        font-size: 30px;
+        font-size: 22px;
         font-weight: 600;
         text-transform: uppercase;
         border-bottom: 1.4px solid orange;
@@ -135,7 +135,7 @@ body{
     }
 
     .img-section img{
-        height: 30%;
+        height: 35%;
         width: 100%;
     }
 
