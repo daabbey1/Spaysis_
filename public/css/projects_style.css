@@ -1135,8 +1135,8 @@ html, body {
 
     /***Image Slider ***/
     .carousel-item img{
-        height: 100vh;
-        width: auto;
+        height: 92vh;
+        width: 100%;
         /* width: 100%; */
         background-size: center;
         background-position: center;
