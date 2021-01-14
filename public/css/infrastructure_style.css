@@ -1227,3 +1227,9 @@ body::-webkit-scrollbar {
         padding-bottom: 5px;
     }
 }
+
+.break{
+    /* height: 1vh; 
+    background-color:#001744;
+    margin-bottom: 30px; */
+}

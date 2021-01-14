@@ -5,7 +5,7 @@
 <div class="body-section">
     {{-- ************| Infrastructure |************************* --}}
     <div class="infrastructure-section" style="background-color: #E7EBF0" >
-        <div class="business mx-5">
+        <div class="business">
             <span class="business-txt "> Infrastructure Planning & Engineering </span>
         </div>
 
@@ -14,14 +14,14 @@
             <div class="row">
 
                 <!-- First Column -->
-                <div class="col-6 left-col">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6  left-col" style="padding: 0px !important">
                     <div class="infrastructure-img col-12">
 
                     </div>
                 </div>
 
                 <!-- Second Column -->
-                <div class="col-6">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6" style="padding: 0px !important">
                     <div class="right-profile" style="background-color: white">
                         <!-- Energy -->
                         <div class="energy">
@@ -63,8 +63,8 @@
     <div class="break" style="height: 1vh; background-color:#001744"></div>
 
     {{-- ************| Architecture |************************* --}}
-    <div class="architecture-section" style="background-color: white">
-        <div class="business mx-5">
+    <div class="architecture-section" style="background-color: #E7EBF0" >
+        <div class="business">
             <span class="business-txt "> Architecture, Urban & Rural Planning </span>
         </div>
 
@@ -73,15 +73,15 @@
             <div class="row">
 
                 <!-- First Column -->
-                <div class="col-6 left-col">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 left-col">
                     <div class="architecture-img col-12">
 
                     </div>
                 </div>
 
                 <!-- Second Column -->
-                <div class="col-6">
-                    <div class="right-profile bg-light">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                    <div class="right-profile" >
                         <!-- Energy -->
                         <div class="energy">
                             <span class="profile-txt"> PLANNING AND EVALUATION SERVICES </span>
@@ -135,8 +135,8 @@
     </div>
 
     {{-- ************| Industrial |************************* --}}
-    <div class="industrial-section bg-light" style="background-color: #E7EBF0">
-        <div class="business mx-5">
+    <div class="industrial-section" style="background-color: #E7EBF0">
+        <div class="business">
             <span class="business-txt "> Industrial Model Building & Animations </span>
         </div>
 
@@ -145,14 +145,14 @@
             <div class="row">
 
                 <!-- First Column -->
-                <div class="col-6 left-col">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 left-col">
                     <div class="industrial-img col-12">
 
                     </div>
                 </div>
 
                 <!-- Second Column -->
-                <div class="col-6">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
                     <div class="right-profile bg-light">
                         <!-- Industrial Model -->
                         <div class="energy">
@@ -215,8 +215,8 @@
     </div>
 
     {{-- ************| Land |************************* --}}
-    <div class="land-section" style="background-color: white">
-        <div class="business mx-5">
+    <div class="land-section" style="background-color: #E7EBF0">
+        <div class="business">
             <span class="business-txt "> Land, Property & Facility Management </span>
         </div>
 
@@ -225,14 +225,14 @@
             <div class="row">
 
                 <!-- First Column -->
-                <div class="col-6 left-col">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 left-col">
                     <div class="land-img col-12">
 
                     </div>
                 </div>
 
                 <!-- Second Column -->
-                <div class="col-6">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
                     <div class="right-profile bg-light">
                         <!-- Core Services -->
                         <div class="energy">
@@ -341,7 +341,7 @@
 
     {{-- ******************| Barrier |************************* --}}
     <div class="barrier-section" style="background-color: #E7EBF0">
-        <div class="business mx-5">
+        <div class="business">
             <span class="business-txt "> Barrier-free Design & Planning </span>
         </div>
 
@@ -350,14 +350,14 @@
             <div class="row">
 
                 <!-- First Column -->
-                <div class="col-6 left-col">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 left-col">
                     <div class="barrier-img col-12">
 
                     </div>
                 </div>
 
                 <!-- Second Column -->
-                <div class="col-6">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
                     <div class="right-profile bg-light">
                         <!-- Energy -->
                         <div class="energy">
@@ -411,7 +411,7 @@
     </div>
 
     {{-- *******************| Range |************************* --}}
-    <div class="range-section" style="background-color: white">
+    <div class="range-section" style="background-color: #E7EBF0">
         <div class="business mx-5">
             <span class="business-txt "> Range Of Other Consulting Service </span>
         </div>
@@ -421,14 +421,14 @@
             <div class="row">
 
                 <!-- First Column -->
-                <div class="col-6 left-col">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 left-col">
                     <div class="range-img col-12">
 
                     </div>
                 </div>
 
                 <!-- Second Column -->
-                <div class="col-6">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
                     <div class="right-profile bg-light">
                         <!-- Core Services -->
                         <div class="energy">
