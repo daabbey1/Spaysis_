@@ -191,11 +191,9 @@
                 <!-- Partners -->
                 <div class="partners-space col-xs-12 col-sm-12 col-lg-12 col-xl-8">
                     <span class="partner-head"> Our Partners </span>
-
-
-                    <div class="row">
+                    <div class="row box-client">
                         <!-- First Column -->
-                        <div class="col-xs-12 col-sm-12 col-xl-6">
+                        <div class="col-xs-12 col-sm-6 col-xl-6">
                             <div>
                                 <!-- <span class="partner-head"> Our Partners </span> -->
                                 <div class="partner-body">
@@ -223,7 +221,7 @@
                         </div>
 
                         <!-- Second Column -->
-                        <div class="col-xs-12 col-sm-12 col-xl-6">
+                        <div class="col-xs-12 col-sm-6 col-xl-6">
                             <div>
                                 <div class="partner-body2">
 
@@ -247,9 +245,6 @@
                             </div>
                         </div>
                     </div>
-
-
-
                 </div>
 
                 <!-- Clients -->

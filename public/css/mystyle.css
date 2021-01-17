@@ -285,6 +285,12 @@ html, body {
         font-size: 32px;
         border-bottom: 2px solid orange;
     }
+
+    .box-client{
+        margin-top: 5px;
+        margin-bottom: 35px;
+        /* background-color: red; */
+    }
     
     /******** Contact ********/
     .office{
@@ -303,18 +309,18 @@ html, body {
     }
 
     .build, .acon, .joeamah{
-       margin-top: 20px;
+       margin-bottom: 20px;
     }
 
 
     /******** Clients *******/
     .valued-client{
-        font-size: 23px;
+        font-size: 20px;
         font-style: bold;
     }
 
     .client-body{
-        margin-top: 20px;
+        margin-top: 5px;
     }
 
     .seperate{
@@ -642,6 +648,10 @@ html, body {
         border-bottom: 2px solid orange;
     }
 
+    .box-client{
+        margin-top: 15px;
+    }
+
     .partner-sub-title{
         font-size: 23px;
         padding-bottom:50px !important;
@@ -684,9 +694,9 @@ html, body {
     }
 
     .valued-client{
-        text-align:center;
+        /* text-align:center; */
         display:block;
-        font-size:20px;
+        font-size:19px;
         /* background-color:orange; */
     }
 
@@ -1034,6 +1044,10 @@ html, body {
         border-bottom: 2px solid orange;
     }
 
+    .box-client{
+        margin-top: 20px;
+    }
+
     .partner-sub-title{
         font-size: 23px;
         padding-bottom:50px !important;
@@ -1076,9 +1090,10 @@ html, body {
     }
 
     .valued-client{
-        text-align:center;
+        /* text-align:center; */
         display:block;
         font-size:20px;
+        margin-top: 15px;
         /* background-color:orange; */
     }
 
@@ -1443,6 +1458,10 @@ html, body {
         font-style: bold;
     }
 
+    .box-client{
+        margin-top: 25px;
+    }
+
     .build, .acon, .joeamah{
         text-align: center;
         margin-bottom:35px;
@@ -1478,8 +1497,9 @@ html, body {
     }
 
     .valued-client{
-        text-align:center;
+        /* text-align:center; */
         display:block;
+        margin-top: 15px;
         font-size:20px;
         /* background-color:orange; */
     }

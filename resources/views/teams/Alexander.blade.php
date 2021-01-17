@@ -11,10 +11,10 @@
             <div class="row row-height">
     
                 <!-- First Column -->
-                <img src="../images/dp/Marful.png" class="alex-img col-sm-12 col-md-5 col-xl-5" alt="" srcset="">
+                <img src="../images/dp/Marful.png" class="alex-img col-xs-12 col-sm-4 col-md-5 col-xl-5" alt="" srcset="">
 
                 <!-- Second Column -->
-                <div class="col-sm-12 col-xl-7 col-md-7  bg-dange">
+                <div class="col-xs-12 col-sm-8 col-xl-7 col-md-7">
                     <div class="right-profile bg-inf">
                 
                         <div class="energ">
@@ -38,20 +38,13 @@
                 
                     </div>
                 </div>
-    
-                
-                {{-- <div class="col-6 left-col bg-info"> --}}
-                    {{-- <div > --}}
-                        {{-- <img src="../images/dp/Marful.png" class="alex-img col-sm-12 col-xl-5" alt="" srcset=""> --}}
-                    {{-- </div> --}}
-                {{-- </div> --}}
                 
             </div>
     
             {{-- Profile Link --}}
             <div class="p-link">
                 <div class="row">
-                    <div class="col-4">
+                    <div class="col-4 ">
                         <a href="{{ url('/teams/profile') }}">
                             <i class="fas fa-angle-double-left"></i>
                             Back
@@ -64,7 +57,7 @@
                     </div>
                     <div class="col-4 text-right">
                         <a href="{{ url('#') }}">
-                            All Teams
+                            All
                             <i class="fas fa-angle-double-right"></i>
                         </a>
                     </div>

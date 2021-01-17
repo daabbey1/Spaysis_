@@ -9,7 +9,10 @@
         <div class="row row-height">
 
             <!-- First Column -->
-            <div class="col-7">
+            <img src="../images/dp/Adaku.png" class="alex-img col-xs-12 col-sm-4 col-md-5 col-xl-5" alt="" srcset="">
+
+            <!-- Second Column -->
+            <div class="col-xs-12 col-sm-8 col-xl-7 col-md-7">
                 <div class="right-profile">
 
                     <div class="energy">
@@ -34,22 +37,16 @@
                 </div>
             </div>
 
-            <!-- Second Column -->
-            {{-- <div class="col-6 left-col bg-info"> --}}
-            {{-- <div > --}}
-            <img src="../images/dp/Adaku.png" class="alex-img col-5" alt="" srcset="">
-            {{-- </div> --}}
-            {{-- </div> --}}
 
         </div>
 
         {{-- Profile Link --}}
         <div class="p-link">
             <div class="row">
-                <div class="col-4">
+                <div class="col-4 ">
                     <a href="{{ url('/teams/profile') }}">
                         <i class="fas fa-angle-double-left"></i>
-                        Go back
+                        Back
                     </a>
                 </div>
                 <div class="col-4">
@@ -59,7 +56,7 @@
                 </div>
                 <div class="col-4 text-right">
                     <a href="{{ url('#') }}">
-                        View all Team Profiles
+                        All
                         <i class="fas fa-angle-double-right"></i>
                     </a>
                 </div>

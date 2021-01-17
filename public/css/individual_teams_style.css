@@ -116,7 +116,7 @@ background-color: #E7EBF0;
     }
 
     .individual-txt{
-        font-size: 20px;
+        font-size: 19px;
         font-weight: 600;
         margin-bottom: 10px;
         display: block;
@@ -128,8 +128,8 @@ background-color: #E7EBF0;
         padding-bottom: 15px;
         padding-left: 20px;
         padding-right: 20px;
-        font-size: 17px;
-        text-align: justify;
+        font-size: 16px;
+        /* text-align: justify; */
         height: auto;
         overflow-y: auto;
         /* border: 1px solid black; */
@@ -313,7 +313,7 @@ background-color: #E7EBF0;
         padding-left: 20px;
         padding-right: 20px;
         font-size: 17px;
-        text-align: justify;
+        /* text-align: justify; */
         height: auto;
         overflow-y: auto;
         /* border: 1px solid black; */
