@@ -610,6 +610,7 @@ body{
     }
 
     .img-section img{
+        margin-top: 20px;
         height: 60%;
         width: 100%;
     }
@@ -782,6 +783,7 @@ body{
     }
 
     .img-section img{
+        margin-top: 20px;
         height: 55%;
         width: 100%;
     }
