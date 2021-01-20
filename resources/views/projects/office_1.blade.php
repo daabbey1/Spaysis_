@@ -24,18 +24,18 @@
                 <img class="d-block" src="../images/Projects/capa5.jpg" alt="Fifth slide">
             </div>
             <div class="carousel-item">
-                <img class="d-block" src="../images/Projects/a6.pg" alt="Sixth slide">
+                <img class="d-block" src="../images/Projects/capa6.jpg" alt="Sixth slide">
             </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
             <span class="carousel-control-prev-ico" aria-hidden="true">
-                <span style="color: white; font-size:60px;"> <i class="fas fa-chevron-left"></i> </span>
+                <span style="color: white; font-size:30px;"> <i class="fas fa-chevron-left"></i> </span>
             </span>
             <span class="sr-only">Previous</span>
         </a>
         <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
             <span class="carousel-control-next-ico" aria-hidden="true">
-                <span style="color: white; font-size:60px;"> <i class="fas fa-chevron-right"></i> </span>
+                <span style="color: white; font-size:30px;"> <i class="fas fa-chevron-right"></i> </span>
             </span>
             <span class="sr-only">Next</span>
         </a>

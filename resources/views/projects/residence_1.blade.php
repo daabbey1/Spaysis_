@@ -29,13 +29,13 @@
         </div>
         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
             <span class="carousel-control-prev-ico" aria-hidden="true">
-                <span style="color: white; font-size:60px;"> <i class="fas fa-chevron-left"></i> </span>
+                <span style="color: white; font-size:30px;"> <i class="fas fa-chevron-left"></i> </span>
             </span>
             <span class="sr-only">Previous</span>
         </a>
         <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
             <span class="carousel-control-next-ico" aria-hidden="true">
-                <span style="color: white; font-size:60px;"> <i class="fas fa-chevron-right"></i> </span>
+                <span style="color: white; font-size:3;"> <i class="fas fa-chevron-right"></i> </span>
             </span>
             <span class="sr-only">Next</span>
         </a>

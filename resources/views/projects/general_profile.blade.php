@@ -50,8 +50,8 @@
         </div>
         <div class="col-xs-12 col-sm-12 col-md-6 col-xl-3 card" style="width: 100%;">
             <a href="{{ url('/projects/residence_2') }}">
-            <img class="card-img-top" src="../images/Projects/brice.jpg" alt="Card image cap">
-            <span class="card-text"> Brice </span>
+            <img class="card-img-top" src="../images/Projects/residence1.jpg" alt="Card image cap">
+            <span class="card-text"> Prampram </span>
             </a>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-6 col-xl-3 card" style="width: 100%;">
@@ -222,8 +222,8 @@
         </div>
         <div class="col-xs-12 col-sm-12 col-md-6 col-xl-3 card" style="width: 100%;">
             <a href="{{ url('/projects/industry_2') }}">
-            <img class="card-img-top" src="../images/Projects/industrial2.jpg" alt="Card image cap">
-            <span class="card-text"> Industrial </span>
+            <img class="card-img-top" src="../images/Projects/piggery1.jpg" alt="Card image cap">
+            <span class="card-text"> Piggery </span>
             </a>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-6 col-xl-3 card" style="width: 100%;">

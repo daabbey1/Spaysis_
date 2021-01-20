@@ -134,6 +134,10 @@ body{
 
     }
 
+    .slide_6{
+        display: none;
+    }
+
 
     .carousel-inner h2{
 	font-weight: bold;
@@ -308,6 +312,10 @@ body{
 	font-weight: bold;
     }
 
+    .slide_6{
+        display: none;
+    }
+
     .trinity{
     /* color: rgb(179, 6, 6); */
     font-weight: 900;
@@ -477,6 +485,10 @@ body{
         font-weight: bold;
     }
 
+    .slide_6{
+        display: none;
+    }
+    
     .trinity{
         /* color: rgb(179, 6, 6); */
         font-weight: 900;

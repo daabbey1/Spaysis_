@@ -89,31 +89,32 @@
                     <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
                     <li data-target="#carouselExampleIndicators" data-slide-to="3"></li> 
                     <li data-target="#carouselExampleIndicators" data-slide-to="4"></li> 
-                    <li data-target="#carouselExampleIndicators" data-slide-to="5"></li> 
+                    <li class="slide_6" data-target="#carouselExampleIndicators" data-slide-to="5"></li> 
                     {{-- <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>  --}}
                 </ol>
                 <div class="carousel-inner" role="listbox" style="margin-left: 0%;">
 
+                    <!-- Slide One - Set the background image for this slide in the line below -->
                     <div class="carousel-item active">
-                        <img src="images/Capa_Chemist_Tema.jpg" style="">
+                        <img src="images/slide1.jpg" style="">
                         <div class="carousel-caption d-none d-md-block " style="text-shadow: 2px 2px black;">
                             <h2 class="display-5"> CAPA CHEMIST </h2>
                             <p class="slide-txt">Tema - Accra </p>
                         </div>
                     </div>
 
-                    <!-- Slide One - Set the background image for this slide in the line below -->
+                    <!-- Slide Two - Set the background image for this slide in the line below -->
                     <div class="carousel-item ">
-                        <img src="images/Patasi---Kumasi-home-3.jpg" >
+                        <img src="images/slide2.jpg" >
                         <div class="carousel-caption d-none d-md-block" style="text-shadow: 2px 2px black;">
                             <h2 class="display-5">RESIDENTIAL VILLA</h2>
                             <p class="slide-txt"> Patasi - Kumasi.</p>
                         </div>
                     </div>
 
-                    <!-- Slide Two - Set the background image for this slide in the line below -->
+                    <!-- Slide Three - Set the background image for this slide in the line below -->
                     <div class="carousel-item">
-                        <img src="images/trinity_towers_accra.jpg" >
+                        <img src="images/slide3.jpg" >
                         <div class="carousel-caption d-none d-md-block" style="text-shadow: 2px 2px black;">
                             <div class="trinity">
                                 <h2 class="display-5 "> TRINITY TOWERS </h2>
@@ -122,9 +123,9 @@
                         </div>
                     </div>
 
-                    <!-- Slide Three - Set the background image for this slide in the line below -->
+                    <!-- Slide Four - Set the background image for this slide in the line below -->
                      <div class="carousel-item">
-                      <img src="images/slide3.jpg" >
+                      <img src="images/slide4.JPG" >
                         <div class="carousel-caption d-none d-md-block" style="text-shadow: 2px 2px black;">
                             <div class="trinity">
                                 <h2 class="display-5 "> MIBSIP </h2>
@@ -133,9 +134,9 @@
                         </div>
                     </div>
 
-                    <!-- Slide Four - Set the background image for this slide in the line below -->
+                    <!-- Slide Five - Set the background image for this slide in the line below -->
                      <div class="carousel-item">
-                      <img src="images/slide1.jpg" >
+                      <img src="images/range.jpg" >
                         <div class="carousel-caption d-none d-md-block" style="text-shadow: 2px 2px black;">
                             <div class="trinity">
                                 <h2 class="display-5 "> COVID-19 EFFECT </h2>
@@ -144,8 +145,8 @@
                         </div>
                      </div>
 
-                    <!-- Slide Five - Set the background image for this slide in the line below -->
-                    <div class="carousel-item">
+                    <!-- Slide six - Set the background image for this slide in the line below -->
+                    <div class="carousel-item slide_6">
                         <img src="images/SPACES.jpg">
                         <div class="carousel-caption d-none d-md-block" style="text-shadow: 2px 2px black;">
                             <div class="trinity">

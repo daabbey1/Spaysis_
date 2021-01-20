@@ -54,7 +54,7 @@
                             <a class="nav-link nav-link-txt  text-light" href="{{ url('/projects/general_profile') }}"> PROJECTS </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link nav-link-txt  text-light nav-active" href="{{ url('/expertise') }}">
+                            <a class="nav-link nav-link-txt  text-light nav-active" href="{{ url('/expertise/index') }}">
                                 EXPERTISE </a>
                         </li>
                         <li class="nav-item">

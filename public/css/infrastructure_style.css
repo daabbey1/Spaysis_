@@ -384,7 +384,7 @@ body::-webkit-scrollbar {
 
     /* ***************| Infrastructure Profile |*************** */
     
-    .infrastructure-section{
+    .infrastructure-section, .architecture-section, .industrial-section , .land-section, .range-section, .barrier-section{
         padding-top: 3vh;
         padding-bottom: 8vh;
         padding-left: 25px;
@@ -402,6 +402,37 @@ body::-webkit-scrollbar {
         width: auto;
         background: url('../images/Aerial.jpg') center/cover no-repeat;
     }
+
+    .architecture-img{
+        height: 50vh;
+        width: auto;
+        background: url('../images/architecture.jpg') center/cover no-repeat;
+    }
+
+    .industrial-img{
+        height: 50vh;
+        width: auto;
+        background: url('../images/AERIAL-VIEW-TOWARDS-CHAPEL.jpg') center/cover no-repeat;
+    }
+
+    .land-img{
+        height: 50vh;
+        width: auto;
+        background: url('../images/Land.jpg') center/cover no-repeat;
+    }
+
+    .barrier-img{
+        height: 50vh;
+        width: auto;
+        background: url('../images/barrierFree.jpg') center/cover no-repeat;
+    }
+
+    .range-img{
+        height: 50vh;
+        width: auto;
+        background: url('../images/range.jpg') center/cover no-repeat;
+    }
+
 
     /****************** Text Section *******************/
     .right-profile{
@@ -578,7 +609,7 @@ body::-webkit-scrollbar {
 
     /* ***************| Infrastructure Profile |*************** */
     
-    .infrastructure-section{
+    .infrastructure-section, .architecture-section, .industrial-section , .land-section, .range-section, .barrier-section{
         padding-top: 3vh;
         padding-bottom: 8vh;
         padding-left: 35px;
@@ -595,6 +626,36 @@ body::-webkit-scrollbar {
         height: 60vh;
         width: auto;
         background: url('../images/Aerial.jpg') center/cover no-repeat;
+    }
+
+    .architecture-img{
+        height: 60vh;
+        width: auto;
+        background: url('../images/architecture.jpg') center/cover no-repeat;
+    }
+
+    .industrial-img{
+        height: 60vh;
+        width: auto;
+        background: url('../images/AERIAL-VIEW-TOWARDS-CHAPEL.jpg') center/cover no-repeat;
+    }
+
+    .land-img{
+        height: 60vh;
+        width: auto;
+        background: url('../images/Land.jpg') center/cover no-repeat;
+    }
+
+    .barrier-img{
+        height: 60vh;
+        width: auto;
+        background: url('../images/barrierFree.jpg') center/cover no-repeat;
+    }
+
+    .range-img{
+        height: 60vh;
+        width: auto;
+        background: url('../images/range.jpg') center/cover no-repeat;
     }
 
     /****************** Text Section *******************/
@@ -775,7 +836,7 @@ body::-webkit-scrollbar {
 
     /* ***************| Infrastructure Profile |*************** */
     
-    .infrastructure-section{
+    .infrastructure-section, .architecture-section, .industrial-section , .land-section, .range-section, .barrier-section{
         padding-top: 3vh;
         padding-bottom: 8vh;
         padding-left: 50px;
@@ -792,6 +853,36 @@ body::-webkit-scrollbar {
         height: 60vh;
         width: auto;
         background: url('../images/Aerial.jpg') center/cover no-repeat;
+    }
+
+    .architecture-img{
+        height: 60vh;
+        width: auto;
+        background: url('../images/architecture.jpg') center/cover no-repeat;
+    }
+
+    .industrial-img{
+        height: 60vh;
+        width: auto;
+        background: url('../images/AERIAL-VIEW-TOWARDS-CHAPEL.jpg') center/cover no-repeat;
+    }
+
+    .land-img{
+        height: 60vh;
+        width: auto;
+        background: url('../images/Land.jpg') center/cover no-repeat;
+    }
+
+    .barrier-img{
+        height: 60vh;
+        width: auto;
+        background: url('../images/barrierFree.jpg') center/cover no-repeat;
+    }
+
+    .range-img{
+        height: 60vh;
+        width: auto;
+        background: url('../images/range.jpg') center/cover no-repeat;
     }
 
     /****************** Text Section *******************/
@@ -1070,7 +1161,10 @@ body::-webkit-scrollbar {
         border: 1px solid black; */
 
         background-color: white;
-        padding:40px;
+        padding-top:10px;
+        padding-left:40px;
+        padding-right:40px;
+        padding-bottom:40px;
         height: 60vh;
         overflow-y: auto;
     }
@@ -1108,7 +1202,7 @@ body::-webkit-scrollbar {
 
     /* *************| Architecture |************* */
     .architecture-section{
-        background-color: white;
+        background-color: #E7EBF0;
         padding-top: 3.5vh;
         padding-bottom: 12.5vh;
         padding-left: 50px;
@@ -1125,7 +1219,7 @@ body::-webkit-scrollbar {
 
     /* ***************| Industrial |**************** */
     .industrial-section{
-        background-color: white;
+        background-color: #E7EBF0;
         padding-top: 3.5vh;
         padding-bottom: 12.5vh;
         padding-left: 50px;
@@ -1135,7 +1229,7 @@ body::-webkit-scrollbar {
 
     /* **************| Land | ******************* */
     .land-section{
-        background-color: white;
+        background-color: #E7EBF0;
         padding-top: 3.5vh;
         padding-bottom: 12.5vh;
         padding-left: 50px;
@@ -1144,7 +1238,7 @@ body::-webkit-scrollbar {
 
     /* **************| Barrier | ******************* */
     .barrier-section{
-        background-color: white;
+        background-color: #E7EBF0;
         padding-top: 3.5vh;
         padding-bottom: 12.5vh;
         padding-left: 50px;
@@ -1153,7 +1247,7 @@ body::-webkit-scrollbar {
 
     /* **************| Range | ******************* */
     .range-section{
-        background-color: white;
+        background-color: #E7EBF0;
         padding-top: 3.5vh;
         padding-bottom: 12.5vh;
         padding-left: 50px;

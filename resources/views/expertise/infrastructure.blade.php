@@ -14,15 +14,15 @@
             <div class="infrastructure-profile">
                 <div class="row">
             
-                    <!-- First Column -->
-                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6  left-col bg-dange" style="padding: 0px !important">
+                    <!-- First Column style="padding: 0px !important"-->
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6  left-col bg-dange" >
                         <div class="infrastructure-img col-12">
             
                         </div>
                     </div>
             
-                    <!-- Second Column -->
-                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 bg-inf" style="padding: 0px !important">
+                    <!-- Second Column style="padding: 0px !important"-->
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 bg-inf" >
                         <div class="right-profile">
                             <!-- Energy -->
                             <div class="energy">

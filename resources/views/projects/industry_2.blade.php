@@ -9,16 +9,16 @@
         </ol>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img class="d-block" src="../images/Projects/phmaceutical.jpg" alt="First slide">
+                <img class="d-block" src="../images/Projects/piggery1.jpg" alt="First slide">
             </div>
             <div class="carousel-item">
-                <img class="d-block" src="../images/Projects/pharmautical2.jpg" alt="Second slide">
+                <img class="d-block" src="../images/Projects/piggery2.jpg" alt="Second slide">
             </div>
             <div class="carousel-item">
-                <img class="d-block" src="../images/Projects/eza3.jpg" alt="Third slide">
+                <img class="d-block" src="../images/Projects/piggery3.jpg" alt="Third slide">
             </div>
             <div class="carousel-item">
-                <img class="d-block" src="../images/Projects/a4.pg" alt="Fourth slide">
+                <img class="d-block" src="../images/Projects/piggery4.jpg" alt="Fourth slide">
             </div>
             <div class="carousel-item">
                 <img class="d-block" src="../images/Projects/a4.pg" alt="Fifth slide">
@@ -29,13 +29,13 @@
         </div>
         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
             <span class="carousel-control-prev-ico" aria-hidden="true">
-                <span style="color: white; font-size:60px;"> <i class="fas fa-chevron-left"></i> </span>
+                <span style="color: white; font-size:30px;"> <i class="fas fa-chevron-left"></i> </span>
             </span>
             <span class="sr-only">Previous</span>
         </a>
         <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
             <span class="carousel-control-next-ico" aria-hidden="true">
-                <span style="color: white; font-size:60px;"> <i class="fas fa-chevron-right"></i> </span>
+                <span style="color: white; font-size:30px;"> <i class="fas fa-chevron-right"></i> </span>
             </span>
             <span class="sr-only">Next</span>
         </a>
@@ -47,22 +47,22 @@
             <tr>
                 <td>
                     <span data-target="#carouselExampleIndicators" data-slide-to="0" class="active">
-                        <img class=" img-selection" src="../images/Projects/pharmaceutical.jp" alt="Card image cap">
+                        <img class=" img-selection" src="../images/Projects/piggery1.jpg" alt="Card image cap">
                     </span>
                 </td>
                 <td>
                     <span data-target="#carouselExampleIndicators" data-slide-to="1">
-                        <img class=" img-selection" src="../images/Projects/pharmaceutical2.jg" alt="Card image cap">
+                        <img class=" img-selection" src="../images/Projects/piggery2.jpg" alt="Card image cap">
                     </span>
                 </td>
                 <td>
                     <span data-target="#carouselExampleIndicators" data-slide-to="2">
-                        <img class=" img-selection" src="../images/Projects/patasi3.j" alt="Card image cap">
+                        <img class=" img-selection" src="../images/Projects/piggery3.jpg" alt="Card image cap">
                     </span>
                 </td>
                 <td>
                     <span data-target="#carouselExampleIndicators" data-slide-to="3">
-                        <img class=" img-selection" src="../images/Projects/MIBSIP4.j" alt="Card image cap">
+                        <img class=" img-selection" src="../images/Projects/piggery4.jpg" alt="Card image cap">
                     </span>
                 </td>
                 <td>

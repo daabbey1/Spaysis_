@@ -91,7 +91,7 @@
             {{-- First row --}}
             <div class="team-row-1">
                 <div class="row">
-                    <div class="col-xs-12 col-lg-6 col-xl-6 sub-team" style="padding: 0px !important">
+                    <div class="col-xs-12  col-lg-6 col-xl-6 sub-team" style="padding: 0px !important">
                         <div class="about-intro">
                             <div class="team-box">
                                 <span class="head-team"> Our Team </span>
@@ -115,11 +115,11 @@
                         </div>
                     </div>
                     {{-- <div class="col-3"></div> --}}
-                    <div class="col-xs-12 col-lg-6 col-xl-6 profile-ig">
+                    <div class="col-xs-12  col-lg-6 col-xl-6 profile-ig">
                         <div class="team-row">
                             <div class="row">
                                 {{-- <div class="col-6"> --}}
-                                    <div class="card col-xs-12 col-sm-6 col-lg-6 col-xl-6" >
+                                    <div class="card col-xs-12 col-sm-6  col-lg-6 col-xl-6" >
                                         <a href="{{ url('/teams/Alexander') }}" class="card_link">
                                             <img class="card-img-top" src="../images/dp/Marful.png" alt="Card image cap">
                                             <span class="card-text">
@@ -130,12 +130,12 @@
                                     </div>
                                 {{-- </div> --}}
                                 {{-- <div class="col-6"> --}}
-                                    <div class="card col-xs-12 col-sm-6 col-lg-6 col-xl-6">
-                                        <a href="{{ url('/teams/Joe') }}" class="card_link">
-                                            <img class="card-img-top" src="../images/dp/Joe1.jpg" alt="Card image cap">
+                                    <div class="card col-xs-12 col-sm-6  col-lg-6 col-xl-6">
+                                        <a href="{{ url('/teams/Duah') }}" class="card_link">
+                                            <img class="card-img-top" src="../images/dp/Duah.jpg" alt="image">
                                             <span class="card-text">
-                                               <span class="name">     Arc Joe Danquah </span> <br>
-                                               <span class="position">  Snr Project Architect / Barrier-free Expert </span>
+                                                <span class="name"> Dr Daniel Duah </span> <br>
+                                                <span class="position"> Snr Project Architect </span>
                                             </span>
                                         </a>
                                     </div>
@@ -149,7 +149,7 @@
 
             {{-- Second Row --}}
             <div class="row">
-                <div class="card col-xs-12 col-sm-6 col-lg-3">
+                <div class="card col-xs-12 col-md- col-sm-6 col-lg-3">
                     <a href="{{ url('/teams/Ebenezer') }}" class="card_link">
                         <img class="card-img-top" src="../images/dp/Adaku.png" alt="image">
                         <span class="card-text">
@@ -158,16 +158,17 @@
                         </span>
                     </a>
                 </div>
-                <div class="card col-xs-12 col-sm-6 col-lg-3">
-                    <a href="{{ url('/teams/Duah') }}" class="card_link">
-                        <img class="card-img-top" src="../images/dp/Duah.jpg" alt="image">
+                <div class="card col-xs-12 col-md- col-sm-6 col-lg-3">
+                    <a href="{{ url('/teams/Joe') }}" class="card_link">
+                        <img class="card-img-top" src="../images/dp/Joe1.jpg" alt="Card image cap">
                         <span class="card-text">
-                           <span class="name"> Dr Daniel Duah </span> <br>
-                           <span class="position"> Snr Project Architect </span>
+                            <span class="name"> Arc Joe Danquah </span> <br>
+                            <span class="position"> Snr Project Architect / Barrier-free Expert </span>
                         </span>
                     </a>
+                   
                 </div>
-                <div class="card col-xs-12 col-sm-6 col-lg-3">
+                <div class="card col-xs-12 col-md- col-sm-6 col-lg-3">
                     <a href="{{ url('/teams/Doh') }}" class="card_link">
                         <img class="card-img-top" src="../images/dp/Doh.png" alt="image">
                         <span class="card-text">
@@ -176,7 +177,7 @@
                         </span>
                     </a>
                 </div>
-                <div class="card col-xs-12 col-sm-6 col-lg-3">
+                <div class="card col-xs-12 col-md- col-sm-6 col-lg-3">
                     <a href="{{ url('/teams/James') }}" class="card_link">
                         <img class="card-img-top" src="../images/dp/James.jpg" alt="image">
                         <span class="card-text">
@@ -189,7 +190,7 @@
 
             {{-- Third Row --}}
             <div class="row">
-                <div class="card col-xs-12 col-sm-6 col-lg-3 ">
+                <div class="card col-xs-12  col-sm-6 col-lg-3 ">
                     <a href="{{ url('/teams/Wahab') }}" class="card_link">
                         <img class="card-img-top" src="../images/dp/Wahab.jpg" alt="Card image cap">
                         <span class="card-text">
