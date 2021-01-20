@@ -214,7 +214,7 @@
                                         Construction & Procurement Services <br>
                                         <a href="#"> buildformltd.com </a> <br>
                                         Tel: +233(0)302 935966 <br>
-                                        samuel@buildformltd.com <br>
+                                        samuel@bgituildformltd.com <br>
                                     </div>
                                 </div>
                             </div>

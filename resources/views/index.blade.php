@@ -116,10 +116,10 @@
                     <div class="carousel-item">
                         <img src="images/slide3.jpg" >
                         <div class="carousel-caption d-none d-md-block" style="text-shadow: 2px 2px black;">
-                            <div class="trinity">
+                            {{-- <div class="trinity"> --}}
                                 <h2 class="display-5 "> TRINITY TOWERS </h2>
                                 <p class="slide-txt"> Cantoment - Accra </p>
-                            </div>
+                            {{-- </div> --}}
                         </div>
                     </div>
 
