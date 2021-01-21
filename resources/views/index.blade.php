@@ -17,7 +17,7 @@
     <!-- Header -->
     <div class="head-section">
     
-        <nav class="navbar navbar-expand-lg navbar-dark sub-head">
+        <nav class="navbar navbar-expand-lg navbar-dark sub-head bg-dange">
             <a class="navbar-brand logo bg-inf" href="#">
                 <img src="images/main_logo.png" alt="logo" srcset="" style="color: aliceblue;">
             </a>
@@ -26,55 +26,57 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
     
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mx-auto ">
-                    <li class="nav-item ">
-                        <a class="nav-link nav-link-txt text-light nav-active" href="{{ url('/') }}"> HOME <span
-                                class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link nav-link-txt  text-light " href="#" id="navbarDropdown" role="button"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            ABOUT
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <div class="sub-tab">
-                                <div class="hover-tabs">
-                                    <span class="hover-link"> <a href="{{ url('/about') }}"> About Spaysis </a> </span>
-                                    <span class="hover-link" id="publication"> <a href="#"> Publications </a> </span>
-                                    <span class="hover-link" id="career"> <a href="{{ url('/career') }}"> Career </a> </span>
-                                    <span class="hover-link" id="policy"> <a href="#"> Policy & Notice </a> </span>
+            {{-- <div class="gig bg-info" style="width:100px !important"> --}}
+                <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto " >
+                        <li class="nav-item ">
+                            <a class="nav-link nav-link-txt text-light nav-active" href="{{ url('/') }}"> HOME <span
+                                    class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link nav-link-txt  text-light " href="#" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                ABOUT
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <div class="sub-tab">
+                                    <div class="hover-tabs">
+                                        <span class="hover-link"> <a href="{{ url('/about') }}"> About Spaysis </a> </span>
+                                        <span class="hover-link" id="publication"> <a href="#"> Publications </a> </span>
+                                        <span class="hover-link" id="career"> <a href="{{ url('/career') }}"> Career </a> </span>
+                                        <span class="hover-link" id="policy"> <a href="#"> Policy & Notice </a> </span>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link nav-link-txt  text-light" href="{{ url('/projects/general_profile') }}"> PROJECTS </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link nav-link-txt  text-light " href="{{ url('/expertise/index') }}">
-                            EXPERTISE </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link nav-link-txt text-light" href="{{ url('/teams/profile') }}"> TEAM </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link nav-link-txt text-light " href="{{ url('/contact') }}"> CONTACT </a>
-                    </li>
-                </ul>
-    
-                <div class="row sub-sec no-gutters">
-                    <form class="form-inline search-box my-lg-0">
-                        <input class="form-control search-input  col-xs-12 col-sm-12 col-md-11 col-lg-11 " type="search"
-                            placeholder="Search" aria-label="Search">
-                        {{-- <div class="col-xs-2 col-sm-2 col-md-1 col-lg-1">
-                            <!-- <button class="btn my-sm-0 search-btn" type="submit">
-                                            <i class="fa fa-search" aria-hidden="true"></i>
-                                        </button> -->
-                        </div> --}}
-                    </form>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav-link-txt  text-light" href="{{ url('/projects/general_profile') }}"> PROJECTS </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav-link-txt  text-light " href="{{ url('/expertise/index') }}">
+                                EXPERTISE </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav-link-txt text-light" href="{{ url('/teams/profile') }}"> TEAM </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav-link-txt text-light " href="{{ url('/contact') }}"> CONTACT </a>
+                        </li>
+                    </ul>
+                
+                    <div class="row sub-sec no-gutters">
+                        <form class="form-inline search-box my-lg-0">
+                            <input class="form-control search-input  col-xs-12 col-sm-12 col-md-11 col-lg-11 " type="search"
+                                placeholder="Search" aria-label="Search">
+                            {{-- <div class="col-xs-2 col-sm-2 col-md-1 col-lg-1">
+                                            <!-- <button class="btn my-sm-0 search-btn" type="submit">
+                                                            <i class="fa fa-search" aria-hidden="true"></i>
+                                                        </button> -->
+                                        </div> --}}
+                        </form>
+                    </div>
                 </div>
-            </div>
+            {{-- </div> --}}
         </nav>
     </div>
 

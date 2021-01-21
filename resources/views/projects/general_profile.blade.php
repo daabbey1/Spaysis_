@@ -38,6 +38,35 @@
         {{-- </div> --}}
     </div>
 
+    {{-- Mixed Use --}}
+    <span class="gen-profile-head"> Mixed Use Houses </span>
+    <div class="row no-gutter">
+        <div class="col-xs-12 col-sm-12 col-md-6 col-xl-3 card" style="width: 100%;">
+            <a href="{{ url('/projects/mixed_1') }}">
+                <img class="card-img-top" src="../images/Projects/apothecary1.jpg" alt="image cap">
+                <span class="card-text"> Apothecary Village </span>
+            </a>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-6 col-xl-3 card" style="width: 100%;">
+            <a href="{{ url('/projects/mixed_2') }}">
+                <img class="card-img-top" src="../images/Projects/bmk1.jpg" alt=" image cap">
+                <span class="card-text"> BMK </span>
+            </a>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-6 col-xl-3 card" style="width: 100%;">
+            <a href="{{ url('/projects/mixed_3') }}">
+                <img class="card-img-top" src="../images/Projects/sylvia1.jpg" alt=" image cap">
+                <span class="card-text"> Sylvia's </span>
+            </a>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-6 col-xl-3 card" style="width: 100%;">
+            <a href="{{ url('/projects/mixed_4') }}">
+                <img class="card-img-top" src="../images/Projects/trinity1.jpg" alt="image cap">
+                <span class="card-text"> Trinity Heights </span>
+            </a>
+        </div>
+    </div>
+
     
     {{-- Residential --}}
     <span class="gen-profile-head"> Residence </span>
@@ -147,8 +176,8 @@
         </div>
         <div class="col-xs-12 col-sm-12 col-md-6 col-xl-3 card" style="width: 100%;">
             <a href="{{ url('/projects/hostel_4') }}">
-            <img class="card-img-top" src="../images/Projects/ablakwa.png" alt="Card image cap">
-            <span class="card-text"> Lorem </span>
+            <img class="card-img-top" src="../images/Projects/camers1.jpg" alt="Card image cap">
+            <span class="card-text"> Campers Lodge </span>
             </a>
         </div>
     </div>

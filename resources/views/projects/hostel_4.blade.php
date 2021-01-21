@@ -9,16 +9,16 @@
         </ol>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img class="d-block w-100" src="../images/Projects/gold.jpg" alt="First slide">
+                <img class="d-block w-100" src="../images/Projects/camers1.jpg" alt="First slide">
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100" src="../images/Projects/goln.jpg" alt="Second slide">
+                <img class="d-block w-100" src="../images/Projects/camers2.jpg" alt="Second slide">
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100" src="../images/Projects/gol2.jpg" alt="Third slide">
+                <img class="d-block w-100" src="../images/Projects/camers3.jpg" alt="Third slide">
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100" src="../images/Projects/a4.pg" alt="Fourth slide">
+                <img class="d-block w-100" src="../images/Projects/camers4.jpg" alt="Fourth slide">
             </div>
             <div class="carousel-item">
                 <img class="d-block w-100" src="../images/Projects/a4.pg" alt="Fifth slide">
@@ -42,37 +42,41 @@
     </div>
 
     {{-- Image Selector --}}
-    <div class="row px-5 py-2 " style=" background-color:#000022;">
-        <div class="col-2 cards" style="width: 100%;">
-            <span data-target="#carouselExampleIndicators" data-slide-to="0" class="active ">
-                <img class="card-img-top" src="../images/Projects/goln2.jpg" alt="Card image cap">
-            </span>
-        </div>
-        <div class="col-2 cards" style="width: 100%;">
-            <span data-target="#carouselExampleIndicators" data-slide-to="1">
-                <img class="card-img-top" src="../images/Projects/goen.jpg" alt="image">
-            </span>
-        </div>
-        <div class="col-2 cards" style="width: 100%;">
-            <span data-target="#carouselExampleIndicators" data-slide-to="2">
-                <img class="card-img-top" src="../images/Projects/goln.jpg" alt="image">
-            </span>
-        </div>
-        <div class="col-2 cards" style="width: 100%;">
-            <span data-target="#carouselExampleIndicators" data-slide-to="3">
-                <img class="card-img-top" src="../images/Projects/a.pg" alt="image">
-            </span>
-        </div>
-        <div class="col-2 cards" style="width: 100%;">
-            <span data-target="#carouselExampleIndicators" data-slide-to="4">
-                <img class="card-img-top" src="../images/Projects/a4.png" alt="image">
-            </span>
-        </div>
-        <div class="col-2 cards" style="width: 100%;">
-            <span data-target="#carouselExampleIndicators" data-slide-to="5">
-                <img class="card-img-top" src="../images/Projects/a6.png" alt="image">
-            </span>
-        </div>
+    <div class="  py-2 selection-box" style=" background-color:#000022;">
+        <table>
+            <tr>
+                <td>
+                    <span data-target="#carouselExampleIndicators" data-slide-to="0" class="active">
+                        <img class=" img-selection" src="../images/Projects/camers1.jpg" alt="Card image cap">
+                    </span>
+                </td>
+                <td>
+                    <span data-target="#carouselExampleIndicators" data-slide-to="1">
+                        <img class=" img-selection" src="../images/Projects/camers2.jpg" alt="Card image cap">
+                    </span>
+                </td>
+                <td>
+                    <span data-target="#carouselExampleIndicators" data-slide-to="2">
+                        <img class=" img-selection" src="../images/Projects/camers3.jpg" alt="Card image cap">
+                    </span>
+                </td>
+                <td>
+                    <span data-target="#carouselExampleIndicators" data-slide-to="3">
+                        <img class=" img-selection" src="../images/Projects/camers4.jpg" alt="Card image cap">
+                    </span>
+                </td>
+                <td>
+                    <span data-target="#carouselExampleIndicators" data-slide-to="4">
+                        <img class=" img-selection" src="../images/Projects/MIBSIP5.jg" alt="Card image cap">
+                    </span>
+                </td>
+                <td>
+                    <span data-target="#carouselExampleIndicators" data-slide-to="5">
+                        <img class=" img-selection" src="../images/Projects/MIBSIP6.jg" alt="Card image cap">
+                    </span>
+                </td>
+            </tr>
+        </table>
     </div>
 
     {{-- Info about the project --}}

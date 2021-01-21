@@ -134,6 +134,13 @@ Route::get('/projects/residence_1', function () {
     return view('projects/residence_1');
 });
 
+
+//Mixed Use
+Route::get('/projects/mixed_1', function () {  return view('projects/mixed_1');});
+Route::get('/projects/mixed_2', function () {  return view('projects/mixed_2');});
+Route::get('/projects/mixed_3', function () {  return view('projects/mixed_3');});
+Route::get('/projects/mixed_4', function () {  return view('projects/mixed_4');});
+
 // Residence
 Route::get('/projects/residence_2', function () {  return view('projects/residence_2');});
 

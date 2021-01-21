@@ -22,6 +22,7 @@ body{
         color: white;
         padding-top: 5px;
         padding-bottom: 5px;
+        /* width: 400px; */
     }
 
     .logo{
@@ -115,6 +116,11 @@ body{
         color: aliceblue;
         border-bottom: 1px solid  #0c7ad0;
     }
+
+    /* .sub-close{
+        background-color:blue;
+        width: 50px !important;
+    } */
 
     
     /* ***********************************| Carousel |******************************** */
