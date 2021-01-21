@@ -81,7 +81,7 @@
 
     {{-- Info about the project --}}
     <div class="row left-right-info">
-        <div class="col-7">
+        <div class="col-xs-12 col-lg-7 col-xl-7">
             <div class="discription">
                 <div class="disc-head">
                     <span class="disc-main-head"> </span>
@@ -91,7 +91,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-5">
+        <div class="col-xs-12 col-lg-5 col-xl-5">
             <div class="pro-info">
                 <div class="pro-head">
                     <span class="pro-sub-head"> Project Information </span>
