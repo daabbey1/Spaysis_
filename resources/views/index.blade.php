@@ -116,14 +116,24 @@
 
                     <!-- Slide Three - Set the background image for this slide in the line below -->
                     <div class="carousel-item">
-                        <img src="images/slide3.jpg" >
+                        <img src="images/slide3.jpg">
                         <div class="carousel-caption d-none d-md-block" style="text-shadow: 2px 2px black;">
-                            {{-- <div class="trinity"> --}}
-                                <h2 class="display-5 ">  APARTMENT </h2>
+                            <div class="trinity">
+                                <h2 class="display-5 "> APARTMENT </h2>
                                 <p class="slide-txt"> Prampram - Accra </p>
-                            {{-- </div> --}}
+                            </div>
                         </div>
                     </div>
+
+                    {{-- <div class="carousel-item">
+                        <img src="images/slide3.jpg" >
+                        <div class="carousel-caption d-none d-md-block" style="text-shadow: 2px 2px black;">
+                            <div class="trinity">
+                                <h2 class="display-5 ">  APARTMENT </h2>
+                                <p class="slide-txt"> Prampram - Accra </p>
+                            </div>
+                        </div>
+                    </div> --}}
 
                     <!-- Slide Four - Set the background image for this slide in the line below -->
                      <div class="carousel-item">
