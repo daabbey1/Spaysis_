@@ -17,7 +17,7 @@
     <!-- Header -->
     <div class="head-section">
     
-        <nav class="navbar navbar-expand-lg navbar-dark sub-head bg-dange">
+        <nav class="navbar navbar-expand-lg navbar-dark sub-head fixed-top bg-dange">
             <a class="navbar-brand logo bg-inf" href="#">
                 <img src="images/main_logo.png" alt="logo" srcset="" style="color: aliceblue;">
             </a>

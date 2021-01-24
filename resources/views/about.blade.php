@@ -17,7 +17,7 @@
 <body>
     <div class="head-section">
 
-        <nav class="navbar navbar-expand-lg navbar-dark sub-head">
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top sub-head">
             <a class="navbar-brand logo" href="#">
                 <img src="images/main_logo.png" alt="logo" srcset="" style="color: aliceblue;">
             </a>
@@ -263,7 +263,8 @@
                                 class="seperate"> | </span> Peak Impact Ltd, Accra <span class="seperate"> | </span>
                             Ministry of Food and Agriculture,
                             Government of Ghana <span class="seperate"> | </span> fhi360 <span class="seperate"> |
-                            </span> Action Chapel International.
+                            </span> Action Chapel International | </span> fhi360 <span class="seperate"> | </span> Juaben Municipal Assemble
+                                | </span> fhi360 <span class="seperate"> | </span> Ministry of Tourism, Art, and Culture | </span> fhi360 <span class="seperate"> | </span> GHACEM
                         </div>
                     </div>
                 </div>
