@@ -106,8 +106,17 @@
                     </div>
 
                     <!-- Slide Two - Set the background image for this slide in the line below -->
+                    <div class="carousel-item ">
+                        <img src="images/slide3.jpg" >
+                        <div class="carousel-caption d-none d-md-block" style="text-shadow: 2px 2px black;">
+                            <h2 class="display-5">THOMAS RESIDENCE</h2>
+                            <p class="slide-txt"> Effiduase - Koforidua</p>
+                        </div>
+                    </div>
+
+                    <!-- Slide Three - Set the background image for this slide in the line below -->
                     <div class="carousel-item">
-                        <img src="images/slide3.jpg">
+                        <img src="images/slide2.jpg">
                         <div class="carousel-caption d-none d-md-block" style="text-shadow: 2px 2px black;">
                             <div class="trinity">
                                 <h2 class="display-5 "> APARTMENT </h2>
@@ -115,18 +124,6 @@
                             </div>
                         </div>
                     </div>
-
-                    
-
-                    <!-- Slide Three - Set the background image for this slide in the line below -->
-                    <div class="carousel-item ">
-                        <img src="images/slide2.jpg">
-                        <div class="carousel-caption d-none d-md-block" style="text-shadow: 2px 2px black;">
-                            <h2 class="display-5">THOMAS RESIDENCE</h2>
-                            <p class="slide-txt"> Effiduase - Koforidua</p>
-                        </div>
-                    </div>
-                    
 
                     {{-- <div class="carousel-item">
                         <img src="images/slide3.jpg" >
