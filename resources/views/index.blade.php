@@ -100,8 +100,8 @@
                     <div class="carousel-item active">
                         <img src="images/slide1.jpg" style="">
                         <div class="carousel-caption d-none d-md-block " style="text-shadow: 2px 2px black;">
-                            <h2 class="display-5"> CAPA CHEMIST </h2>
-                            <p class="slide-txt">Tema - Accra </p>
+                            <h2 class="display-5"> APOTHECARY'S VILLA </h2>
+                            <p class="slide-txt"> KNUST - KUMASI </p>
                         </div>
                     </div>
 
@@ -109,8 +109,8 @@
                     <div class="carousel-item ">
                         <img src="images/slide2.jpg" >
                         <div class="carousel-caption d-none d-md-block" style="text-shadow: 2px 2px black;">
-                            <h2 class="display-5">RESIDENTIAL VILLA</h2>
-                            <p class="slide-txt"> Patasi - Kumasi.</p>
+                            <h2 class="display-5">THOMAS RESIDENCE</h2>
+                            <p class="slide-txt"> Effiduase - Koforidua</p>
                         </div>
                     </div>
 
@@ -119,8 +119,8 @@
                         <img src="images/slide3.jpg" >
                         <div class="carousel-caption d-none d-md-block" style="text-shadow: 2px 2px black;">
                             {{-- <div class="trinity"> --}}
-                                <h2 class="display-5 "> TRINITY TOWERS </h2>
-                                <p class="slide-txt"> Cantoment - Accra </p>
+                                <h2 class="display-5 ">  APARTMENT </h2>
+                                <p class="slide-txt"> Prampram - Accra </p>
                             {{-- </div> --}}
                         </div>
                     </div>
@@ -138,7 +138,7 @@
 
                     <!-- Slide Five - Set the background image for this slide in the line below -->
                      <div class="carousel-item">
-                      <img src="images/range.jpg" >
+                      <img src="images/slide5.jpg" >
                         <div class="carousel-caption d-none d-md-block" style="text-shadow: 2px 2px black;">
                             <div class="trinity">
                                 <h2 class="display-5 "> COVID-19 EFFECT </h2>
