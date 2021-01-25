@@ -8,6 +8,9 @@ html, body {
 
 /* xs */
 @media(max-width: 575px){
+    .head-section{
+        margin-bottom: 60px;
+    }
     .sub-head{
         background-color: #000022;
         color: white;
@@ -359,6 +362,9 @@ html, body {
 
 /* sm */
 @media(min-width: 576px) and (max-width:767px){
+    .head-section{
+        margin-bottom: 65px;
+    }
    .sub-head{
         background-color: #000022;
         color: white;
@@ -755,6 +761,9 @@ html, body {
 
 /* md */
 @media(min-width: 768px) and (max-width:991px){
+    .head-section{
+        margin-bottom: 65px;
+    }
     .sub-head{
         background-color: #000022;
         color: white;
@@ -859,7 +868,7 @@ html, body {
         border-bottom: 1px solid orange;
     }
     .image-section{
-        height: 45vh;
+        height: 55vh;
         background: url('../images/AboutPage.jpg') top/cover no-repeat;
     }
 
@@ -1154,6 +1163,9 @@ html, body {
 @media(min-width: 992px) and (max-width:1199px){
     .navbar-toggler{
         border-color: white;
+    }
+    .head-section{
+        margin-bottom: 80px;
     }
     .sub-head{
         background-color: #000022;
@@ -1562,7 +1574,9 @@ html, body {
 
 /* xl */
 @media(min-width: 1200px) {
-    
+    .head-section{
+        margin-bottom: 60px;
+    }
    .sub-head{
         background-color: #000022;
         color: white;

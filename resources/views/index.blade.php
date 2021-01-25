@@ -99,7 +99,7 @@
                     <!-- Slide One - Set the background image for this slide in the line below -->
                     <div class="carousel-item active">
                         <img src="images/slide1.jpg" style="">
-                        <div class="carousel-caption d-none d-md-block " style="text-shadow: 2px 2px black;">
+                        <div class="carousel-caption d-none d-md-block float-left " style="text-shadow: 2px 2px black;">
                             <h2 class="display-5"> APOTHECARY'S VILLA </h2>
                             <p class="slide-txt"> KNUST - KUMASI </p>
                         </div>

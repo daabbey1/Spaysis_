@@ -77,7 +77,8 @@
         </nav>
     </div>
 
-    <div class="image-section">
+    <div class="image-section"> 
+        
     </div>
 
     <!-- -------------------| Profile |------------------------ -->
