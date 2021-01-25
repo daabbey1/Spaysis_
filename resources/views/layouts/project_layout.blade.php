@@ -85,6 +85,13 @@
 
         @yield('general_profile')
 
+        {{-- Back --}}
+        <div class="back-link">
+            <a href="{{ url('projects/general_profile') }}">
+                <i class="fas fa-angle-double-left"></i>
+                Back
+            </a>
+        </div>
 
         <!-- ------------------| Footer |---------------------- -->
         <div class="foot">

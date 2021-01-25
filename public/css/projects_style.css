@@ -199,6 +199,12 @@ html, body {
         /* overflow-y: auto; */
     }
 
+    .back-link a, .back-link{
+        margin-bottom: 15px;
+        color: black;
+        margin-left: 12px;
+    }
+
     .disc-main-head,.pro-sub-head{
         font-family: Arial, Helvetica, sans-serif;
         font-size: 20px;
@@ -443,6 +449,12 @@ html, body {
         padding:20px;
         height:auto;
         /* overflow-y: auto; */
+    }
+
+     .back-link a, .back-link{
+        margin-bottom: 15px;
+        color: black;
+        margin-left: 22px;
     }
 
     .disc-main-head,.pro-sub-head{
@@ -690,6 +702,12 @@ html, body {
         /* overflow-y: auto; */
     }
 
+     .back-link a, .back-link{
+        margin-bottom: 15px;
+        color: black;
+        margin-left: 32px;
+    }
+
     .disc-main-head,.pro-sub-head{
         font-family: Arial, Helvetica, sans-serif;
         font-size: 23px;
@@ -935,6 +953,12 @@ html, body {
         /* overflow-y: auto; */
     }
 
+     .back-link a, .back-link{
+        margin-bottom: 15px;
+        color: black;
+        margin-left: 28px;
+    }
+
     .disc-main-head,.pro-sub-head{
         font-family: Arial, Helvetica, sans-serif;
         font-size: 23px;
@@ -1174,6 +1198,12 @@ html, body {
         background-color: white;
         padding:50px;
         height: 270px;
+    }
+
+     .back-link a, .back-link{
+        margin-bottom: 15px;
+        color: black;
+        margin-left: 28px;
     }
 
     .disc-main-head,.pro-sub-head{

@@ -253,7 +253,7 @@
                         <span class="client-head"> Our Clients </span>
                         <div class="client-body">
                             <span class="valued-client"> Some of our valued clients include: </span>
-                            Kuwait Institute of Scientific Research (KISR), Kuwait <span class="seperate"> | </span>
+                            Ministry of Tourism, Art, and Culture <span class="seperate"> | </span>  GHACEM <span class="seperate"> | </span> Juaben Municipal Assemble <span class="seperate"> | </span> Kuwait Institute of Scientific Research (KISR), Kuwait <span class="seperate"> | </span>
                             FICHTNER GMBH Co. & KG, Germany <span class="seperate"> | </span> SOLENGCO
                             GMBH, Germany, King Edward School, Accra Ghana <span class="seperate"> | </span>
                             CLEAN-AFRICA e.V., Germany <span class="seperate"> | </span> Kwame Nkrumah
@@ -262,9 +262,7 @@
                             Ghana Ltd <span class="seperate"> | </span> Deeper Christian Life Ministry, Ghana <span
                                 class="seperate"> | </span> Peak Impact Ltd, Accra <span class="seperate"> | </span>
                             Ministry of Food and Agriculture,
-                            Government of Ghana <span class="seperate"> | </span> fhi360 <span class="seperate"> |
-                            </span> Action Chapel International | </span> fhi360 <span class="seperate"> | </span> Juaben Municipal Assemble
-                                | </span> fhi360 <span class="seperate"> | </span> Ministry of Tourism, Art, and Culture | </span> fhi360 <span class="seperate"> | </span> GHACEM
+                            Government of Ghana <span class="seperate"> | </span> fhi360 
                         </div>
                     </div>
                 </div>
