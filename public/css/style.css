@@ -17,6 +17,9 @@ body{
 
 /* xs */
 @media(max-width: 575px){
+    .head-section{
+        margin-bottom: 60px;
+    }
     .sub-head{
         background-color: #000022;
         color: white;

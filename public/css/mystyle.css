@@ -9,7 +9,7 @@ html, body {
 /* xs */
 @media(max-width: 575px){
     .head-section{
-        margin-bottom: 60px;
+        margin-bottom: 65px;
     }
     .sub-head{
         background-color: #000022;
