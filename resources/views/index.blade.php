@@ -10,14 +10,15 @@
     <link href="css/font.css" rel="stylesheet" type="text/css">
     <link href="css/all.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href=" css/style.css">
+    <link rel="shortcut icon" href="images/main_logo.png" type="image/x-icon">
 </head>
 
 <body>
   <div class='sub-body'>
     <!-- Header -->
-    <div class="head-section">
+    <div class="head-section" style="margin-top:61px">
     
-        <nav class="navbar navbar-expand-lg navbar-dark sub-head fixed-top bg-dange">
+        <nav class="navbar navbar-expand-lg navbar-dark sub-head fixed-top">
             <a class="navbar-brand logo bg-inf" href="#">
                 <img src="images/main_logo.png" alt="logo" srcset="" style="color: aliceblue;">
             </a>
@@ -81,23 +82,22 @@
     </div>
 
 
-    <!-- Image Slider  -->
-    <div>
+    <!-- Image Slider for large Screen  -->
+    <div class="large-screen">
         <header class="outline image-slider">
             <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators" style="">
                     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li  data-target="#carouselExampleIndicators" data-slide-to="1"></li>
                     <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
                     <li data-target="#carouselExampleIndicators" data-slide-to="3"></li> 
                     <li data-target="#carouselExampleIndicators" data-slide-to="4"></li> 
-                    {{-- <li class="slide_6" data-target="#carouselExampleIndicators" data-slide-to="5"></li>  --}}
                     <li data-target="#carouselExampleIndicators" data-slide-to="5"></li> 
                 </ol>
                 <div class="carousel-inner" role="listbox" style="margin-left: 0%;">
 
                     <!-- Slide One - Set the background image for this slide in the line below -->
-                    <div class="carousel-item active">
+                    <div class="carousel-item active ">
                         <img src="images/slide1.jpg" style="">
                         <div class="carousel-caption d-none d-md-block float-left " style="text-shadow: 2px 2px black;">
                             <h2 class="display-5"> APOTHECARY'S VILLA </h2>
@@ -106,7 +106,7 @@
                     </div>
 
                     <!-- Slide Two - Set the background image for this slide in the line below -->
-                    <div class="carousel-item ">
+                    <div class="carousel-item">
                         <img src="images/try.jpg" >
                         <div class="carousel-caption d-none d-md-block" style="text-shadow: 2px 2px black;">
                             <h2 class="display-5">THOMAS RESIDENCE</h2>
@@ -158,7 +158,7 @@
                      </div>
 
                     <!-- Slide six - Set the background image for this slide in the line below -->
-                    <div class="carousel-item slide_6">
+                    <div class="carousel-item">
                         <img src="images/SPACES.jpg">
                         <div class="carousel-caption d-none d-md-block" style="text-shadow: 2px 2px black;">
                             <div class="trinity">
@@ -167,6 +167,105 @@
                             </div>
                         </div>
                     </div>
+                  {{-- </div> --}}
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span> 
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button"
+                        style="margin-right: 0% !important" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span> 
+                    </a>
+                </div>
+        </header>
+    </div>
+    <!-- Image Slider for phone Screen  -->
+    <div class="phone-screen">
+        <header class="outline image-slider">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators" style="">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    {{-- <li class="slide_6" data-target="#carouselExampleIndicators" data-slide-to="1"></li> --}}
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li> 
+                    <li data-target="#carouselExampleIndicators" data-slide-to="4"></li> 
+                    {{-- <li class="slide_6" data-target="#carouselExampleIndicators" data-slide-to="5"></li>  --}}
+                    {{-- <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>  --}}
+                </ol>
+                <div class="carousel-inner" role="listbox" style="margin-left: 0%;">
+
+                    <!-- Slide One - Set the background image for this slide in the line below -->
+                    <div class="carousel-item active ">
+                        <img src="images/slide1.jpg" style="">
+                        <div class="carousel-caption d-none d-md-block float-left " style="text-shadow: 2px 2px black;">
+                            <h2 class="display-5"> APOTHECARY'S VILLA </h2>
+                            <p class="slide-txt"> KNUST - KUMASI </p>
+                        </div>
+                    </div>
+
+                    <!-- Slide Two - Set the background image for this slide in the line below -->
+                    {{-- <div class="carousel-item slide_6">
+                        <img src="images/try.jpg" >
+                        <div class="carousel-caption d-none d-md-block" style="text-shadow: 2px 2px black;">
+                            <h2 class="display-5">THOMAS RESIDENCE</h2>
+                            <p class="slide-txt"> Effiduase - Koforidua</p>
+                        </div>
+                    </div> --}}
+
+                    <!-- Slide Three - Set the background image for this slide in the line below -->
+                    <div class="carousel-item">
+                        <img src="images/slide2.jpg">
+                        <div class="carousel-caption d-none d-md-block" style="text-shadow: 2px 2px black;">
+                            <div class="trinity">
+                                <h2 class="display-5 "> APARTMENT </h2>
+                                <p class="slide-txt"> Prampram - Accra </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    {{-- <div class="carousel-item">
+                        <img src="images/slide3.jpg" >
+                        <div class="carousel-caption d-none d-md-block" style="text-shadow: 2px 2px black;">
+                            <div class="trinity">
+                                <h2 class="display-5 ">  APARTMENT </h2>
+                                <p class="slide-txt"> Prampram - Accra </p>
+                            </div>
+                        </div>
+                    </div> --}}
+
+                    <!-- Slide Four - Set the background image for this slide in the line below -->
+                     <div class="carousel-item">
+                      <img src="images/slide4.JPG" >
+                        <div class="carousel-caption d-none d-md-block" style="text-shadow: 2px 2px black;">
+                            <div class="trinity">
+                                <h2 class="display-5 "> MIBSIP </h2>
+                                <p class="slide-txt"> Bulamba - Uganda  </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Slide Five - Set the background image for this slide in the line below -->
+                     <div class="carousel-item">
+                      <img src="images/slide5.jpg" >
+                        <div class="carousel-caption d-none d-md-block" style="text-shadow: 2px 2px black;">
+                            <div class="trinity">
+                                <h2 class="display-5 "> COVID-19 EFFECT </h2>
+                                <p class="slide-txt"> SPAYSIS Workplace </p>
+                            </div>
+                        </div>
+                     </div>
+
+                    <!-- Slide six - Set the background image for this slide in the line below -->
+                    {{-- <div class="carousel-item slide_6">
+                        <img src="images/SPACES.jpg">
+                        <div class="carousel-caption d-none d-md-block" style="text-shadow: 2px 2px black;">
+                            <div class="trinity">
+                                <h2 class="display-5 "> </h2>
+                                <p class="slide-txt"> </p>
+                            </div>
+                        </div>
+                    </div> --}}
                   {{-- </div> --}}
                     <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
